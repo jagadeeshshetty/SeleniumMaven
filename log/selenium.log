@@ -1,0 +1,7 @@
+2020-07-30 00:00:00 INFO  tests.TestLogin : 20 - [setUp] Setting up Chrome driver.
+2020-07-30 00:00:02 INFO  tests.TestLogin : 28 - [setUp] ChromeDriver: chrome on MAC (659faefff8337a619558159fd6867b9e)
+2020-07-30 00:00:06 INFO  tests.TestLogin : 37 - [succeeded] Invoked URL.
+2020-07-30 00:00:07 INFO  tests.TestLogin : 39 - [succeeded] Entered username.
+2020-07-30 00:00:07 INFO  tests.TestLogin : 41 - [succeeded] Entered password.
+2020-07-30 00:00:08 INFO  tests.TestLogin : 43 - [succeeded] Clicked on button.
+2020-07-30 00:00:08 WARN  tests.TestLogin : 49 - [tearDown] Driver object not null. So Cleaning up.
