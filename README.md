@@ -1,8 +1,10 @@
-# Elemental Selenium
+# Test Automation Framework - WebUI
 
-## Libraries
+![Java CI with Maven](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)
 
-`Selenium WebDriver 4.X` `Maven` `Log4J`
+## Programming language and libraries
+
+`Java 14` `Selenium WebDriver 4.X` `Maven` `Log4J`
 
 ## Run
 
