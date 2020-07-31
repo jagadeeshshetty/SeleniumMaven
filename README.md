@@ -2,6 +2,11 @@
 
 ![Java CI with Maven](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)
 
+[![Actions Status](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/jagadeeshshetty/SeleniumMaven/actions)
+
+https://github.com/jagadeeshshetty/SeleniumMaven/actions?query=workflow%3A%22Java+CI+with+Maven%22
+
+
 ## Programming language and libraries
 
 `Java 14` `Selenium WebDriver 4.X` `Maven` `Log4J`
