@@ -1,7 +1,5 @@
 # WebUI Automated Acceptance Test using Selenium WebDriver + Java
 
-![Java CI with Maven](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)
-
 [![Actions Status](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/jagadeeshshetty/SeleniumMaven/actions)
 
 ## Programming language and libraries
