@@ -6,11 +6,11 @@ import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageobjects.Login;
 
 import static org.junit.Assert.assertTrue;
 
@@ -18,6 +18,7 @@ public class TestLogin {
 
     private WebDriver driver;
     private static final Logger logger = LoggerHelper.getLogger(TestLogin.class);
+    private Login login;
 
     @Before
     public void setUp() {
@@ -40,19 +41,20 @@ public class TestLogin {
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
+        login = new Login(driver);
     }
 
     @Test
     public void succeeded() {
-        driver.get("http://the-internet.herokuapp.com/login");
-        logger.info("Invoked URL.");
-        driver.findElement(By.id("username")).sendKeys("tomsmith");
-        logger.info("Entered username.");
-        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        logger.info("Entered password.");
-        driver.findElement(By.cssSelector("button")).click();
-        logger.info("Clicked on button.");
-        assertTrue("success message not present", driver.findElement(By.cssSelector(".flash.success")).isDisplayed());
+        login.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", login.successMessagePresent());
+    }
+
+    @Test
+    public void failed() {
+        login.with("tomsmith", "bad password");
+        assertTrue("failure message wasn't present after providing bogus credentials",
+                login.failureMessagePresent());
     }
 
     @After

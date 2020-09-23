@@ -6,9 +6,13 @@
 
 `Java` `Selenium WebDriver 4.X` `Maven` `Log4J`
 
-## Run
+## Run all test cases
 
 `mvn clean test`
+
+## Run specific test case
+
+`mvn clean test -Dtest=TestLogin#succeeded`
 
 ## Terminal
 ```commandline
