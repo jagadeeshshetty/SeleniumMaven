@@ -6,52 +6,62 @@ import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import pageobjects.Login;
+
+import static org.junit.Assert.assertTrue;
 
 public class TestLogin {
 
     private WebDriver driver;
     private static final Logger logger = LoggerHelper.getLogger(TestLogin.class);
+    private Login login;
 
     @Before
     public void setUp() {
         logger.info("Setting up Chrome driver.");
         try {
-            // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver");
-            WebDriverManager.chromedriver().setup();
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--headless");
-            driver = new ChromeDriver(options);
+            if (System.getProperty("os.name").contains("Windows")) {
+                System.setProperty("webdriver.gecko.driver",
+                        System.getProperty("user.dir") + "/vendor/geckodriver.exe");
+                driver = new FirefoxDriver();
+            } else {
+                // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver");
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--headless");
+                driver = new ChromeDriver(options);
+            }
             if (driver != null) logger.info(driver.toString());
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
+        login = new Login(driver);
     }
 
     @Test
     public void succeeded() {
-        driver.get("http://the-internet.herokuapp.com/login");
-        logger.info("Invoked URL.");
-        driver.findElement(By.id("username")).sendKeys("tomsmith");
-        logger.info("Entered username.");
-        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        logger.info("Entered password.");
-        driver.findElement(By.cssSelector("button")).click();
-        logger.info("Clicked on button.");
+        login.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", login.successMessagePresent());
+    }
+
+    @Test
+    public void failed() {
+        login.with("tomsmith", "bad password");
+        assertTrue("failure message wasn't present after providing bogus credentials",
+                login.failureMessagePresent());
     }
 
     @After
-    public void tearDown() {
+    public void tearDown() throws Exception {
         if (driver != null) {
             logger.warn("Driver object not null. So Cleaning up.");
-            driver.close();
             driver.quit();
         }
-
     }
 }
