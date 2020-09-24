@@ -28,8 +28,10 @@ public class TestLogin {
                 System.setProperty("webdriver.gecko.driver",
                         System.getProperty("user.dir") + "/vendor/geckodriver.exe");
                 driver = new FirefoxDriver();
+            } else if (System.getProperty("os.name").contains("Mac OS X")) {
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/macOS/85/chromedriver");
+                driver = new ChromeDriver();
             } else {
-                // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver");
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--no-sandbox");

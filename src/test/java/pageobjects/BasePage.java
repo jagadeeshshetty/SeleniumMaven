@@ -18,6 +18,7 @@ public class BasePage {
 
     public void visit(String url) {
         driver.get(url);
+        logger.info("'" + url + "' URL");
     }
 
     public WebElement find(By locator) {
@@ -26,10 +27,12 @@ public class BasePage {
 
     public void click(By locator) {
         find(locator).click();
+        logger.info("on '" + locator + "' locator");
     }
 
     public void type(String inputText, By locator) {
         find(locator).sendKeys(inputText);
+        logger.info("'" + inputText + "' into '" + locator + "' locator");
     }
 
     public Boolean isDisplayed(By locator) {
