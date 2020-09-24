@@ -1,6 +1,18 @@
-2020-09-23 22:35:29 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2020-09-23 22:35:41 INFO  tests.TestLogin : 40 - [setUp] FirefoxDriver: firefox on WINDOWS (7921056c-302d-405e-82bd-2c3aeb62a858)
-2020-09-23 22:35:58 WARN  tests.TestLogin : 63 - [tearDown] Driver object not null. So Cleaning up.
-2020-09-23 22:35:59 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2020-09-23 22:36:04 INFO  tests.TestLogin : 40 - [setUp] FirefoxDriver: firefox on WINDOWS (5f9409fc-0ef6-4f3b-a590-754a5c289ecc)
-2020-09-23 22:36:19 WARN  tests.TestLogin : 63 - [tearDown] Driver object not null. So Cleaning up.
+2020-09-24 17:41:12 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
+2020-09-24 17:41:16 INFO  tests.TestLogin : 42 - [setUp] ChromeDriver: chrome on MAC (72a24fa6d79611a3718ef42753f0ee1b)
+2020-09-24 17:41:19 INFO  tests.TestLogin : 21 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2020-09-24 17:41:19 INFO  tests.TestLogin : 35 - [type] 'tomsmith' into 'By.id: username' locator
+2020-09-24 17:41:19 INFO  tests.TestLogin : 35 - [type] 'bad password' into 'By.id: password' locator
+2020-09-24 17:41:20 INFO  tests.TestLogin : 30 - [click] on 'By.cssSelector: button' locator
+2020-09-24 17:41:20 INFO  tests.TestLogin : 64 - [tearDown] Cleaning up driver instance.
+2020-09-24 17:41:20 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
+2020-09-24 17:41:22 INFO  tests.TestLogin : 42 - [setUp] ChromeDriver: chrome on MAC (9f57411dcd6d5a7d4fc562d7a879c148)
+2020-09-24 17:41:26 INFO  tests.TestLogin : 21 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2020-09-24 17:41:26 INFO  tests.TestLogin : 35 - [type] 'tomsmith' into 'By.id: username' locator
+2020-09-24 17:41:26 INFO  tests.TestLogin : 35 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2020-09-24 17:41:27 INFO  tests.TestLogin : 30 - [click] on 'By.cssSelector: button' locator
+2020-09-24 17:41:27 INFO  tests.TestLogin : 64 - [tearDown] Cleaning up driver instance.
+2020-09-24 17:41:27 INFO  tests.TestLogin : 23 - [setUp] Setting up Chrome driver.
+2020-09-24 17:41:29 INFO  tests.TestLogin : 40 - [setUp] ChromeDriver: chrome on MAC (e6ee701acadc9d2cbaa192bf6b8231da)
+2020-09-24 17:41:32 INFO  tests.TestLogin : 21 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2020-09-24 17:41:32 INFO  tests.TestLogin : 49 - [tearDown] Cleaning up driver instance.

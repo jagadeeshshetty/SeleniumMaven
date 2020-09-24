@@ -1,0 +1,5 @@
+tests/TestLogin.class
+pageobjects/Login.class
+helper/LoggerHelper.class
+pageobjects/BasePage.class
+tests/chromeDevTools/TestChromeDevTools.class
