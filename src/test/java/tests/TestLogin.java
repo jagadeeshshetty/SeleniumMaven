@@ -61,9 +61,7 @@ public class TestLogin {
 
     @After
     public void tearDown() throws Exception {
-        if (driver != null) {
-            logger.warn("Driver object not null. So Cleaning up.");
-            driver.quit();
-        }
+        logger.info("Cleaning up driver instance.");
+        driver.quit();
     }
 }
