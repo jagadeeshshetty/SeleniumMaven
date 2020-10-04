@@ -1,6 +1,6 @@
+/Users/jc/SeleniumMaven/src/test/java/tests/TestDynamicLoading.java
+/Users/jc/SeleniumMaven/src/test/java/pageobjects/DynamicLoading.java
 /Users/jc/SeleniumMaven/src/test/java/tests/TestLogin.java
 /Users/jc/SeleniumMaven/src/test/java/helper/LoggerHelper.java
-/Users/jc/SeleniumMaven/src/test/java/tests/chromeDevTools/TestChromeDevTools.java
-/Users/jc/SeleniumMaven/src/test/java/pageobjects/ChromeDevTools.java
 /Users/jc/SeleniumMaven/src/test/java/pageobjects/BasePage.java
 /Users/jc/SeleniumMaven/src/test/java/pageobjects/Login.java

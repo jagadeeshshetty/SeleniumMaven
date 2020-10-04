@@ -6,10 +6,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import tests.TestLogin;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class BasePage {
-    private static final Logger logger = LoggerHelper.getLogger(TestLogin.class);
+    private static final Logger logger = LoggerHelper.getLogger(BasePage.class);
     private WebDriver driver;
 
     public BasePage(WebDriver driver) {
@@ -37,11 +40,32 @@ public class BasePage {
 
     public Boolean isDisplayed(By locator) {
         try {
+            logger.info("Element [" + find(locator) + "] Present.");
             return find(locator).isDisplayed();
         } catch (NoSuchElementException exception) {
-            logger.error("Element '" + find(locator) + "' Not Present.");
-            logger.error(exception);
+            logger.error("Element [" + find(locator) + "] Not Present.");
             return false;
         }
     }
+
+    /**
+     * ExpectedConditions:<p>
+     * https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/ExpectedConditions.html
+     *
+     * @param locator
+     * @param timeout
+     * @return
+     */
+    public Boolean isDisplayed(By locator, int timeout) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        } catch (org.openqa.selenium.TimeoutException exception) {
+            logger.error("Element [" + locator + "] Not Present.");
+            return false;
+        }
+        logger.info("Element [" + locator + "] Present.");
+        return true;
+    }
+
 }

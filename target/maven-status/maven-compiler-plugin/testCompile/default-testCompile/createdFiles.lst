@@ -1,5 +1,6 @@
+tests/TestDynamicLoading.class
 tests/TestLogin.class
-pageobjects/ChromeDevTools.class
+pageobjects/DynamicLoading.class
 pageobjects/Login.class
 helper/LoggerHelper.class
 pageobjects/BasePage.class
