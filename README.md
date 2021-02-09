@@ -14,7 +14,10 @@
 
 `mvn clean test -Dtest=TestLogin#succeeded`
 
+mvn clean test -Dbrowser=chrome
+
 ## Terminal
+
 ```commandline
 [INFO] Scanning for projects...
 [INFO] 
