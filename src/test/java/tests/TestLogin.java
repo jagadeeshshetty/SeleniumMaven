@@ -23,10 +23,17 @@ public class TestLogin {
     @Before
     public void setUp() {
         logger.info("Setting up Chrome driver.");
+        /**
+         * In order for the instantiation of Selenium to work with Browsers, we need to specify the path to the
+         * browser driver we downloaded into the vendor directory. We're able to do this by specifying a
+         * system property (e.g., System.setProperty("webdriver.gecko.driver" ) and providing the full path
+         * to the file which we find by using the project directory path and appending /vendor/geckodriver
+         * to it.
+         */
         try {
             if (System.getProperty("os.name").contains("Windows")) {
-                System.setProperty("webdriver.gecko.driver",
-                        System.getProperty("user.dir") + "/vendor/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
+                // { "webdriver.gecko.driver" : "C:\Users\jagadeesh\Documents\SeleniumMaven/vendor/geckodriver.exe" }
                 driver = new FirefoxDriver();
             } else {
                 // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver");

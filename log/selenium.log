@@ -1,6 +1,3 @@
-2021-02-10 00:27:57 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2021-02-10 00:28:03 INFO  tests.TestLogin : 40 - [setUp] FirefoxDriver: firefox on WINDOWS (f53c1de2-c34e-4def-9fb1-c0823e2e6054)
-2021-02-10 00:28:07 WARN  tests.TestLogin : 63 - [tearDown] Driver object not null. So Cleaning up.
-2021-02-10 00:28:08 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2021-02-10 00:28:12 INFO  tests.TestLogin : 40 - [setUp] FirefoxDriver: firefox on WINDOWS (3ad7b6dc-7de7-4328-b4d9-beba7d3467f9)
-2021-02-10 00:28:15 WARN  tests.TestLogin : 63 - [tearDown] Driver object not null. So Cleaning up.
+2021-02-11 13:11:44 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
+2021-02-11 13:11:54 INFO  tests.TestLogin : 47 - [setUp] FirefoxDriver: firefox on WINDOWS (8e909e68-bb70-4ffc-9830-6a020520a7c0)
+2021-02-11 13:11:58 WARN  tests.TestLogin : 70 - [tearDown] Driver object not null. So Cleaning up.
