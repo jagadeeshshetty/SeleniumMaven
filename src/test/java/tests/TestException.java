@@ -18,6 +18,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestException {
+    /**
+     * Reference:
+     * https://www.softwaretestinghelp.com/exception-handling-framework-selenium-tutorial-19/
+     */
 
     private WebDriver driver;
     private static final Logger logger = LoggerHelper.getLogger(TestException.class);
