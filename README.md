@@ -13,6 +13,7 @@
 ## Run specific test case
 
 `mvn clean test -Dtest=TestLogin#succeeded`
+`mvn clean test -Dtest=TestException#webDriverException`
 
 ## Terminal
 
