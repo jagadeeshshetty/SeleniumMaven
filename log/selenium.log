@@ -1,15 +1,39 @@
-2021-02-28 12:25:52 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
-2021-02-28 12:26:12 INFO  tests.TestException : 84 - [handledNoAlertPresentException] WebDriver couldnï¿½t locate the Alert
-2021-02-28 12:26:12 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
-2021-02-28 12:26:12 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
-2021-02-28 12:26:14 ERROR tests.TestException : 65 - [unhandledNoAlertPresentException] No such alert.
-2021-02-28 12:26:14 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
-2021-02-28 12:26:14 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
-2021-02-28 12:26:15 INFO  tests.TestException : 50 - [verifyPageTitle] Running verifyPageTitle() method.
-2021-02-28 12:26:20 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
-2021-02-28 12:26:21 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2021-02-28 12:26:25 INFO  tests.TestLogin : 47 - [setUp] FirefoxDriver: firefox on WINDOWS (2d68c65e-da0f-4f43-bc17-b42430b90df5)
-2021-02-28 12:26:29 WARN  tests.TestLogin : 70 - [tearDown] Driver object not null. So Cleaning up.
-2021-02-28 12:26:30 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
-2021-02-28 12:26:35 INFO  tests.TestLogin : 47 - [setUp] FirefoxDriver: firefox on WINDOWS (c90ed236-27b9-4777-a5aa-caabec4de2cb)
-2021-02-28 12:26:39 WARN  tests.TestLogin : 70 - [tearDown] Driver object not null. So Cleaning up.
+2021-02-28 13:41:30 INFO  tests.TestDynamicLoading : 26 - [setUp] Setting up Chrome driver.
+2021-02-28 13:41:41 INFO  tests.TestDynamicLoading : 43 - [setUp] FirefoxDriver: firefox on WINDOWS (9178fa85-8d6a-40c2-a17c-a4317e128b37)
+2021-02-28 13:41:44 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/dynamic_loading/2' URL
+2021-02-28 13:41:45 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: #start button' locator
+2021-02-28 13:41:50 INFO  pageobjects.BasePage : 67 - [isDisplayed] Element [By.id: finish] Present.
+2021-02-28 13:41:50 INFO  tests.TestDynamicLoading : 68 - [tearDown] Cleaning up driver instance.
+2021-02-28 13:41:51 INFO  tests.TestDynamicLoading : 26 - [setUp] Setting up Chrome driver.
+2021-02-28 13:41:56 INFO  tests.TestDynamicLoading : 43 - [setUp] FirefoxDriver: firefox on WINDOWS (1a4516be-c552-460f-ac56-86b1d65e2a99)
+2021-02-28 13:42:01 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/dynamic_loading/1' URL
+2021-02-28 13:42:01 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: #start button' locator
+2021-02-28 13:42:06 INFO  pageobjects.BasePage : 67 - [isDisplayed] Element [By.id: finish] Present.
+2021-02-28 13:42:06 INFO  tests.TestDynamicLoading : 68 - [tearDown] Cleaning up driver instance.
+2021-02-28 13:42:07 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
+2021-02-28 13:42:19 INFO  tests.TestException : 84 - [handledNoAlertPresentException] WebDriver couldn’t locate the Alert
+2021-02-28 13:42:19 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
+2021-02-28 13:42:20 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
+2021-02-28 13:42:21 ERROR tests.TestException : 65 - [unhandledNoAlertPresentException] No such alert.
+2021-02-28 13:42:21 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
+2021-02-28 13:42:22 INFO  tests.TestException : 30 - [setUp] Setting up WebDriver...
+2021-02-28 13:42:23 INFO  tests.TestException : 50 - [verifyPageTitle] Running verifyPageTitle() method.
+2021-02-28 13:42:24 WARN  tests.TestException : 91 - [tearDown] Closing up WebDriver...
+2021-02-28 13:42:25 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
+2021-02-28 13:42:29 INFO  tests.TestLogin : 49 - [setUp] FirefoxDriver: firefox on WINDOWS (aae33829-82e7-42c4-89ea-d1a6785c32d7)
+2021-02-28 13:42:33 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-02-28 13:42:33 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[FirefoxDriver: firefox on WINDOWS (aae33829-82e7-42c4-89ea-d1a6785c32d7)] -> id: login]] Present.
+2021-02-28 13:42:33 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-02-28 13:42:33 INFO  pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
+2021-02-28 13:42:34 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-02-28 13:42:34 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[FirefoxDriver: firefox on WINDOWS (aae33829-82e7-42c4-89ea-d1a6785c32d7)] -> css selector: .flash.error]] Present.
+2021-02-28 13:42:34 INFO  tests.TestLogin : 71 - [tearDown] Cleaning up driver instance.
+2021-02-28 13:42:35 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
+2021-02-28 13:42:41 INFO  tests.TestLogin : 49 - [setUp] FirefoxDriver: firefox on WINDOWS (478366c4-4f08-485f-a87b-4d36e96bca91)
+2021-02-28 13:42:43 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-02-28 13:42:43 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[FirefoxDriver: firefox on WINDOWS (478366c4-4f08-485f-a87b-4d36e96bca91)] -> id: login]] Present.
+2021-02-28 13:42:44 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-02-28 13:42:44 INFO  pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-02-28 13:42:45 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-02-28 13:42:45 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[FirefoxDriver: firefox on WINDOWS (478366c4-4f08-485f-a87b-4d36e96bca91)] -> css selector: .flash.success]] Present.
+2021-02-28 13:42:45 INFO  tests.TestLogin : 71 - [tearDown] Cleaning up driver instance.
