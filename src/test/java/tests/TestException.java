@@ -2,9 +2,6 @@ package tests;
 
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-import static org.junit.Assert.assertEquals;
-
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -16,6 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestException {
     /**
@@ -59,8 +58,12 @@ public class TestException {
 
     @Test
     public void unhandledNoAlertPresentException() {
-        // org.openqa.selenium.NoAlertPresentException: no such alert
-        driver.switchTo().alert().accept();
+        try {
+            // org.openqa.selenium.NoAlertPresentException: no such alert
+            driver.switchTo().alert().accept();
+        } catch (NoAlertPresentException e) {
+            logger.error("No such alert.");
+        }
     }
 
     @Test
