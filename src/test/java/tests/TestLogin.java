@@ -35,8 +35,10 @@ public class TestLogin {
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
                 // { "webdriver.gecko.driver" : "C:\Users\jagadeesh\Documents\SeleniumMaven/vendor/geckodriver.exe" }
                 driver = new FirefoxDriver();
+            } else if (System.getProperty("os.name").contains("Mac OS X")) {
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/macOS/85/chromedriver");
+                driver = new ChromeDriver();
             } else {
-                // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/chromedriver");
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--no-sandbox");
@@ -66,9 +68,7 @@ public class TestLogin {
 
     @After
     public void tearDown() throws Exception {
-        if (driver != null) {
-            logger.warn("Driver object not null. So Cleaning up.");
-            driver.quit();
-        }
+        logger.info("Cleaning up driver instance.");
+        driver.quit();
     }
 }

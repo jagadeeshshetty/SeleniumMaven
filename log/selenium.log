@@ -13,16 +13,3 @@
 2021-02-28 12:26:30 INFO  tests.TestLogin : 25 - [setUp] Setting up Chrome driver.
 2021-02-28 12:26:35 INFO  tests.TestLogin : 47 - [setUp] FirefoxDriver: firefox on WINDOWS (c90ed236-27b9-4777-a5aa-caabec4de2cb)
 2021-02-28 12:26:39 WARN  tests.TestLogin : 70 - [tearDown] Driver object not null. So Cleaning up.
-=======
-2020-10-04 19:22:18 INFO  tests.TestDynamicLoading : 26 - [setUp] Setting up Chrome driver.
-2020-10-04 19:22:21 INFO  tests.TestDynamicLoading : 43 - [setUp] ChromeDriver: chrome on MAC (76474ebe58245732d76eda44448de56a)
-2020-10-04 19:22:24 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/dynamic_loading/2' URL
-2020-10-04 19:22:24 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: #start button' locator
-2020-10-04 19:22:29 INFO  pageobjects.BasePage : 67 - [isDisplayed] Element [By.id: finish] Present.
-2020-10-04 19:22:29 INFO  tests.TestDynamicLoading : 68 - [tearDown] Cleaning up driver instance.
-2020-10-04 19:22:29 INFO  tests.TestDynamicLoading : 26 - [setUp] Setting up Chrome driver.
-2020-10-04 19:22:31 INFO  tests.TestDynamicLoading : 43 - [setUp] ChromeDriver: chrome on MAC (f582512e65de3e54cbbd266154a5b894)
-2020-10-04 19:22:33 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/dynamic_loading/1' URL
-2020-10-04 19:22:33 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: #start button' locator
-2020-10-04 19:22:39 INFO  pageobjects.BasePage : 67 - [isDisplayed] Element [By.id: finish] Present.
-2020-10-04 19:22:39 INFO  tests.TestDynamicLoading : 68 - [tearDown] Cleaning up driver instance.
