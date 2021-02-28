@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html>
-
 
 <head>
 	<meta charset='utf-8' /> 
@@ -10,117 +8,98 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
 	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
 	
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/191775216e8ce53c38791eb07a1d2f31d0ae11b5/v3html/css/extent.css' type='text/css' rel='stylesheet' />
 	
 	<title>AutomationTesting Demo Report</title>
 
 	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
 	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
 </head>
-
 	<body class='extent dark default hide-overflow '>
 		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
 			<span><i class='material-icons'>desktop_windows</i></span>
 		</div>
-
 <nav>
 	<div class="nav-wrapper">
-		<a href="#!" class="brand-logo blue darken-3">Extent</a>
-
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
-
 		<!-- report name -->
 		<span class='report-name'>My Own Report</span>
-		
 		<!-- report headline -->
 		<span class='report-headline'></span>
-
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
-			<li>
-                <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 28, 2021 11:32:13 PM</span>
-				</a>
-			</li>
-			<li>
-                <a href='#!'>
-                    <span class='label blue darken-3'>3.1.2</span>
-				</a>
-			</li>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Feb 28, 2021 11:46:15 PM</span>
+			</a>
 		</ul>
 	</div>
-</nav>
-
-		<!-- container -->
+</nav>		<!-- container -->
 		<div class='container'>
-
 <div id='test-view' class='view'>
-				
 	<section id='controls'>
 		<div class='controls grey lighten-4'>
 			<!-- test toggle -->
 			<div class='chip transparent'>
 				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
-					<i class='material-icons'>warning</i> Status
+				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
 			<!-- test toggle -->
-
 			<!-- category toggle -->
 			<!-- category toggle -->
-
 			<!-- clear filters -->
 			<div class='chip transparent hide'>
 				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
-					<i class='material-icons'>close</i> Clear
+				<i class='material-icons'>close</i> Clear
 				</a>
 			</div>
 			<!-- clear filters -->
-
 			<!-- enable dashboard -->
 			<div id='toggle-test-view-charts' class='chip transparent'>
 				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
-					<i class='material-icons'>track_changes</i> Dashboard
+				<i class='material-icons'>track_changes</i> Dashboard
 				</a>
 			</div>
 			<!-- enable dashboard -->
-
 			<!-- search -->
 			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
 				<a href="#" class='search-div'>
-					<i class='material-icons'>search</i> Search
+				<i class='material-icons'>search</i> Search
 				</a>
-
 				<div class='input-field left hide'>
 					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
 				</div>
-				
 			</div>
 			<!-- search -->
 		</div>
 	</section>
-
-
 <div id='test-view-charts' class='subview-full'>
 	<div id='charts-row' class='row nm-v nm-h'>
 		<div class='col s12 m6 l6 np-h'>
 			<div class='card-panel nm-v'>
 				<div class='left panel-name'>Tests</div>
-				<div class='chart-box'>
+				<div class='chart-box' style="max-height:94px;">
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
@@ -131,101 +110,91 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class='col s12 m6 l6 np-h'>
-			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Steps</div>
-				<div class='chart-box'>
-					<canvas id='child-analysis' width='100' height='80'></canvas>
-				</div>
-				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>2</span> step(s) passed</span>
-				</div>
-				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>2</span> others
+	</div>
+	<div id="timeline-chart" class="row nm-v nm-h">
+		<div class="col s12 m12 l12 np-h">
+			<div class="card-panel">
+				<div class='left panel-name'>Timeline (seconds)</div>
+				<div class="chart-box" style="width:98%;max-height:145px;">
+					<canvas id="timeline" height="120"></canvas>
 				</div>
 			</div>
 		</div>
-		
 	</div>
-</div>
-
-	<div class='subview-left left'>
-		
+</div>	<div class='subview-left left'>
 		<div class='view-summary'>
-			<h5>Tests</h5>
 			<ul id='test-collection' class='test-collection'>
-				
-				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>failed</span>
-						<span class='test-time'>Feb 28, 2021 11:32:23 PM</span>
+						<span class='test-time'>Feb 28, 2021 11:46:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 28, 2021 11:32:23 PM</span>
-	<span class='label end-time'>Feb 28, 2021 11:32:24 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+827ms</span>
+	<span class='label start-time'>Feb 28, 2021 11:46:25 PM</span>
+	<span class='label end-time'>Feb 28, 2021 11:46:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+819ms</span>
 </div>
-	<div class='test-desc'>Verify login with invalid credentials. </div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:32:24 PM</td>
-					<td class='step-details'>failed Testcase Passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+<div class='test-desc'>Verify login with invalid credentials. </div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:46:26 PM</td>
+				<td class='step-details'>
+						failed Testcase Passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 					</div>
 				</li>
-				
-				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>knownFailure</span>
-						<span class='test-time'>Feb 28, 2021 11:32:24 PM</span>
+						<span class='test-time'>Feb 28, 2021 11:46:26 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 28, 2021 11:32:24 PM</span>
-	<span class='label end-time'>Feb 28, 2021 11:32:25 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+86ms</span>
+	<span class='label start-time'>Feb 28, 2021 11:46:26 PM</span>
+	<span class='label end-time'>Feb 28, 2021 11:46:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+218ms</span>
 </div>
-	<div class='test-desc'>Expected failure to check screenshot. </div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>11:32:25 PM</td>
-					<td class='step-details'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".flash.success"}
+<div class='test-desc'>Expected failure to check screenshot. </div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:46:27 PM</td>
+				<td class='step-details'>
+						<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".flash.success"}
   (Session info: chrome=88.0.4324.190)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'RBLP0051-JAGADE', ip: '169.254.248.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\JAGADE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d02a82bd2953870cc7dcdc56dd955c80
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\JAGADE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7160a422e831ed602be2bfccd067955
 *** Element info: {Using=css selector, value=.flash.success}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -243,8 +212,8 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at pageobjects.BasePage.find(BasePage.java:28)
 	at pageobjects.BasePage.isDisplayed(BasePage.java:46)
-	at pageobjects.Login.successMessagePresent(Login.java:34)
-	at tests.TestLoginNG.knownFailure(TestLoginNG.java:81)
+	at test.java.pageobjects.Login.successMessagePresent(Login.java:35)
+	at tests.TestLoginNG.knownFailure(TestLoginNG.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -270,77 +239,92 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.runSuites(TestNG.java:1069)
 	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>11:32:25 PM</td>
-					<td class='step-details'>Snapshot of screenshot below:com.aventstack.extentreports.ExtentTest@2b289ac9</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-							<ul class='screenshots'>
-								<li><img data-featherlight='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png' width='10%' src='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png' data-src='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png'></li>
-							</ul>
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:46:27 PM</td>
+				<td class='step-details'>
+						Snapshot of screenshot below:com.aventstack.extentreports.ExtentTest@1f11f64e
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png' src='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png' data-src='C:\Users\jagadeesh\Documents\SeleniumMaven\ErrorScreenshots\SampleScreenshot.png'></li>
+						</ul>
 					</div>
 				</li>
-				
-				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>succeeded</span>
-						<span class='test-time'>Feb 28, 2021 11:32:25 PM</span>
+						<span class='test-time'>Feb 28, 2021 11:46:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 28, 2021 11:32:25 PM</span>
-	<span class='label end-time'>Feb 28, 2021 11:32:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+888ms</span>
+	<span class='label start-time'>Feb 28, 2021 11:46:27 PM</span>
+	<span class='label end-time'>Feb 28, 2021 11:46:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+48ms</span>
 </div>
-	<div class='test-desc'>Verify login with valid credentials. </div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:32:25 PM</td>
-					<td class='step-details'><span class='label white-text blue'>Verifying login with valid credentials.</span></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>11:32:26 PM</td>
-					<td class='step-details'><span class='label white-text green'>Login with valid credentials passed.</span></td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:32:26 PM</td>
-					<td class='step-details'>succeeded Testcase Passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+<div class='test-desc'>Verify login with valid credentials. </div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>11:46:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text blue'>Verifying login with valid credentials.</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>11:46:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'>Login with valid credentials passed.</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:46:28 PM</td>
+				<td class='step-details'>
+						succeeded Testcase Passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 					</div>
 				</li>
 			</ul>
 		</div>
 	</div>
 	<!-- subview left -->
-
 	<div class='subview-right left'>
 		<div class='view-summary'>
 			<h5 class='test-name'></h5>
-
 			<div id='step-filters' class="right">
 				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
 				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
@@ -354,62 +338,53 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 		</div>
 	</div>
 	<!-- subview right -->
-
 </div>
-<!-- test view -->
-<!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Feb 28, 2021 11:32:24 PM</td>
-                                                        <td class='linked' test-id='2'>knownFailure</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".flash.success"}
+<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='exception-collection' class='exception-collection'>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 28, 2021 11:46:26 PM</td>
+										<td class='linked' test-id='2'>knownFailure</td>
+										<td>
+											<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".flash.success"}
   (Session info: chrome=88.0.4324.190)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
 System info: host: 'RBLP0051-JAGADE', ip: '169.254.248.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\JAGADE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d02a82bd2953870cc7dcdc56dd955c80
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\JAGADE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7160a422e831ed602be2bfccd067955
 *** Element info: {Using=css selector, value=.flash.success}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -427,8 +402,8 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
 	at pageobjects.BasePage.find(BasePage.java:28)
 	at pageobjects.BasePage.isDisplayed(BasePage.java:46)
-	at pageobjects.Login.successMessagePresent(Login.java:34)
-	at tests.TestLoginNG.knownFailure(TestLoginNG.java:81)
+	at test.java.pageobjects.Login.successMessagePresent(Login.java:35)
+	at tests.TestLoginNG.knownFailure(TestLoginNG.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -454,27 +429,31 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.runSuites(TestNG.java:1069)
 	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='exception-name'></h5>
+		</div>
+	</div>
 </div>
-<!-- exception view -->
-<div id='dashboard-view' class='view hide'>
+<!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -488,25 +467,25 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>0</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 28, 2021 11:32:13 PM</div>
+					<div class='panel-lead'>Feb 28, 2021 11:46:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 28, 2021 11:32:26 PM</div>
+			 		<div class='panel-lead'>Feb 28, 2021 11:46:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>12,987ms</div>
+					<div class='panel-lead'>0h 0m 0s+0ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -541,10 +520,8 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 	</div>
 </div>
 <!-- dashboard view -->
-<!-- testrunner-logs view -->
-		</div>
+<!-- testrunner-logs view -->		</div>
 		<!-- container -->
-
 		<script>
 			var statusGroup = {
 				passParent: 2,
@@ -555,14 +532,15 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 				skipParent: 0,
 				exceptionsParent: 1,
 				
-				passChild: 2,
-				failChild: 2,
+				passChild: 0,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 2,
-				exceptionsChild: 2,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
@@ -571,15 +549,17 @@ Session ID: d02a82bd2953870cc7dcdc56dd955c80
 				warningGrandChild: 0,
 				skipGrandChild: 0,
 				infoGrandChild: 0,
+				debugGrandChild: 0,
 				exceptionsGrandChild: 0,
 			};
 		</script>
-		
-			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
-		
-		
- 		<script type='text/javascript'>
- 		</script>
+		<script>
+			var timeline = {
+			        "failed":0.819,"knownFailure":1.218,"succeeded":1.048
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/master/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
 	</body>
-	
 </html>

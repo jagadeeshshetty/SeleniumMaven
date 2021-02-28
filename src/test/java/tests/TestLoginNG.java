@@ -6,7 +6,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -19,8 +18,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageobjects.Login;
 import test.java.helper.GenerateScreenshot;
+import test.java.pageobjects.Login;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,10 +44,10 @@ public class TestLoginNG {
         extent.setSystemInfo("HostName", "Krishna");
         extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("Author", "Krishna");
-        htmlReporter.config().setChartVisibilityOnOpen(true);
+//        htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setDocumentTitle("AutomationTesting Demo Report");
         htmlReporter.config().setReportName("My Own Report");
-        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+//        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.DARK);
 
         logger.info("Setting up Chrome driver.");

@@ -1,15 +1,15 @@
-2021-02-28 23:32:14 INFO  tests.TestLoginNG : 54 - [setUp] Setting up Chrome driver.
-2021-02-28 23:32:23 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-02-28 23:32:23 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d02a82bd2953870cc7dcdc56dd955c80)] -> id: login]] Present.
-2021-02-28 23:32:23 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
-2021-02-28 23:32:23 INFO  pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
-2021-02-28 23:32:24 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
-2021-02-28 23:32:24 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d02a82bd2953870cc7dcdc56dd955c80)] -> css selector: .flash.error]] Present.
-2021-02-28 23:32:24 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
-2021-02-28 23:32:24 INFO  pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
-2021-02-28 23:32:25 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
-2021-02-28 23:32:25 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
-2021-02-28 23:32:25 INFO  pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-02-28 23:32:26 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
-2021-02-28 23:32:26 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d02a82bd2953870cc7dcdc56dd955c80)] -> css selector: .flash.success]] Present.
-2021-02-28 23:32:26 INFO  tests.TestLoginNG : 97 - [tearDown] Cleaning up driver instance.
+2021-02-28 23:46:16 INFO  tests.TestLoginNG : 53 - [setUp] Setting up Chrome driver.
+2021-02-28 23:46:25 INFO  pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-02-28 23:46:25 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f7160a422e831ed602be2bfccd067955)] -> id: login]] Present.
+2021-02-28 23:46:25 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-02-28 23:46:25 INFO  pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
+2021-02-28 23:46:26 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-02-28 23:46:26 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f7160a422e831ed602be2bfccd067955)] -> css selector: .flash.error]] Present.
+2021-02-28 23:46:26 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-02-28 23:46:26 INFO  pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
+2021-02-28 23:46:27 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-02-28 23:46:27 INFO  pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-02-28 23:46:28 INFO  pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-02-28 23:46:28 INFO  pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-02-28 23:46:28 INFO  pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f7160a422e831ed602be2bfccd067955)] -> css selector: .flash.success]] Present.
+2021-02-28 23:46:28 INFO  tests.TestLoginNG : 96 - [tearDown] Cleaning up driver instance.
