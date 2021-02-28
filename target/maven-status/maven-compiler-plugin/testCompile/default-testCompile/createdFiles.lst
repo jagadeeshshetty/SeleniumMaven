@@ -1,6 +1,7 @@
-tests/TestDynamicLoading.class
-tests/TestLogin.class
-pageobjects/DynamicLoading.class
-pageobjects/Login.class
-helper/LoggerHelper.class
-pageobjects/BasePage.class
+helper\LoggerHelper.class
+tests\TestDynamicLoading.class
+pageobjects\Login.class
+tests\TestLogin.class
+tests\TestException.class
+pageobjects\BasePage.class
+pageobjects\DynamicLoading.class
