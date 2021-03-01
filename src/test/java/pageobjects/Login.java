@@ -1,9 +1,10 @@
-package pageobjects;
+package test.java.pageobjects;
 
 import helper.LoggerHelper;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import pageobjects.BasePage;
 import tests.TestLogin;
 
 import static org.junit.Assert.assertTrue;

@@ -16,6 +16,8 @@
 
 `mvn clean test -Dtest=TestException#webDriverException`
 
+`mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
+
 ## Terminal
 
 ```commandline
