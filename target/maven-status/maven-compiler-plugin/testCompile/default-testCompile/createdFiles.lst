@@ -2,6 +2,7 @@ test\java\pageobjects\Login.class
 helper\LoggerHelper.class
 tests\TestDynamicLoading.class
 tests\TestLogin.class
+test\java\tests\general\Test.class
 tests\TestLoginNG.class
 tests\TestException.class
 test\java\helper\GenerateScreenshot.class

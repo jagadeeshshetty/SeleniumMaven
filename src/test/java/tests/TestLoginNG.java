@@ -39,15 +39,24 @@ public class TestLoginNG {
 
     @BeforeClass
     public void setUp() {
+        GenerateScreenshot.clearDir();
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("OS", "Mac High Sierra");
-        extent.setSystemInfo("HostName", "Krishna");
-        extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("Author", "Krishna");
-//        htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setDocumentTitle("AutomationTesting Demo Report");
-        htmlReporter.config().setReportName("My Own Report");
-//        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+        // {
+        // java.vendor.url=https://adoptopenjdk.net/,
+        // os.name=Windows 10,
+        // java.vm.name=OpenJDK 64-Bit Server VM
+        // user.dir=C:\Users\jagadeesh\Documents\SeleniumMaven,
+        // os.arch=amd64,
+        // java.vendor=AdoptOpenJDK,
+        // java.vm.version=11.0.10+9,
+        // }
+        extent.setSystemInfo("Author", "Jagadeesh C");
+        extent.setSystemInfo("OS", System.getProperty("os.name"));
+        extent.setSystemInfo("Environment", "PROD");
+        extent.setSystemInfo("JAVA", System.getProperty("java.vendor") + System.getProperty("java.vm.version"));
+
+        htmlReporter.config().setDocumentTitle("Learning TestNG");
+        htmlReporter.config().setReportName("Test Execution Report");
         htmlReporter.config().setTheme(Theme.DARK);
 
         logger.info("Setting up Chrome driver.");
@@ -83,7 +92,7 @@ public class TestLoginNG {
     @AfterMethod
     public void getResult(ITestResult result) throws IOException {
         if (result.getStatus() == ITestResult.FAILURE) {
-            String screenshotPath = GenerateScreenshot.capture(driver, "SampleScreenshot");
+            String screenshotPath = GenerateScreenshot.capture(driver, "screenshot");
             test.fail(result.getThrowable());
             test.fail("Snapshot of screenshot below:" + test.addScreenCaptureFromPath(screenshotPath));
         } else {
@@ -111,4 +120,5 @@ public class TestLoginNG {
             return new File(new File("driver"), driverName + ".exe");
         }
     }
+
 }
