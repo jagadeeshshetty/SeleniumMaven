@@ -1,8 +1,8 @@
-2021-03-12 19:02:13 INFO  test.java.tests.TestLoginNG : 23 - [setUp] Setting up Chrome driver.
-2021-03-12 19:02:21 INFO  test.java.pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-12 19:02:21 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (0560b45faed199131793704b47cf8c77)] -> id: login]] Present.
-2021-03-12 19:02:22 INFO  test.java.pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-12 19:02:22 INFO  test.java.pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-12 19:02:22 INFO  test.java.pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
-2021-03-12 19:02:22 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (0560b45faed199131793704b47cf8c77)] -> css selector: .flash.success]] Present.
-2021-03-12 19:02:23 INFO  test.java.tests.TestLoginNG : 48 - [tearDown] Cleaning up driver instance.
+2021-03-12 21:15:17 INFO  test.java.tests.TestLoginNG : 28 - [setUp] Setting up Chrome driver.
+2021-03-12 21:15:20 INFO  test.java.pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-12 21:15:20 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (2332ba9a25cb4692c079203904eef77d)] -> id: login]] Present.
+2021-03-12 21:15:20 INFO  test.java.pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-12 21:15:20 INFO  test.java.pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-03-12 21:15:21 INFO  test.java.pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-03-12 21:15:21 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (2332ba9a25cb4692c079203904eef77d)] -> css selector: .flash.success]] Present.
+2021-03-12 21:15:22 INFO  test.java.tests.TestLoginNG : 61 - [tearDown] Cleaning up driver instance.

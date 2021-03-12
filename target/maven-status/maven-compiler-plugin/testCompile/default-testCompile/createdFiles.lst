@@ -1,8 +1,10 @@
 test/java/tests/TestLogin.class
 test/java/pageobjects/DynamicLoading.class
+test/java/tests/Listener.class
 test/java/pageobjects/Login.class
 test/java/pageobjects/BasePage.class
 test/java/tests/TestDynamicLoading.class
 tests/TestException.class
+test/java/tests/BaseClass.class
 test/java/tests/TestLoginNG.class
 helper/LoggerHelper.class

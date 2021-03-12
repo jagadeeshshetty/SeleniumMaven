@@ -24,3 +24,5 @@ log/*.log
 hs_err_pid*
 target
 target/*
+
+allure-results/*
