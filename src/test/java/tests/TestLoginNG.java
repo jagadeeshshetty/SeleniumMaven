@@ -6,12 +6,11 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageobjects.Login;
-
-import java.io.File;
+import test.java.pageobjects.Login;
 
 public class TestLoginNG {
 
@@ -28,22 +27,20 @@ public class TestLoginNG {
         login = new Login(driver);
     }
 
-    @Test
-    public void succeeded() {
+    @Test(priority = 1)
+    public void pass() {
         login.with("tomsmith", "SuperSecretPassword!");
         Assert.assertTrue(login.successMessagePresent(), "success message not present");
     }
 
-    @Test
-    public void failed() {
-        login.with("tomsmith", "bad password");
-        Assert.assertTrue(login.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
+    @Test(priority = 2)
+    public void skip() {
+        throw new SkipException("Skipping Test");
     }
 
-    @Test
-    public void knownFailure() {
-        login.with("tomsmith", "bad password");
-        Assert.assertTrue(login.successMessagePresent(), "success message not present");
+    @Test(priority = 3)
+    public void fail() {
+        Assert.assertEquals(driver.getTitle(), "invalid title");
     }
 
     @AfterClass
@@ -52,17 +49,4 @@ public class TestLoginNG {
         driver.quit();
     }
 
-    /**
-     * Based on the OS, we get browser driver location.
-     *
-     * @param driverName a string. ex: "chromedriver"
-     * @return the relative (partial) path of the driver. ex: driver/chromedriver
-     */
-    private static File getDriver(String driverName) {
-        if (System.getProperty("os.name").contains("Mac OS X")) {
-            return new File(new File("driver"), driverName);
-        } else {
-            return new File(new File("driver"), driverName + ".exe");
-        }
-    }
 }

@@ -1,4 +1,4 @@
-package tests;
+package test.java.tests;
 
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pageobjects.Login;
+import test.java.pageobjects.Login;
 
 import static org.junit.Assert.assertTrue;
 

@@ -76,3 +76,9 @@ INFO: Detected dialect: W3C
 [INFO] Finished at: 2020-07-30T00:00:08+05:30
 [INFO] ------------------------------------------------------------------------
 ```
+
+## Reporting - Allure
+
+- On macOS `brew install allure`
+  or `https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip`
+- After testng.xml run, execute `allure serve allure-results` command.
