@@ -114,6 +114,9 @@
                             <!--suppress UnresolvedMavenProperty -->
                             <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                         </suiteXmlFiles>
+                        <systemPropertyVariables>
+                            <allure.results.directory>target/allure-results</allure.results.directory>
+                        </systemPropertyVariables>
                     </configuration>
                     <dependencies>
                         <dependency>

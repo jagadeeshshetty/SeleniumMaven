@@ -3,7 +3,8 @@
 <suite name="Suite">
     <test name="Test" thread-count="3">
         <classes>
-            <class name="test.java.tests.TestLoginNG"/>
+            <!--            <class name="test.java.tests.TestLoginNG"/>-->
+            <class name="test.java.tests.allure.AllureSimpleTest"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

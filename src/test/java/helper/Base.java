@@ -1,4 +1,4 @@
-package test.java.tests;
+package test.java.helper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class BaseClass {
+public class Base {
 
     private WebDriver driver;
     public static ThreadLocal<WebDriver> tDriver = new ThreadLocal<WebDriver>();

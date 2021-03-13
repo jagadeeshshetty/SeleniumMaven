@@ -1,4 +1,4 @@
-package test.java.tests;
+package test.java.helper;
 
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
@@ -38,7 +38,7 @@ public class Listener implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("I am in onTestFailure() method " + getTestMethodName(iTestResult));
         Object testClass = iTestResult.getInstance();
-        WebDriver driver = BaseClass.getDriver();
+        WebDriver driver = Base.getDriver();
         if (driver instanceof WebDriver) {
             System.out.println("Screenshot captured for test case: " + getTestMethodName(iTestResult));
             saveFailureScreenshot(driver);
@@ -64,7 +64,7 @@ public class Listener implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         System.out.println("I am in onStart() method " + iTestContext.getName());
-        iTestContext.setAttribute("WebDriver", BaseClass.getDriver());
+        iTestContext.setAttribute("WebDriver", Base.getDriver());
     }
 
     @Override

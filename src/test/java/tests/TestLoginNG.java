@@ -10,24 +10,26 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import test.java.helper.Base;
+import test.java.helper.Listener;
 import test.java.pageobjects.Login;
 
 
 @Listeners({Listener.class})
-public class TestLoginNG extends BaseClass {
+public class TestLoginNG extends Base {
 
     public WebDriver driver;
     private static final Logger logger = LoggerHelper.getLogger(TestLoginNG.class);
     private Login login;
-    private BaseClass baseClass;
+    private Base base;
 
     @BeforeClass
     public void setUp() {
-        baseClass = new BaseClass();
-        baseClass.initDriver();
+        base = new Base();
+        base.initDriver();
         logger.info("Setting up Chrome driver.");
-        System.out.println(BaseClass.getDriver());
-        login = new Login(BaseClass.getDriver());
+        System.out.println(Base.getDriver());
+        login = new Login(Base.getDriver());
     }
 
     @Test(priority = 1, description = "testng description.")
@@ -53,13 +55,13 @@ public class TestLoginNG extends BaseClass {
     @Severity(SeverityLevel.TRIVIAL)
     @Description("I'll validate with invalid page title to the fail test behavior.")
     public void fail() {
-        Assert.assertEquals(BaseClass.getDriver().getTitle(), "invalid title");
+        Assert.assertEquals(Base.getDriver().getTitle(), "invalid title");
     }
 
     @AfterClass
     public void tearDown() throws Exception {
         logger.info("Cleaning up driver instance.");
-        BaseClass.getDriver().quit();
+        Base.getDriver().quit();
     }
 
 }
