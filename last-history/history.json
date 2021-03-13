@@ -1,0 +1,22 @@
+{
+  "7a1e0bfdb58a340a9fc28b0b4e56711e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b414a228df65477d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/b414a228df65477d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615609501629,
+        "stop" : 1615609501690,
+        "duration" : 61
+      }
+    } ]
+  }
+}
