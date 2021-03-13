@@ -1,0 +1,11 @@
+[ {
+  "uid" : "38aa0459c2c59274",
+  "name" : "allureSimpleTest displayName",
+  "time" : {
+    "start" : 1615610659886,
+    "stop" : 1615610659933,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az162-496",
+    "children" : [ {
+      "name" : "4474@fv-az162-496.main(1)",
+      "children" : [ {
+        "name" : "allureSimpleTest displayName",
+        "uid" : "38aa0459c2c59274",
+        "parentUid" : "9effd86cae7497bf95fe127b7c69282c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615610659886,
+          "stop" : 1615610659933,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9effd86cae7497bf95fe127b7c69282c"
+    } ],
+    "uid" : "1ca5de2cc71d99e957cbc82f231bb84d"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Mar 13 04:44:19 GMT 2021","Sat Mar 13 04:44:19 GMT 2021","47","Suite","Test","test.java.tests.allure.AllureSimpleTest","test.java.tests.allure.AllureSimpleTest","allureSimpleTest","allureSimpleTest displayName",""
