@@ -83,7 +83,6 @@ INFO: Detected dialect: W3C
   or get binary
   from `https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip`
   link and set the path.
-- After testng.xml run, execute `allure serve target/allure-results` command.
 - Annotations
     - Description
     - Severity
@@ -91,4 +90,7 @@ INFO: Detected dialect: W3C
     - Feature
     - Story
     - Step
-- 
+- Run
+    - testng.xml
+    - `allure serve target/allure-results`
+- tbd
