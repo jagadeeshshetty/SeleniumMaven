@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e3e26f82b9 <unknown>\n",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "ef6a8e39dc36158c",
+        "parentUid" : "cbc8dd149219b1570a5692ecf62a4e26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616223178640,
+          "stop" : 1616223178641,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbc8dd149219b1570a5692ecf62a4e26"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

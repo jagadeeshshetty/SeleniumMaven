@@ -1,0 +1,41 @@
+[ {
+  "uid" : "ef6a8e39dc36158c",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1616223178640,
+    "stop" : 1616223178641,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dfe4a0997c6d4b16",
+  "name" : "testng description.",
+  "time" : {
+    "start" : 1616223178771,
+    "stop" : 1616223178775,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "60f2f52d2981c2e2",
+  "name" : "fail",
+  "time" : {
+    "start" : 1616223178790,
+    "stop" : 1616223178791,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "trivial"
+}, {
+  "uid" : "b66423d6b75132e6",
+  "name" : "skip",
+  "time" : {
+    "start" : 1616223178781,
+    "stop" : 1616223178784,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+} ]

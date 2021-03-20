@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sat Mar 20 06:52:58 GMT 2021","Sat Mar 20 06:52:58 GMT 2021","1","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","fail","fail","I'll validate with invalid page title to the fail test behavior."
+"skipped","Sat Mar 20 06:52:58 GMT 2021","Sat Mar 20 06:52:58 GMT 2021","4","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","pass","testng description.","allure description. I'll check the pass test behavior."
+"broken","Sat Mar 20 06:52:58 GMT 2021","Sat Mar 20 06:52:58 GMT 2021","1","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","setUp","setUp",""
+"skipped","Sat Mar 20 06:52:58 GMT 2021","Sat Mar 20 06:52:58 GMT 2021","3","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","skip","skip","I'll skip the test to check skip test behavior."
