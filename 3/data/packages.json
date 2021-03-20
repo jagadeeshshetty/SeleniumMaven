@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests.TestLoginNG",
+    "children" : [ {
+      "name" : "setUp",
+      "uid" : "d8ef5119e66e214d",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616223009237,
+        "stop" : 1616223009239,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pass",
+      "uid" : "d85dc1c1d5090edf",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616223009342,
+        "stop" : 1616223009349,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "skip",
+      "uid" : "68c59fa28c157bac",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616223009354,
+        "stop" : 1616223009354,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fail",
+      "uid" : "acbd43a1491d34c9",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616223009358,
+        "stop" : 1616223009358,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.TestLoginNG"
+  } ],
+  "name" : "packages"
+}

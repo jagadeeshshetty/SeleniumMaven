@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "test.java.tests.TestLoginNG",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "d8ef5119e66e214d",
+          "parentUid" : "f08866d74b445cfd75f6517fadaef324",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616223009237,
+            "stop" : 1616223009239,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testng description.",
+          "uid" : "d85dc1c1d5090edf",
+          "parentUid" : "f08866d74b445cfd75f6517fadaef324",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1616223009342,
+            "stop" : 1616223009349,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "skip",
+          "uid" : "68c59fa28c157bac",
+          "parentUid" : "f08866d74b445cfd75f6517fadaef324",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1616223009354,
+            "stop" : 1616223009354,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fail",
+          "uid" : "acbd43a1491d34c9",
+          "parentUid" : "f08866d74b445cfd75f6517fadaef324",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1616223009358,
+            "stop" : 1616223009358,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f08866d74b445cfd75f6517fadaef324"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}
