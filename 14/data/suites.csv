@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 21 12:09:28 GMT 2021","Sun Mar 21 12:09:28 GMT 2021","402","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","pass","testng description.","allure description. I'll check the pass test behavior."
+"passed","Sun Mar 21 12:09:26 GMT 2021","Sun Mar 21 12:09:26 GMT 2021","480","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","failed","failed",""
+"broken","Sun Mar 21 12:09:27 GMT 2021","Sun Mar 21 12:09:27 GMT 2021","75","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded2","succeeded2",""
+"failed","Sun Mar 21 12:09:28 GMT 2021","Sun Mar 21 12:09:28 GMT 2021","80","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","fail","fail","I'll validate with invalid page title to the fail test behavior."
+"skipped","Sun Mar 21 12:09:28 GMT 2021","Sun Mar 21 12:09:28 GMT 2021","1","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","skip","skip","I'll skip the test to check skip test behavior."
+"passed","Sun Mar 21 12:09:26 GMT 2021","Sun Mar 21 12:09:27 GMT 2021","448","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded","succeeded",""

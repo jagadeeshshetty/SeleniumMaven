@@ -1,0 +1,61 @@
+[ {
+  "uid" : "e52c163cbf14e582",
+  "name" : "fail",
+  "time" : {
+    "start" : 1616328568546,
+    "stop" : 1616328568626,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "247ebbc10572864a",
+  "name" : "succeeded2",
+  "time" : {
+    "start" : 1616328567451,
+    "stop" : 1616328567526,
+    "duration" : 75
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "728fa4ebc79a881d",
+  "name" : "testng description.",
+  "time" : {
+    "start" : 1616328568134,
+    "stop" : 1616328568536,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f6262ea3fc30bf59",
+  "name" : "skip",
+  "time" : {
+    "start" : 1616328568542,
+    "stop" : 1616328568543,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "6927bdce8f74eab4",
+  "name" : "succeeded",
+  "time" : {
+    "start" : 1616328566995,
+    "stop" : 1616328567443,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd52fe44e5de567b",
+  "name" : "failed",
+  "time" : {
+    "start" : 1616328566375,
+    "stop" : 1616328566855,
+    "duration" : 480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

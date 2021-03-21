@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az178-420",
+    "children" : [ {
+      "name" : "3018@fv-az178-420.main(1)",
+      "children" : [ {
+        "name" : "skip",
+        "uid" : "f6262ea3fc30bf59",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616328568542,
+          "stop" : 1616328568543,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fail",
+        "uid" : "e52c163cbf14e582",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616328568546,
+          "stop" : 1616328568626,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded",
+        "uid" : "6927bdce8f74eab4",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328566995,
+          "stop" : 1616328567443,
+          "duration" : 448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testng description.",
+        "uid" : "728fa4ebc79a881d",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328568134,
+          "stop" : 1616328568536,
+          "duration" : 402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "failed",
+        "uid" : "fd52fe44e5de567b",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328566375,
+          "stop" : 1616328566855,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded2",
+        "uid" : "247ebbc10572864a",
+        "parentUid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616328567451,
+          "stop" : 1616328567526,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "567fd73b2c0af2aaeb387ccb5ba5e1ee"
+    } ],
+    "uid" : "4152fea249e970194c8dcfeb6d54d5d5"
+  } ],
+  "name" : "timeline"
+}
