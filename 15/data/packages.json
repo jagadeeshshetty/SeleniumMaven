@@ -1,0 +1,95 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests",
+    "children" : [ {
+      "name" : "TestLoginGA",
+      "children" : [ {
+        "name" : "failed",
+        "uid" : "36c6969a347f1f29",
+        "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328975128,
+          "stop" : 1616328975602,
+          "duration" : 474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded",
+        "uid" : "251983773be0def2",
+        "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328975694,
+          "stop" : 1616328976099,
+          "duration" : 405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded2",
+        "uid" : "1598cee566edef6a",
+        "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616328976103,
+          "stop" : 1616328976158,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aebfd183600e62659acc0f4e25c1b13e"
+    }, {
+      "name" : "TestLoginNG",
+      "children" : [ {
+        "name" : "pass",
+        "uid" : "452657c305c94f02",
+        "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616328976712,
+          "stop" : 1616328977121,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "skip",
+        "uid" : "389daef00a62848a",
+        "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616328977125,
+          "stop" : 1616328977126,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fail",
+        "uid" : "ba2f604a30c640e4",
+        "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616328977128,
+          "stop" : 1616328977214,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de984d84fcf9a76e12091ee0b6f2242a"
+    } ],
+    "uid" : "test.java.tests"
+  } ],
+  "name" : "packages"
+}

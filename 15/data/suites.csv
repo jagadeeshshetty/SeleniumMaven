@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sun Mar 21 12:16:17 GMT 2021","Sun Mar 21 12:16:17 GMT 2021","1","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","skip","skip","I'll skip the test to check skip test behavior."
+"passed","Sun Mar 21 12:16:15 GMT 2021","Sun Mar 21 12:16:15 GMT 2021","474","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","failed","failed",""
+"passed","Sun Mar 21 12:16:15 GMT 2021","Sun Mar 21 12:16:16 GMT 2021","405","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded","succeeded",""
+"failed","Sun Mar 21 12:16:17 GMT 2021","Sun Mar 21 12:16:17 GMT 2021","86","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","fail","fail","I'll validate with invalid page title to the fail test behavior."
+"broken","Sun Mar 21 12:16:16 GMT 2021","Sun Mar 21 12:16:16 GMT 2021","55","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded2","succeeded2",""
+"passed","Sun Mar 21 12:16:16 GMT 2021","Sun Mar 21 12:16:17 GMT 2021","409","Suite","Test","test.java.tests.TestLoginNG","test.java.tests.TestLoginNG","pass","testng description.","allure description. I'll check the pass test behavior."
