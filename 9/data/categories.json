@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [invalid title] but found [The Internet]",
+      "children" : [ {
+        "name" : "fail",
+        "uid" : "d4432e8efb826df9",
+        "parentUid" : "9862f2701292696eab84e54b24ab4b43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616310221140,
+          "stop" : 1616310221249,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9862f2701292696eab84e54b24ab4b43"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

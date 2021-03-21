@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests.TestLoginNG",
+    "children" : [ {
+      "name" : "pass",
+      "uid" : "7ade6591d6f10765",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310220551,
+        "stop" : 1616310221034,
+        "duration" : 483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "skip",
+      "uid" : "e1f6ab37ad59200c",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616310221129,
+        "stop" : 1616310221133,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "fail",
+      "uid" : "d4432e8efb826df9",
+      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1616310221140,
+        "stop" : 1616310221249,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.TestLoginNG"
+  } ],
+  "name" : "packages"
+}
