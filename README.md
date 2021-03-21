@@ -42,6 +42,12 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
 
 - `mvn versions:set -DnewVersion=2.0.0-SNAPSHOT`
 
+## Tags
+
+- `$ git tag -a v1.4 -m "my version 1.4"`
+
+- `$ git push origin --tags`
+
 ## Terminal
 
 ```commandline
