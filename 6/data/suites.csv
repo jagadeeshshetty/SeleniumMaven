@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Mar 21 06:35:05 GMT 2021","Sun Mar 21 06:35:05 GMT 2021","40","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded2","succeeded2",""
+"passed","Sun Mar 21 06:35:04 GMT 2021","Sun Mar 21 06:35:04 GMT 2021","520","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","failed","failed",""
+"passed","Sun Mar 21 06:35:04 GMT 2021","Sun Mar 21 06:35:05 GMT 2021","363","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded","succeeded",""

@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests.TestLoginGA",
+    "children" : [ {
+      "name" : "failed",
+      "uid" : "4bfec7f1c0309fc9",
+      "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308504033,
+        "stop" : 1616308504553,
+        "duration" : 520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "succeeded",
+      "uid" : "2659e570db5446d7",
+      "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308504674,
+        "stop" : 1616308505037,
+        "duration" : 363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "succeeded2",
+      "uid" : "9ac976eddd43110e",
+      "parentUid" : "aebfd183600e62659acc0f4e25c1b13e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1616308505043,
+        "stop" : 1616308505083,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.TestLoginGA"
+  } ],
+  "name" : "packages"
+}
