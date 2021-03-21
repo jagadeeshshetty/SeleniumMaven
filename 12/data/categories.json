@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az252-665', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.IvZbDI}, goog:chromeOptions: {debuggerAddress: localhost:37451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f98e60a9b7049cde0de47d25252a6a4a\n*** Element info: {Using=id, value=username}",
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az133-947', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.V6xo2y}, goog:chromeOptions: {debuggerAddress: localhost:34429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c9384c9acb5418cb179b3c8866a2a49\n*** Element info: {Using=id, value=username}",
       "children" : [ {
         "name" : "succeeded2",
-        "uid" : "c569a50265745aa6",
-        "parentUid" : "8caf71cec8fec25f9bcad7c26b3ad636",
+        "uid" : "cff52c1a81c8c016",
+        "parentUid" : "631b340c5e23a7877080d2d089691219",
         "status" : "broken",
         "time" : {
-          "start" : 1616322915507,
-          "stop" : 1616322915554,
-          "duration" : 47
+          "start" : 1616323461755,
+          "stop" : 1616323461835,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8caf71cec8fec25f9bcad7c26b3ad636"
+      "uid" : "631b340c5e23a7877080d2d089691219"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -27,13 +27,13 @@
       "name" : "expected [invalid title] but found [The Internet]",
       "children" : [ {
         "name" : "fail",
-        "uid" : "81efd95f912ece9a",
+        "uid" : "ab4a8f3144046efb",
         "parentUid" : "9862f2701292696eab84e54b24ab4b43",
         "status" : "failed",
         "time" : {
-          "start" : 1616322916789,
-          "stop" : 1616322916871,
-          "duration" : 82
+          "start" : 1616323462849,
+          "stop" : 1616323462938,
+          "duration" : 89
         },
         "flaky" : false,
         "newFailed" : false,
