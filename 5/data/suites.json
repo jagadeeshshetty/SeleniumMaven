@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "test.java.tests.TestLoginGA",
+        "children" : [ {
+          "name" : "failed",
+          "uid" : "f5e4281d6064d580",
+          "parentUid" : "b5357a467ff148a3b926ecd5b918c6c5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616307975068,
+            "stop" : 1616307975567,
+            "duration" : 499
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "succeeded",
+          "uid" : "8be59e013891fb4",
+          "parentUid" : "b5357a467ff148a3b926ecd5b918c6c5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616307975661,
+            "stop" : 1616307976054,
+            "duration" : 393
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b5357a467ff148a3b926ecd5b918c6c5"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}

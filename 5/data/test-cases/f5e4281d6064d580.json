@@ -1,0 +1,94 @@
+{
+  "uid" : "f5e4281d6064d580",
+  "name" : "failed",
+  "fullName" : "test.java.tests.TestLoginGA.failed",
+  "historyId" : "aafcef1cb16068091b8e37db6d5a9bdb",
+  "time" : {
+    "start" : 1616307975068,
+    "stop" : 1616307975567,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616307963670,
+      "stop" : 1616307974921,
+      "duration" : 11251
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1616307976059,
+      "stop" : 1616307976132,
+      "duration" : 73
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.TestLoginGA"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.TestLoginGA"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.TestLoginGA"
+  }, {
+    "name" : "host",
+    "value" : "fv-az180-800"
+  }, {
+    "name" : "thread",
+    "value" : "3281@fv-az180-800.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5e4281d6064d580.json",
+  "parameterValues" : [ ]
+}
