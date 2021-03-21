@@ -4,6 +4,7 @@
     <test name="Test" thread-count="3">
         <classes>
             <class name="test.java.tests.TestLoginGA"/>
+            <class name="test.java.tests.TestLoginNG"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
