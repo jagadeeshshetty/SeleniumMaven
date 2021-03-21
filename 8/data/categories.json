@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.A9dsph}, goog:chromeOptions: {debuggerAddress: localhost:44015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3917d6e2524ab794c820b4cf3eb6f338\n*** Element info: {Using=id, value=username}",
+      "children" : [ {
+        "name" : "succeeded2",
+        "uid" : "480d29a12dc58fa9",
+        "parentUid" : "5d70bf53e30bcfe92c7c69034d7cdfee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616309290951,
+          "stop" : 1616309291012,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d70bf53e30bcfe92c7c69034d7cdfee"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d012b7c2b9 <unknown>\n",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "f135de45a009a44b",
+        "parentUid" : "8d07f30ea993ead50ba858a92a57c75c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616309292375,
+          "stop" : 1616309292376,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d07f30ea993ead50ba858a92a57c75c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

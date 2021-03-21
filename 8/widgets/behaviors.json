@@ -1,0 +1,15 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "4a82b6db2a5cd701f10e9a445c162153",
+    "name" : "EP-001",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
