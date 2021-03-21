@@ -51,6 +51,12 @@ public class TestLoginGA {
     }
 
     @Test
+    public void succeeded2() {
+        login.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", login.successMessagePresent());
+    }
+
+    @Test
     public void failed() {
         login.with("tomsmith", "bad password");
         assertTrue("failure message wasn't present after providing bogus credentials",
