@@ -38,6 +38,10 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
         - Github Actions will take care.
     - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
 
+## Versioning
+
+- `mvn versions:set -DnewVersion=2.0.0-SNAPSHOT`
+
 ## Terminal
 
 ```commandline
