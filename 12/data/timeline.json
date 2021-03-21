@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az252-665",
+    "children" : [ {
+      "name" : "2922@fv-az252-665.main(1)",
+      "children" : [ {
+        "name" : "skip",
+        "uid" : "4284953dd2ac634a",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616322916786,
+          "stop" : 1616322916787,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "failed",
+        "uid" : "f4177f23c442ac2a",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616322914564,
+          "stop" : 1616322915010,
+          "duration" : 446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded",
+        "uid" : "6a4a93d9283a769e",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616322915133,
+          "stop" : 1616322915503,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fail",
+        "uid" : "81efd95f912ece9a",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616322916789,
+          "stop" : 1616322916871,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succeeded2",
+        "uid" : "c569a50265745aa6",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616322915507,
+          "stop" : 1616322915554,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testng description.",
+        "uid" : "452fe3addadfda41",
+        "parentUid" : "acc945226dd05021ade99ff749b0b621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616322916377,
+          "stop" : 1616322916780,
+          "duration" : 403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acc945226dd05021ade99ff749b0b621"
+    } ],
+    "uid" : "022a6c54429bd18550c4048e1b310e13"
+  } ],
+  "name" : "timeline"
+}
