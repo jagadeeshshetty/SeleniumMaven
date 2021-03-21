@@ -1,50 +1,82 @@
-# WebUI Automated Acceptance Test using Selenium WebDriver + Java
+# WebUI Automated Acceptance Test using Selenium WebDriver + Java ✨
+
+Created with ❤️ from 🇮🇳
+
+Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a9423)
 
 [![Actions Status](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/jagadeeshshetty/SeleniumMaven/actions)
 
 ## Programming language and libraries
 
-`Java` `Selenium WebDriver 4.X` `Maven` `Log4J`
+`Java` `Selenium WebDriver 4.X` `Maven` `Log4J` `Allure` `WebDriverManager`
 
-## Run all test cases
+## Reporting
 
-`mvn clean test`
+- On macOS: `brew install allure`
 
-## Run specific test case
+- On Windows: Get binary and set the
+  path [link](`https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip`)
 
-`mvn clean test -Dtest=TestLogin#succeeded`
+- Annotations
 
-`mvn clean test -Dtest=TestException#webDriverException`
+    - Description
+    - Severity
+    - Epic
+    - Feature
+    - Story
+    - Step
+
+- Run
+    - Local
+        - Run all `mvn clean test`
+        - Specific test case `mvn clean test -Dtest=TestLogin#succeeded`
+    - Local using TestNG XML file.
+        - TestNG xml `mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
+        - Generate test execution report `allure serve target/allure-results`
+    - CI/CD
+        - Chill 🍺
+        - Github Actions will take care.
+    - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
+
+## Versioning
+
+- `mvn versions:set -DnewVersion=2.0.0-SNAPSHOT`
+
+## Tags
+
+- `$ git tag -a v1.4 -m "my version 1.4"`
+
+- `$ git push origin --tags`
 
 ## Terminal
 
 ```commandline
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]
 [INFO] ----------------------< this.me.jc:SeleniumMaven >----------------------
 [INFO] Building SeleniumMaven 1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
+[INFO]
 [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ SeleniumMaven ---
 [INFO] Deleting /Users/jc/SeleniumMaven/target
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ SeleniumMaven ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 0 resource
-[INFO] 
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ SeleniumMaven ---
 [INFO] Nothing to compile - all classes are up to date
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ SeleniumMaven ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/jc/SeleniumMaven/src/test/resources
-[INFO] 
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ SeleniumMaven ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/jc/SeleniumMaven/target/test-classes
-[INFO] 
+[INFO]
 [INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ SeleniumMaven ---
-[INFO] 
+[INFO]
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
@@ -62,11 +94,11 @@ INFO: Detected dialect: W3C
 2020-07-30 00:00:08 INFO  tests.TestLogin : 43 - [succeeded] Clicked on button.
 2020-07-30 00:00:08 WARN  tests.TestLogin : 49 - [tearDown] Driver object not null. So Cleaning up.
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.389 s - in tests.TestLogin
-[INFO] 
+[INFO]
 [INFO] Results:
-[INFO] 
+[INFO]
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-[INFO] 
+[INFO]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -74,3 +106,8 @@ INFO: Detected dialect: W3C
 [INFO] Finished at: 2020-07-30T00:00:08+05:30
 [INFO] ------------------------------------------------------------------------
 ```
+
+## Reference
+
+- Tbd
+- Tbd

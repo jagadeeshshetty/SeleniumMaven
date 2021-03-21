@@ -1,4 +1,4 @@
-package tests;
+package test.java.tests;
 
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pageobjects.Login;
+import test.java.pageobjects.Login;
 
 import static org.junit.Assert.assertTrue;
 
@@ -31,12 +31,13 @@ public class TestLogin {
          * to it.
          */
         try {
+            System.out.println(System.getProperty("os.name"));
             if (System.getProperty("os.name").contains("Windows")) {
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/vendor/geckodriver.exe");
                 // { "webdriver.gecko.driver" : "C:\Users\jagadeesh\Documents\SeleniumMaven/vendor/geckodriver.exe" }
                 driver = new FirefoxDriver();
             } else if (System.getProperty("os.name").contains("Mac OS X")) {
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/macOS/85/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/vendor/macOS/89/chromedriver");
                 driver = new ChromeDriver();
             } else {
                 WebDriverManager.chromedriver().setup();

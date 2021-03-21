@@ -1,4 +1,4 @@
-package pageobjects;
+package test.java.pageobjects;
 
 import helper.LoggerHelper;
 import org.apache.log4j.Logger;
