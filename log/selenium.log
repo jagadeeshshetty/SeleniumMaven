@@ -1,8 +1,13 @@
-2021-03-20 12:10:39 INFO  test.java.tests.TestLoginNG : 30 - [setUp] Setting up Chrome driver.
-2021-03-20 12:10:42 INFO  test.java.pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-20 12:10:42 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (abb33bad0f02023e36c21fa926fb53b6)] -> id: login]] Present.
-2021-03-20 12:10:43 INFO  test.java.pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-20 12:10:43 INFO  test.java.pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-20 12:10:44 INFO  test.java.pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
-2021-03-20 12:10:44 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (abb33bad0f02023e36c21fa926fb53b6)] -> css selector: .flash.success]] Present.
-2021-03-20 12:10:44 INFO  test.java.tests.TestLoginNG : 63 - [tearDown] Cleaning up driver instance.
+2021-03-21 11:42:08 INFO  test.java.tests.TestLoginGA : 24 - [setUp] Setting up Chrome driver.
+2021-03-21 11:42:13 INFO  test.java.tests.TestLoginGA : 40 - [setUp] ChromeDriver: chrome on MAC (7371f56f931805a7f332646da363ff6d)
+2021-03-21 11:42:17 INFO  test.java.pageobjects.BasePage : 24 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-21 11:42:17 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (7371f56f931805a7f332646da363ff6d)] -> id: login]] Present.
+2021-03-21 11:42:17 INFO  test.java.pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-21 11:42:17 INFO  test.java.pageobjects.BasePage : 38 - [type] 'bad password' into 'By.id: password' locator
+2021-03-21 11:42:18 INFO  test.java.pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-03-21 11:42:18 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (7371f56f931805a7f332646da363ff6d)] -> css selector: .flash.error]] Present.
+2021-03-21 11:42:18 INFO  test.java.pageobjects.BasePage : 38 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-21 11:42:18 INFO  test.java.pageobjects.BasePage : 38 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-03-21 11:42:19 INFO  test.java.pageobjects.BasePage : 33 - [click] on 'By.cssSelector: button' locator
+2021-03-21 11:42:19 INFO  test.java.pageobjects.BasePage : 43 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (7371f56f931805a7f332646da363ff6d)] -> css selector: .flash.success]] Present.
+2021-03-21 11:42:19 INFO  test.java.tests.TestLoginGA : 62 - [tearDown] Cleaning up driver instance.

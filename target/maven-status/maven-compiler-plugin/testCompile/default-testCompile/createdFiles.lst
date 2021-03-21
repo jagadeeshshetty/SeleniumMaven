@@ -7,6 +7,7 @@ test/java/pageobjects/Login.class
 test/java/tests/TestDynamicLoading.class
 test/java/tests/TestLoginNG.class
 helper/LoggerHelper.class
+test/java/tests/TestLoginGA.class
 test/java/pageobjects/BasePage.class
 test/java/tests/allure/AllureParameterizedTest.class
 tests/TestException.class
