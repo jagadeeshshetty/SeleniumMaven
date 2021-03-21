@@ -14,28 +14,29 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
 
 - On macOS: `brew install allure`
 
-- On Windows: Get binary and set the path [link](`https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip`)
+- On Windows: Get binary and set the
+  path [link](`https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.zip`)
 
 - Annotations
 
-  - Description
-  - Severity
-  - Epic
-  - Feature
-  - Story
-  - Step
+    - Description
+    - Severity
+    - Epic
+    - Feature
+    - Story
+    - Step
 
 - Run
-  - Local
-    - Run all `mvn clean test`
-    - Specific test case `mvn clean test -Dtest=TestLogin#succeeded`
-  - Local using TestNG XML file.
-    - TestNG xml `mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
-    - Generate test execution report `allure serve target/allure-results`
-  - CI/CD
-    - Chill 🍺
-    - Github Actions will take care.
-  - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
+    - Local
+        - Run all `mvn clean test`
+        - Specific test case `mvn clean test -Dtest=TestLogin#succeeded`
+    - Local using TestNG XML file.
+        - TestNG xml `mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
+        - Generate test execution report `allure serve target/allure-results`
+    - CI/CD
+        - Chill 🍺
+        - Github Actions will take care.
+    - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
 
 ## Terminal
 
@@ -95,3 +96,8 @@ INFO: Detected dialect: W3C
 [INFO] Finished at: 2020-07-30T00:00:08+05:30
 [INFO] ------------------------------------------------------------------------
 ```
+
+## Reference
+
+- Tbd
+- Tbd
