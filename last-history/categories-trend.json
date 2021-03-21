@@ -7,6 +7,14 @@
     "Test defects" : 1
   }
 }, {
+  "buildOrder" : 10,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 1
+  }
+}, {
   "buildOrder" : 9,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9/",
   "reportName" : "Allure Report with history",

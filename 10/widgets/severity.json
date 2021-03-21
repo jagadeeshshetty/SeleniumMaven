@@ -1,60 +1,60 @@
 [ {
-  "uid" : "74cdb6307682fe1",
-  "name" : "fail",
-  "time" : {
-    "start" : 1616310475882,
-    "stop" : 1616310475963,
-    "duration" : 81
-  },
-  "status" : "failed",
-  "severity" : "trivial"
-}, {
-  "uid" : "4d859bcd59f34468",
-  "name" : "failed",
-  "time" : {
-    "start" : 1616310473970,
-    "stop" : 1616310474327,
-    "duration" : 357
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20e73fc5043aee4f",
-  "name" : "testng description.",
-  "time" : {
-    "start" : 1616310475502,
-    "stop" : 1616310475874,
-    "duration" : 372
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "2d9dfa097110d6f1",
-  "name" : "succeeded2",
-  "time" : {
-    "start" : 1616310474837,
-    "stop" : 1616310474890,
-    "duration" : 53
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "fa904d5dddf5e61",
+  "uid" : "4461454c7dd0cf4b",
   "name" : "skip",
   "time" : {
-    "start" : 1616310475879,
-    "stop" : 1616310475880,
+    "start" : 1616310862207,
+    "stop" : 1616310862208,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "minor"
 }, {
-  "uid" : "20f9e2129a04ba56",
+  "uid" : "21b89e4e137f6697",
+  "name" : "succeeded2",
+  "time" : {
+    "start" : 1616310860418,
+    "stop" : 1616310860472,
+    "duration" : 54
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8cf7bdac8478a1b1",
+  "name" : "fail",
+  "time" : {
+    "start" : 1616310862210,
+    "stop" : 1616310862288,
+    "duration" : 78
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "5dae4fa0b93a63a0",
+  "name" : "testng description.",
+  "time" : {
+    "start" : 1616310861685,
+    "stop" : 1616310862202,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "add98c8cdc35a88",
   "name" : "succeeded",
   "time" : {
-    "start" : 1616310474453,
-    "stop" : 1616310474834,
-    "duration" : 381
+    "start" : 1616310859949,
+    "stop" : 1616310860412,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db5607a3916ce50",
+  "name" : "failed",
+  "time" : {
+    "start" : 1616310859276,
+    "stop" : 1616310859814,
+    "duration" : 538
   },
   "status" : "passed",
   "severity" : "normal"

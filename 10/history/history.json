@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "add98c8cdc35a88",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/add98c8cdc35a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310859949,
+        "stop" : 1616310860412,
+        "duration" : 463
+      }
+    }, {
       "uid" : "20f9e2129a04ba56",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/20f9e2129a04ba56",
       "status" : "passed",
@@ -88,12 +97,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 5,
+      "skipped" : 6,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "4461454c7dd0cf4b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/4461454c7dd0cf4b",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616310862207,
+        "stop" : 1616310862208,
+        "duration" : 1
+      }
+    }, {
       "uid" : "fa904d5dddf5e61",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/fa904d5dddf5e61",
       "status" : "skipped",
@@ -150,11 +169,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 3,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "5dae4fa0b93a63a0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/5dae4fa0b93a63a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310861685,
+        "stop" : 1616310862202,
+        "duration" : 517
+      }
+    }, {
       "uid" : "20e73fc5043aee4f",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/20e73fc5043aee4f",
       "status" : "passed",
@@ -209,11 +237,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "db5607a3916ce50",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/db5607a3916ce50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310859276,
+        "stop" : 1616310859814,
+        "duration" : 538
+      }
+    }, {
       "uid" : "4d859bcd59f34468",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/4d859bcd59f34468",
       "status" : "passed",
@@ -263,13 +300,23 @@
   "f7c0efaa1e4d2eda63ede43131392b83" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "21b89e4e137f6697",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/21b89e4e137f6697",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az150-219', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.Tfv14s}, goog:chromeOptions: {debuggerAddress: localhost:32999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 66f0ab53a8832dd2b30fbcd6321f0a8e\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616310860418,
+        "stop" : 1616310860472,
+        "duration" : 54
+      }
+    }, {
       "uid" : "2d9dfa097110d6f1",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/2d9dfa097110d6f1",
       "status" : "broken",
@@ -354,14 +401,24 @@
   },
   "84386c99f31c75290bd0b7a80ac0e58b" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "8cf7bdac8478a1b1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/8cf7bdac8478a1b1",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616310862210,
+        "stop" : 1616310862288,
+        "duration" : 78
+      }
+    }, {
       "uid" : "74cdb6307682fe1",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/74cdb6307682fe1",
       "status" : "failed",
