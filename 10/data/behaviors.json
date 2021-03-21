@@ -1,0 +1,95 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "failed",
+    "uid" : "4d859bcd59f34468",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616310473970,
+      "stop" : 1616310474327,
+      "duration" : 357
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "succeeded",
+    "uid" : "20f9e2129a04ba56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616310474453,
+      "stop" : 1616310474834,
+      "duration" : 381
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "succeeded2",
+    "uid" : "2d9dfa097110d6f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1616310474837,
+      "stop" : 1616310474890,
+      "duration" : 53
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EP-001",
+    "children" : [ {
+      "name" : "Feature 1: Login",
+      "children" : [ {
+        "name" : "Story: tbd",
+        "children" : [ {
+          "name" : "testng description.",
+          "uid" : "20e73fc5043aee4f",
+          "parentUid" : "c20e4adcc53965fb98cf4b85f323111e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616310475502,
+            "stop" : 1616310475874,
+            "duration" : 372
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c20e4adcc53965fb98cf4b85f323111e"
+      } ],
+      "uid" : "8e78a3a1194d7db010b649b89fe82a90"
+    } ],
+    "uid" : "4a82b6db2a5cd701f10e9a445c162153"
+  }, {
+    "name" : "skip",
+    "uid" : "fa904d5dddf5e61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1616310475879,
+      "stop" : 1616310475880,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "fail",
+    "uid" : "74cdb6307682fe1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616310475882,
+      "stop" : 1616310475963,
+      "duration" : 81
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
