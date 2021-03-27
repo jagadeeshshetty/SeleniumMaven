@@ -3,6 +3,13 @@
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 2322
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 1584
   }
 }, {
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 47
-  }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 61
   }
 } ]
