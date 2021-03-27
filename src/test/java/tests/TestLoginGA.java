@@ -41,7 +41,7 @@ public class TestLoginGA {
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
-        login = new Login(driver);
+        login = new Login(driver, logger);
     }
 
     @Test

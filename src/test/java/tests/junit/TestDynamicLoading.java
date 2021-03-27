@@ -1,4 +1,4 @@
-package test.java.tests;
+package test.java.tests.junit;
 
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -44,7 +44,7 @@ public class TestDynamicLoading {
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
-        dynamicLoading = new DynamicLoading(driver);
+        dynamicLoading = new DynamicLoading(driver, logger);
     }
 
 

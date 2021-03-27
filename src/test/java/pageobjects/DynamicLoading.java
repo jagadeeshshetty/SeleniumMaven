@@ -1,5 +1,6 @@
 package test.java.pageobjects;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -7,8 +8,8 @@ public class DynamicLoading extends BasePage {
     By startButton = By.cssSelector("#start button");
     By finishText = By.id("finish");
 
-    public DynamicLoading(WebDriver driver) {
-        super(driver);
+    public DynamicLoading(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     public void loadExample(String exampleNumber) {

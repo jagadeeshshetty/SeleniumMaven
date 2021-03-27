@@ -11,15 +11,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static io.qameta.allure.Allure.step;
+
 public class BasePage {
-    private static final Logger logger = LoggerHelper.getLogger(BasePage.class);
+    private static Logger logger;
     private WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver, Logger logger) {
         this.driver = driver;
+        this.logger = LoggerHelper.getLogger(BasePage.class);
     }
 
     public void visit(String url) {
+        step("Access '" + url + "' URL");
         driver.get(url);
         logger.info("'" + url + "' URL");
     }
@@ -29,21 +33,26 @@ public class BasePage {
     }
 
     public void click(By locator) {
+        step("Click on '" + locator + "' locator");
         find(locator).click();
         logger.info("on '" + locator + "' locator");
     }
 
     public void type(String inputText, By locator) {
+        step("Type '" + inputText + "' text into '" + locator + "' locator");
         find(locator).sendKeys(inputText);
         logger.info("'" + inputText + "' into '" + locator + "' locator");
     }
 
     public Boolean isDisplayed(By locator) {
+        step("Check Element [" + find(locator) + "] Present or Not.");
         try {
             logger.info("Element [" + find(locator) + "] Present.");
+            step("Element [" + find(locator) + "] Present.");
             return find(locator).isDisplayed();
         } catch (NoSuchElementException exception) {
             logger.error("Element [" + find(locator) + "] Not Present.");
+            step("Element [" + find(locator) + "] Not Present.");
             return false;
         }
     }
@@ -62,9 +71,11 @@ public class BasePage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         } catch (org.openqa.selenium.TimeoutException exception) {
             logger.error("Element [" + locator + "] Not Present.");
+            step("Element [" + locator + "] Not Present.");
             return false;
         }
         logger.info("Element [" + locator + "] Present.");
+        step("Element [" + locator + "] Present.");
         return true;
     }
 
