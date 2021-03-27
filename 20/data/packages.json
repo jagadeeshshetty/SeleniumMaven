@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests.theInternet.TestLogin",
+    "children" : [ {
+      "name" : "validLogin",
+      "uid" : "45cb53b545629b7b",
+      "parentUid" : "f006fb3b5b4ec794ec301cc7402eb921",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616864426635,
+        "stop" : 1616864427153,
+        "duration" : 518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "inValidLogin",
+      "uid" : "8b8d7bdb058bb5ca",
+      "parentUid" : "f006fb3b5b4ec794ec301cc7402eb921",
+      "status" : "failed",
+      "time" : {
+        "start" : 1616864428042,
+        "stop" : 1616864428511,
+        "duration" : 469
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.theInternet.TestLogin"
+  } ],
+  "name" : "packages"
+}
