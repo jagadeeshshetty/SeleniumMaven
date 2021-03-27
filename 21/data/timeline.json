@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az252-20",
+    "children" : [ {
+      "name" : "3179@fv-az252-20.main(1)",
+      "children" : [ {
+        "name" : "validLogin",
+        "uid" : "5ff54560609d6bd8",
+        "parentUid" : "5d4ac983ac3940458bb0a3ebddba65a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616864680721,
+          "stop" : 1616864681279,
+          "duration" : 558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "inValidLogin",
+        "uid" : "cc95bf79a8e3c88e",
+        "parentUid" : "5d4ac983ac3940458bb0a3ebddba65a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616864682196,
+          "stop" : 1616864682602,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d4ac983ac3940458bb0a3ebddba65a4"
+    } ],
+    "uid" : "34cc6cb3972a11cac467d40737d1a00d"
+  } ],
+  "name" : "timeline"
+}
