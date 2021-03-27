@@ -40,7 +40,7 @@ public class TestLogin extends Base {
         step("Login with invalid username and password.");
         login.with("invalid", "invalid");
         step("Verify failure message present");
-        Assert.assertFalse(login.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
+        Assert.assertTrue(login.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
     }
 
 
