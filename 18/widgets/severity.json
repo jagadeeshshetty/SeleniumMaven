@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c9c846917e4ea50e",
+  "name" : "inValidLogin",
+  "time" : {
+    "start" : 1616859092997,
+    "stop" : 1616859093365,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "b42da815a561474",
+  "name" : "validLogin",
+  "time" : {
+    "start" : 1616859091781,
+    "stop" : 1616859092263,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
