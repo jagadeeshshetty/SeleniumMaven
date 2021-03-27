@@ -1,14 +1,19 @@
-2021-03-27 20:25:26 INFO  test.java.tests.theInternet.TestLogin : 20 - [globalSetup] Mac OS X
-2021-03-27 20:25:32 INFO  test.java.tests.theInternet.TestLogin : 27 - [globalSetup] ChromeDriver: chrome on MAC (09dc0e0ce76e5b3e2099f60f46cded62)
-2021-03-27 20:25:36 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-27 20:25:36 INFO  test.java.pageobjects.BasePage : 44 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-27 20:25:36 INFO  test.java.pageobjects.BasePage : 44 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-27 20:25:37 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
-2021-03-27 20:25:37 INFO  test.java.tests.theInternet.TestLogin : 33 - [tearDown] Cleaning up driver instance.
-2021-03-27 20:25:37 INFO  test.java.tests.theInternet.TestLogin : 20 - [globalSetup] Mac OS X
-2021-03-27 20:25:39 INFO  test.java.tests.theInternet.TestLogin : 27 - [globalSetup] ChromeDriver: chrome on MAC (168c6a9fb4dabe8606b3c434c0ceb9ae)
-2021-03-27 20:25:43 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-27 20:25:43 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: username' locator
-2021-03-27 20:25:44 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: password' locator
-2021-03-27 20:25:44 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
-2021-03-27 20:25:44 INFO  test.java.tests.theInternet.TestLogin : 33 - [tearDown] Cleaning up driver instance.
+2021-03-27 22:26:57 INFO  test.java.tests.theInternet.TestLogin : 21 - [globalSetup] Mac OS X
+2021-03-27 22:27:02 INFO  test.java.tests.theInternet.TestLogin : 28 - [globalSetup] ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)
+2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)] -> id: login]] Present.
+2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 44 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 44 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-03-27 22:27:07 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
+2021-03-27 22:27:07 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)] -> css selector: .flash.success]] Present.
+2021-03-27 22:27:07 INFO  test.java.tests.theInternet.TestLogin : 41 - [tearDown] Cleaning up driver instance.
+2021-03-27 22:27:07 INFO  test.java.tests.theInternet.TestLogin : 21 - [globalSetup] Mac OS X
+2021-03-27 22:27:08 INFO  test.java.tests.theInternet.TestLogin : 28 - [globalSetup] ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)
+2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)] -> id: login]] Present.
+2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: username' locator
+2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: password' locator
+2021-03-27 22:27:13 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
+2021-03-27 22:27:13 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)] -> css selector: .flash.error]] Present.
+2021-03-27 22:27:13 INFO  test.java.tests.theInternet.TestLogin : 49 - [onTestFailure] Screenshot captured for test case: inValidLogin
+2021-03-27 22:27:13 INFO  test.java.tests.theInternet.TestLogin : 41 - [tearDown] Cleaning up driver instance.

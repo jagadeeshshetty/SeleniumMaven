@@ -1,6 +1,7 @@
 package test.java.helper;
 
 import io.qameta.allure.Attachment;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -34,13 +35,18 @@ public class Listener implements ITestListener {
         System.out.println("I am in onTestSuccess() method " + getTestMethodName(iTestResult));
     }
 
+    WebDriver driver = null;
+    Logger logger = null;
+
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("I am in onTestFailure() method " + getTestMethodName(iTestResult));
         Object testClass = iTestResult.getInstance();
-        WebDriver driver = BaseRemove.getDriver();
+        ITestContext context = iTestResult.getTestContext();
+        driver = (WebDriver) context.getAttribute("WebDriver");
+        logger = (Logger) context.getAttribute("logger");
         if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case: " + getTestMethodName(iTestResult));
+            logger.info("Screenshot captured for test case: " + getTestMethodName(iTestResult));
             saveFailureScreenshot(driver);
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");

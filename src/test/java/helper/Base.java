@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import test.java.tests.theInternet.TestLogin;
@@ -16,7 +17,7 @@ public class Base {
     public static final Logger logger = helper.LoggerHelper.getLogger(TestLogin.class);
 
     @BeforeMethod
-    public void globalSetup() {
+    public void globalSetup(ITestContext context) {
         logger.info(System.getProperty("os.name"));
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
@@ -26,6 +27,8 @@ public class Base {
         driver = new ChromeDriver(options);
         if (driver != null) logger.info(driver.toString());
         driver.manage().timeouts().pageLoadTimeout(48, TimeUnit.SECONDS);
+        context.setAttribute("WebDriver", driver);
+        context.setAttribute("logger", logger);
     }
 
     @AfterMethod
