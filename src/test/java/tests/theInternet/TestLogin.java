@@ -27,9 +27,9 @@ public class TestLogin extends Base {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test will verify the successful login with valid username and password.")
     public void validLogin() {
-        step("Login with valid username and password.");
+        step("1. Login with valid username and password.");
         login.with("tomsmith", "SuperSecretPassword!");
-        step("Verify success message present");
+        step("2. Verify success message present");
         Assert.assertTrue(login.successMessagePresent(), "success message not present");
     }
 
@@ -37,11 +37,10 @@ public class TestLogin extends Base {
     @Severity(SeverityLevel.TRIVIAL)
     @Description("Test will verify the error message with invalid username and password.")
     public void inValidLogin() {
-        step("Login with invalid username and password.");
+        step("1. Login with invalid username and password.");
         login.with("invalid", "invalid");
-        step("Verify failure message present");
+        step("2. Verify failure message present");
         Assert.assertTrue(login.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
     }
-
 
 }
