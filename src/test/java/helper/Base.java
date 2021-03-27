@@ -22,7 +22,7 @@ public class Base {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         if (driver != null) logger.info(driver.toString());
         driver.manage().timeouts().pageLoadTimeout(48, TimeUnit.SECONDS);
