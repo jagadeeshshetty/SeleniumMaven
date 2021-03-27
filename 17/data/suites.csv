@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Mar 27 15:27:36 GMT 2021","Sat Mar 27 15:27:36 GMT 2021","6","Suite","Test","test.java.tests.theInternet.TestLogin","test.java.tests.theInternet.TestLogin","globalSetup","globalSetup",""
+"skipped","Sat Mar 27 15:27:36 GMT 2021","Sat Mar 27 15:27:36 GMT 2021","3","Suite","Test","test.java.tests.theInternet.TestLogin","test.java.tests.theInternet.TestLogin","validLogin","validLogin","Test will verify the successful login with valid username and password."
+"skipped","Sat Mar 27 15:27:36 GMT 2021","Sat Mar 27 15:27:36 GMT 2021","3","Suite","Test","test.java.tests.theInternet.TestLogin","test.java.tests.theInternet.TestLogin","inValidLogin","inValidLogin","Test will verify the error message with invalid username and password."

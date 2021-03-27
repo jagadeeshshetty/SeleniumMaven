@@ -1,0 +1,31 @@
+[ {
+  "uid" : "973ff0d12f680e69",
+  "name" : "globalSetup",
+  "time" : {
+    "start" : 1616858856946,
+    "stop" : 1616858856952,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "802a3d9d20271248",
+  "name" : "validLogin",
+  "time" : {
+    "start" : 1616858856976,
+    "stop" : 1616858856979,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "blocker"
+}, {
+  "uid" : "f1bb84daef288fc4",
+  "name" : "inValidLogin",
+  "time" : {
+    "start" : 1616858856991,
+    "stop" : 1616858856994,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "trivial"
+} ]
