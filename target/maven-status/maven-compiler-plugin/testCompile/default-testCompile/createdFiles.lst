@@ -2,6 +2,7 @@ test/java/helper/BaseRemove.class
 test/java/tests/allure/AllureSimpleTest.class
 test/java/helper/Listener.class
 test/java/tests/TestLoginPageGA.class
+test/java/helper/GlobalConfig.class
 test/java/tests/allure/AllureFixtureTest.class
 test/java/tests/theInternet/TestLoginPage.class
 test/java/tests/testng/BaseRemoveClass.class
@@ -13,6 +14,7 @@ test/java/helper/Retry.class
 test/java/tests/junit/TestDynamicLoading.class
 test/java/tests/junit/TestLoginPage.class
 test/java/tests/junit/TestException.class
+test/java/helper/theInternet/Config.class
 test/java/pageobjects/theInternet/DynamicLoading.class
 test/java/pageobjects/BasePage.class
 test/java/pageobjects/theInternet/LoginPage.class
