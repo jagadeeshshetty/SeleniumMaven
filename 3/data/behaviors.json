@@ -1,68 +1,43 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "setUp",
-    "uid" : "d8ef5119e66e214d",
+    "name" : "validLogin",
+    "uid" : "2280706759915152",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1616223009237,
-      "stop" : 1616223009239,
-      "duration" : 2
+      "start" : 1616952392597,
+      "stop" : 1616952393262,
+      "duration" : 665
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "EP-001",
-    "children" : [ {
-      "name" : "Feature 1: Login",
-      "children" : [ {
-        "name" : "Story: tbd",
-        "children" : [ {
-          "name" : "testng description.",
-          "uid" : "d85dc1c1d5090edf",
-          "parentUid" : "c20e4adcc53965fb98cf4b85f323111e",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1616223009342,
-            "stop" : 1616223009349,
-            "duration" : 7
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c20e4adcc53965fb98cf4b85f323111e"
-      } ],
-      "uid" : "8e78a3a1194d7db010b649b89fe82a90"
-    } ],
-    "uid" : "4a82b6db2a5cd701f10e9a445c162153"
-  }, {
-    "name" : "skip",
-    "uid" : "68c59fa28c157bac",
+    "name" : "inValidLogin",
+    "uid" : "3eef19fc65317501",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1616223009354,
-      "stop" : 1616223009354,
-      "duration" : 0
+      "start" : 1616952394613,
+      "stop" : 1616952395134,
+      "duration" : 521
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "fail",
-    "uid" : "acbd43a1491d34c9",
+    "name" : "unstableTest",
+    "uid" : "fd9c5bf13b03c981",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "failed",
     "time" : {
-      "start" : 1616223009358,
-      "stop" : 1616223009358,
-      "duration" : 0
+      "start" : 1616952399237,
+      "stop" : 1616952399380,
+      "duration" : 143
     },
-    "flaky" : false,
-    "newFailed" : false,
+    "flaky" : true,
+    "newFailed" : true,
     "parameters" : [ ]
   } ],
   "name" : "behaviors"

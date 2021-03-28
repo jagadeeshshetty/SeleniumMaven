@@ -1,41 +1,31 @@
 [ {
-  "uid" : "acbd43a1491d34c9",
-  "name" : "fail",
+  "uid" : "fd9c5bf13b03c981",
+  "name" : "unstableTest",
   "time" : {
-    "start" : 1616223009358,
-    "stop" : 1616223009358,
-    "duration" : 0
+    "start" : 1616952399237,
+    "stop" : 1616952399380,
+    "duration" : 143
   },
-  "status" : "skipped",
+  "status" : "failed",
   "severity" : "trivial"
 }, {
-  "uid" : "d8ef5119e66e214d",
-  "name" : "setUp",
+  "uid" : "3eef19fc65317501",
+  "name" : "inValidLogin",
   "time" : {
-    "start" : 1616223009237,
-    "stop" : 1616223009239,
-    "duration" : 2
+    "start" : 1616952394613,
+    "stop" : 1616952395134,
+    "duration" : 521
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d85dc1c1d5090edf",
-  "name" : "testng description.",
-  "time" : {
-    "start" : 1616223009342,
-    "stop" : 1616223009349,
-    "duration" : 7
-  },
-  "status" : "skipped",
-  "severity" : "blocker"
-}, {
-  "uid" : "68c59fa28c157bac",
-  "name" : "skip",
-  "time" : {
-    "start" : 1616223009354,
-    "stop" : 1616223009354,
-    "duration" : 0
-  },
-  "status" : "skipped",
+  "status" : "passed",
   "severity" : "minor"
+}, {
+  "uid" : "2280706759915152",
+  "name" : "validLogin",
+  "time" : {
+    "start" : 1616952392597,
+    "stop" : 1616952393262,
+    "duration" : 665
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]
