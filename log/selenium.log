@@ -1,62 +1,58 @@
-2021-03-28 22:03:01 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:01 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:06 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (16E6B7A7-21DC-4A46-8D56-5151780AABD1)
-2021-03-28 22:03:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (16E6B7A7-21DC-4A46-8D56-5151780AABD1)] -> id: login]] Present.
-2021-03-28 22:03:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-28 22:03:10 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-28 22:03:10 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:10 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (16E6B7A7-21DC-4A46-8D56-5151780AABD1)
-2021-03-28 22:03:10 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:10 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:12 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (DE7621AA-523E-416C-90EE-3F3C19849F46)
-2021-03-28 22:03:15 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:15 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (DE7621AA-523E-416C-90EE-3F3C19849F46)] -> id: login]] Present.
-2021-03-28 22:03:15 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-28 22:03:15 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-28 22:03:16 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:16 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (DE7621AA-523E-416C-90EE-3F3C19849F46)
-2021-03-28 22:03:16 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:16 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:17 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (FFD51032-1CAC-44C9-8B7A-DB352C3E66EB)
-2021-03-28 22:03:19 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:19 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (FFD51032-1CAC-44C9-8B7A-DB352C3E66EB)] -> id: login]] Present.
-2021-03-28 22:03:20 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-28 22:03:20 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-28 22:03:20 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:20 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: validLogin
-2021-03-28 22:03:20 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (FFD51032-1CAC-44C9-8B7A-DB352C3E66EB)
-2021-03-28 22:03:20 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:20 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:21 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (D45BFE6F-F683-4249-A555-680ED5002BBC)
-2021-03-28 22:03:24 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:24 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (D45BFE6F-F683-4249-A555-680ED5002BBC)] -> id: login]] Present.
-2021-03-28 22:03:24 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
-2021-03-28 22:03:25 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
-2021-03-28 22:03:25 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:25 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (D45BFE6F-F683-4249-A555-680ED5002BBC)
-2021-03-28 22:03:25 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:25 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:26 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (0E3317CC-2002-46CD-8FBB-DEAAB1DE40B4)
-2021-03-28 22:03:29 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:29 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (0E3317CC-2002-46CD-8FBB-DEAAB1DE40B4)] -> id: login]] Present.
-2021-03-28 22:03:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
-2021-03-28 22:03:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
-2021-03-28 22:03:29 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:29 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (0E3317CC-2002-46CD-8FBB-DEAAB1DE40B4)
-2021-03-28 22:03:29 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:29 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:30 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (0C0EE38D-F31F-4E1D-8CFE-E6CAAABF880B)
-2021-03-28 22:03:33 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:33 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (0C0EE38D-F31F-4E1D-8CFE-E6CAAABF880B)] -> id: login]] Present.
-2021-03-28 22:03:33 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
-2021-03-28 22:03:33 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
-2021-03-28 22:03:33 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-03-28 22:03:33 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: inValidLogin
-2021-03-28 22:03:33 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (0C0EE38D-F31F-4E1D-8CFE-E6CAAABF880B)
-2021-03-28 22:03:33 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
-2021-03-28 22:03:33 INFO  Base : 33 - [globalSetup] Browser: SAFARI
-2021-03-28 22:03:34 INFO  Base : 78 - [globalSetup] Driver instance: SafariDriver: Safari on MAC (1E3D1B74-78AA-446A-B2D9-B0484E8F5D88)
-2021-03-28 22:03:37 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-28 22:03:37 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[SafariDriver: Safari on MAC (1E3D1B74-78AA-446A-B2D9-B0484E8F5D88)] -> id: login]] Present.
-2021-03-28 22:03:37 INFO  Base : 88 - [tearDown] Cleaning up driver instance: SafariDriver: Safari on MAC (1E3D1B74-78AA-446A-B2D9-B0484E8F5D88)
+2021-03-28 22:46:35 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:46:35 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:46:35 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:46:40 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (91d05559a2886afffcb636b0e45b1369)
+2021-03-28 22:46:44 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:46:44 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (91d05559a2886afffcb636b0e45b1369)] -> id: login]] Present.
+2021-03-28 22:46:44 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-28 22:46:45 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-03-28 22:46:45 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-03-28 22:46:45 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (91d05559a2886afffcb636b0e45b1369)] -> css selector: .flash.success]] Present.
+2021-03-28 22:46:45 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (91d05559a2886afffcb636b0e45b1369)
+2021-03-28 22:46:45 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:46:45 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:46:45 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:46:46 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (ba7f3625581f4b341d9a89b1cf170f63)
+2021-03-28 22:46:49 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:46:49 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (ba7f3625581f4b341d9a89b1cf170f63)] -> id: login]] Present.
+2021-03-28 22:46:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
+2021-03-28 22:46:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
+2021-03-28 22:46:50 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-03-28 22:46:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (ba7f3625581f4b341d9a89b1cf170f63)] -> css selector: .flash.error]] Present.
+2021-03-28 22:46:50 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (ba7f3625581f4b341d9a89b1cf170f63)
+2021-03-28 22:46:50 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:46:50 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:46:50 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:46:51 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (574eaa9de788fdd073ad2cd325f3431e)
+2021-03-28 22:46:54 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:46:54 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (574eaa9de788fdd073ad2cd325f3431e)] -> id: login]] Present.
+2021-03-28 22:46:54 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (574eaa9de788fdd073ad2cd325f3431e)
+2021-03-28 22:46:54 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:46:54 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:46:54 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:46:55 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (8deeceb2e4a61a99a566ffdc9b70b112)
+2021-03-28 22:46:58 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:46:58 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8deeceb2e4a61a99a566ffdc9b70b112)] -> id: login]] Present.
+2021-03-28 22:46:58 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (8deeceb2e4a61a99a566ffdc9b70b112)
+2021-03-28 22:46:58 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:46:58 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:46:58 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:46:59 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (f97ee7249afc3adc6c71c33682623501)
+2021-03-28 22:47:01 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:47:01 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (f97ee7249afc3adc6c71c33682623501)] -> id: login]] Present.
+2021-03-28 22:47:01 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (f97ee7249afc3adc6c71c33682623501)
+2021-03-28 22:47:02 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:47:02 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:47:02 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:47:02 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (fc587f15135521e3965ec526007ea1d5)
+2021-03-28 22:47:05 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:47:05 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (fc587f15135521e3965ec526007ea1d5)] -> id: login]] Present.
+2021-03-28 22:47:05 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (fc587f15135521e3965ec526007ea1d5)
+2021-03-28 22:47:06 INFO  Base : 30 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 22:47:06 INFO  Base : 33 - [globalSetup] Browser: CHROMEHEADLESS
+2021-03-28 22:47:06 INFO  Base : 42 - [globalSetup] Browser: Chrome Headless
+2021-03-28 22:47:06 INFO  Base : 78 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (608261cefafe8469482a1bb6b481da6b)
+2021-03-28 22:47:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 22:47:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (608261cefafe8469482a1bb6b481da6b)] -> id: login]] Present.
+2021-03-28 22:47:09 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: unstableTest
+2021-03-28 22:47:09 INFO  Base : 88 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (608261cefafe8469482a1bb6b481da6b)

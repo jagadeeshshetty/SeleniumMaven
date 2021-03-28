@@ -76,6 +76,8 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
     - Run on Safari
       browser. `mvn clean test -Dbrowser=safari -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
     - Tbd
+- Run with explicit retry count. By default, it'll be 2 times.
+    - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng.xml`
 - TBD
 
 ## Terminal
@@ -138,6 +140,12 @@ INFO: Detected dialect: W3C
 ```
 
 ## Release
+
+### v2.2.0-SNAPSHOT
+
+- Add runtime browser selection support and retry of failed test cases.
+- Added Chrome, Chrome headless, Firefox, Edge, IE, Opera and Safari browser support.
+- Added global and project specific Config support.
 
 ### v2.1.0-SNAPSHOT
 
