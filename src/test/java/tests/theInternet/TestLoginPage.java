@@ -9,7 +9,10 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import test.java.helper.Base;
 import test.java.helper.Listener;
+import test.java.helper.Retry;
 import test.java.pageobjects.theInternet.LoginPage;
+
+import java.util.Random;
 
 import static io.qameta.allure.Allure.step;
 
@@ -24,7 +27,7 @@ public class TestLoginPage extends Base {
         loginPage = new LoginPage(driver, logger);
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
     public void validLogin() {
@@ -34,7 +37,7 @@ public class TestLoginPage extends Base {
         Assert.assertTrue(loginPage.successMessagePresent(), "success message not present");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.TRIVIAL)
     @Description("Verify the error message with invalid username and password.")
     public void inValidLogin() {
@@ -42,6 +45,17 @@ public class TestLoginPage extends Base {
         loginPage.with("invalid", "invalid");
         step("2. Verify failure message present");
         Assert.assertTrue(loginPage.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
+    }
+
+    @Test(priority = 3, retryAnalyzer = Retry.class)
+    @Severity(SeverityLevel.TRIVIAL)
+    @Description("Verify the error message with invalid username and password.")
+    public void unstableTest() {
+        Random random = new Random();
+        int rem = random.nextInt(10) % 2;
+        step(String.valueOf(rem));
+        Assert.assertTrue(rem == 0);
+        Assert.assertTrue(false);
     }
 
 }

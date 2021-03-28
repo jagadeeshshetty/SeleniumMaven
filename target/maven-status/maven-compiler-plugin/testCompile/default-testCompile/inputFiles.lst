@@ -2,6 +2,7 @@
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/TestLoginPageNG.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/testng/BeforeAfterAnnotations.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/pageobjects/theInternet/DynamicLoading.java
+/Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/Retry.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/allure/AllureSimpleTest.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/BaseRemove.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/junit/TestDynamicLoading.java
@@ -11,6 +12,7 @@
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/theInternet/TestLoginPage.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/LoggerHelper.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/TestLoginPageGA.java
+/Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/Test.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/Listener.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/junit/TestException.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/testng/ChildClass.java

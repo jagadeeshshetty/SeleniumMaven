@@ -8,6 +8,8 @@ test/java/tests/testng/BaseRemoveClass.class
 test/java/tests/testng/BeforeAfterAnnotations.class
 test/java/tests/testng/ChildClass.class
 helper/LoggerHelper.class
+test/java/tests/Test.class
+test/java/helper/Retry.class
 test/java/tests/junit/TestDynamicLoading.class
 test/java/tests/junit/TestLoginPage.class
 test/java/tests/junit/TestException.class
