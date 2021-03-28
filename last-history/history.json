@@ -763,11 +763,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "941a8303c618adcb",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/941a8303c618adcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950394789,
+        "stop" : 1616950395361,
+        "duration" : 572
+      }
+    }, {
       "uid" : "a5206eff6b241ba0",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/a5206eff6b241ba0",
       "status" : "passed",
@@ -909,11 +918,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "1e9ffe92505cefe0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/1e9ffe92505cefe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950392275,
+        "stop" : 1616950392952,
+        "duration" : 677
+      }
+    }, {
       "uid" : "4ee3d195f603cb66",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/4ee3d195f603cb66",
       "status" : "passed",
@@ -1076,11 +1094,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "659e62eb2473640e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/659e62eb2473640e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950399260,
+        "stop" : 1616950399260,
+        "duration" : 0
+      }
+    }, {
       "uid" : "eb8363542916c6ec",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/eb8363542916c6ec",
       "status" : "passed",

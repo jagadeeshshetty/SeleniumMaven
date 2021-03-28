@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Mar 13 04:44:19 GMT 2021","Sat Mar 13 04:44:19 GMT 2021","47","Suite","Test","test.java.tests.allure.AllureSimpleTest","test.java.tests.allure.AllureSimpleTest","allureSimpleTest","allureSimpleTest displayName",""
+"passed","Sun Mar 28 16:53:19 GMT 2021","Sun Mar 28 16:53:19 GMT 2021","0","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","unstableTest","unstableTest","Verify the error message with invalid username and password."
+"passed","Sun Mar 28 16:53:12 GMT 2021","Sun Mar 28 16:53:12 GMT 2021","677","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","validLogin","validLogin","Verify the successful login with valid username and password."
+"passed","Sun Mar 28 16:53:14 GMT 2021","Sun Mar 28 16:53:15 GMT 2021","572","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","inValidLogin","inValidLogin","Verify the error message with invalid username and password."

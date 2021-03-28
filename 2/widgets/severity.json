@@ -1,11 +1,31 @@
 [ {
-  "uid" : "38aa0459c2c59274",
-  "name" : "allureSimpleTest displayName",
+  "uid" : "941a8303c618adcb",
+  "name" : "inValidLogin",
   "time" : {
-    "start" : 1615610659886,
-    "stop" : 1615610659933,
-    "duration" : 47
+    "start" : 1616950394789,
+    "stop" : 1616950395361,
+    "duration" : 572
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "minor"
+}, {
+  "uid" : "1e9ffe92505cefe0",
+  "name" : "validLogin",
+  "time" : {
+    "start" : 1616950392275,
+    "stop" : 1616950392952,
+    "duration" : 677
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "659e62eb2473640e",
+  "name" : "unstableTest",
+  "time" : {
+    "start" : 1616950399260,
+    "stop" : 1616950399260,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "trivial"
 } ]
