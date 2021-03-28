@@ -1,0 +1,377 @@
+{
+  "uid" : "1425195243a92b40",
+  "name" : "inValidLogin",
+  "fullName" : "test.java.tests.theInternet.TestLoginPage.inValidLogin",
+  "historyId" : "3596f76faaabbfeff7d471cf33138e08",
+  "time" : {
+    "start" : 1616919370412,
+    "stop" : 1616919370929,
+    "duration" : 517
+  },
+  "description" : "Verify the error message with invalid username and password.",
+  "descriptionHtml" : "<p>Verify the error message with invalid username and password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "globalSetup",
+    "time" : {
+      "start" : 1616919369168,
+      "stop" : 1616919369418,
+      "duration" : 250
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1616919369168,
+        "stop" : 1616919369168,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: Chrome",
+      "time" : {
+        "start" : 1616919369170,
+        "stop" : 1616919369170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Headless mode: True",
+      "time" : {
+        "start" : 1616919369181,
+        "stop" : 1616919369181,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (c09bc1024ce032ea776cb69940bf220b)",
+      "time" : {
+        "start" : 1616919369410,
+        "stop" : 1616919369410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "testSetUp",
+    "time" : {
+      "start" : 1616919369419,
+      "stop" : 1616919370384,
+      "duration" : 965
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Access http://the-internet.herokuapp.com/login URL.",
+      "time" : {
+        "start" : 1616919369419,
+        "stop" : 1616919369419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify login form present or not.",
+      "time" : {
+        "start" : 1616919370328,
+        "stop" : 1616919370328,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify the error message with invalid username and password.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Login with invalid username and password.",
+      "time" : {
+        "start" : 1616919370412,
+        "stop" : 1616919370412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter invalid username",
+      "time" : {
+        "start" : 1616919370412,
+        "stop" : 1616919370412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter invalid password",
+      "time" : {
+        "start" : 1616919370480,
+        "stop" : 1616919370480,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Submit button",
+      "time" : {
+        "start" : 1616919370552,
+        "stop" : 1616919370552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2. Verify failure message present",
+      "time" : {
+        "start" : 1616919370877,
+        "stop" : 1616919370877,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify failure message present or not.",
+      "time" : {
+        "start" : 1616919370877,
+        "stop" : 1616919370877,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1616919370932,
+      "stop" : 1616919371004,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (c09bc1024ce032ea776cb69940bf220b)",
+      "time" : {
+        "start" : 1616919370932,
+        "stop" : 1616919370932,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.TestLoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.TestLoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "inValidLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az144-806"
+  }, {
+    "name" : "thread",
+    "value" : "2917@fv-az144-806.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e9eb72151f7504df",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27//#testresult/e9eb72151f7504df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616918971964,
+          "stop" : 1616918972339,
+          "duration" : 375
+        }
+      }, {
+        "uid" : "a2f4153f8e69822f",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26//#testresult/a2f4153f8e69822f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616916380128,
+          "stop" : 1616916380424,
+          "duration" : 296
+        }
+      }, {
+        "uid" : "7913a15c2f4e025",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25//#testresult/7913a15c2f4e025",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616915975106,
+          "stop" : 1616915975577,
+          "duration" : 471
+        }
+      }, {
+        "uid" : "65cdaa96b81941a1",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24//#testresult/65cdaa96b81941a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616915797575,
+          "stop" : 1616915797928,
+          "duration" : 353
+        }
+      }, {
+        "uid" : "26fafee03bc1dcad",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23//#testresult/26fafee03bc1dcad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616905567387,
+          "stop" : 1616905567765,
+          "duration" : 378
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1425195243a92b40.json",
+  "parameterValues" : [ ]
+}
