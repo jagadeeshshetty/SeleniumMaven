@@ -55,7 +55,6 @@ public class TestLoginPage extends Base {
         int rem = random.nextInt(10) % 2;
         step(String.valueOf(rem));
         Assert.assertTrue(rem == 0);
-        Assert.assertTrue(false);
     }
 
 }
