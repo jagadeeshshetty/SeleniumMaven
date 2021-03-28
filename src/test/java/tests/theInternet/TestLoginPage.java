@@ -9,38 +9,39 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import test.java.helper.Base;
 import test.java.helper.Listener;
+import test.java.pageobjects.theInternet.LoginPage;
 
 import static io.qameta.allure.Allure.step;
 
 @Listeners({Listener.class})
-public class TestLogin extends Base {
+public class TestLoginPage extends Base {
 
     // Page object
-    private test.java.pageobjects.Login login;
+    private LoginPage loginPage;
 
     @BeforeMethod
     public void testSetUp() {
-        login = new test.java.pageobjects.Login(driver, logger);
+        loginPage = new LoginPage(driver, logger);
     }
 
     @Test(priority = 1)
     @Severity(SeverityLevel.BLOCKER)
-    @Description("Test will verify the successful login with valid username and password.")
+    @Description("Verify the successful login with valid username and password.")
     public void validLogin() {
         step("1. Login with valid username and password.");
-        login.with("tomsmith", "SuperSecretPassword!");
+        loginPage.with("tomsmith", "SuperSecretPassword!");
         step("2. Verify success message present");
-        Assert.assertTrue(login.successMessagePresent(), "success message not present");
+        Assert.assertTrue(loginPage.successMessagePresent(), "success message not present");
     }
 
     @Test(priority = 2)
     @Severity(SeverityLevel.TRIVIAL)
-    @Description("Test will verify the error message with invalid username and password.")
+    @Description("Verify the error message with invalid username and password.")
     public void inValidLogin() {
         step("1. Login with invalid username and password.");
-        login.with("invalid", "invalid");
+        loginPage.with("invalid", "invalid");
         step("2. Verify failure message present");
-        Assert.assertTrue(login.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
+        Assert.assertTrue(loginPage.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
     }
 
 }

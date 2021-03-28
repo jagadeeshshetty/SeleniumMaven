@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import test.java.tests.TestLoginGA;
+import test.java.tests.TestLoginPageGA;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +13,7 @@ public class BaseRemove {
 
     private WebDriver driver;
     public static ThreadLocal<WebDriver> tDriver = new ThreadLocal<WebDriver>();
-    private static final Logger logger = helper.LoggerHelper.getLogger(TestLoginGA.class);
+    private static final Logger logger = helper.LoggerHelper.getLogger(TestLoginPageGA.class);
 
     public WebDriver initDriver() {
         System.out.println(System.getProperty("os.name"));

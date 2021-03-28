@@ -10,15 +10,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import test.java.pageobjects.Login;
+import test.java.pageobjects.theInternet.LoginPage;
 
 import static org.junit.Assert.assertTrue;
 
-public class TestLogin {
+public class TestLoginPage {
 
     private WebDriver driver;
-    private static final Logger logger = LoggerHelper.getLogger(TestLogin.class);
-    private Login login;
+    private static final Logger logger = LoggerHelper.getLogger(TestLoginPage.class);
+    private LoginPage loginPage;
 
     @Before
     public void setUp() {
@@ -51,20 +51,20 @@ public class TestLogin {
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
-        login = new Login(driver, logger);
+        loginPage = new LoginPage(driver, logger);
     }
 
     @Test
     public void succeeded() {
-        login.with("tomsmith", "SuperSecretPassword!");
-        assertTrue("success message not present", login.successMessagePresent());
+        loginPage.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", loginPage.successMessagePresent());
     }
 
     @Test
     public void failed() {
-        login.with("tomsmith", "bad password");
+        loginPage.with("tomsmith", "bad password");
         assertTrue("failure message wasn't present after providing bogus credentials",
-                login.failureMessagePresent());
+                loginPage.failureMessagePresent());
     }
 
     @After

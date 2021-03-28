@@ -12,15 +12,15 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import test.java.helper.BaseRemove;
 import test.java.helper.Listener;
-import test.java.pageobjects.Login;
+import test.java.pageobjects.theInternet.LoginPage;
 
 
 @Listeners({Listener.class})
-public class TestLoginNG extends BaseRemove {
+public class TestLoginPageNG extends BaseRemove {
 
     public WebDriver driver;
-    private static final Logger logger = LoggerHelper.getLogger(TestLoginNG.class);
-    private Login login;
+    private static final Logger logger = LoggerHelper.getLogger(TestLoginPageNG.class);
+    private LoginPage loginPage;
     private BaseRemove baseRemove;
 
     @BeforeClass
@@ -29,7 +29,7 @@ public class TestLoginNG extends BaseRemove {
         baseRemove.initDriver();
         logger.info("Setting up Chrome driver.");
         System.out.println(BaseRemove.getDriver());
-        login = new Login(BaseRemove.getDriver(), logger);
+        loginPage = new LoginPage(BaseRemove.getDriver(), logger);
     }
 
     @Test(priority = 1, description = "testng description.")
@@ -40,8 +40,8 @@ public class TestLoginNG extends BaseRemove {
     @Step("Step: Enter valid username and password and click on Login button.")
     @Severity(SeverityLevel.BLOCKER)
     public void pass() {
-        login.with("tomsmith", "SuperSecretPassword!");
-        Assert.assertTrue(login.successMessagePresent(), "success message not present");
+        loginPage.with("tomsmith", "SuperSecretPassword!");
+        Assert.assertTrue(loginPage.successMessagePresent(), "success message not present");
     }
 
     @Test(priority = 2)

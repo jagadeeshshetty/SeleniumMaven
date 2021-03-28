@@ -1,24 +1,28 @@
-package test.java.pageobjects;
+package test.java.pageobjects.theInternet;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import test.java.pageobjects.BasePage;
 
 import static io.qameta.allure.Allure.step;
-import static org.junit.Assert.assertTrue;
 
-public class Login extends BasePage {
+public class LoginPage extends BasePage {
     By usernameLocator = By.id("username");
     By passwordLocator = By.id("password");
     By submitButton = By.cssSelector("button");
     By successMessageLocator = By.cssSelector(".flash.success");
     By failureMessageLocator = By.cssSelector(".flash.error");
     By loginFormLocator = By.id("login");
+    String URL = "http://the-internet.herokuapp.com/login";
 
-    public Login(WebDriver driver, Logger logger) {
+    public LoginPage(WebDriver driver, Logger logger) {
         super(driver, logger);
-        visit("http://the-internet.herokuapp.com/login");
-        assertTrue("The login form is not present", isDisplayed(loginFormLocator));
+        step("Access " + URL + " URL.");
+        visit(URL);
+        step("Verify login form present or not.");
+        Assert.assertTrue(isDisplayed(loginFormLocator), "The login form is not present");
     }
 
     public void with(String username, String password) {

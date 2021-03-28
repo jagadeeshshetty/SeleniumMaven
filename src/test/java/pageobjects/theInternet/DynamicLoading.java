@@ -1,8 +1,9 @@
-package test.java.pageobjects;
+package test.java.pageobjects.theInternet;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import test.java.pageobjects.BasePage;
 
 public class DynamicLoading extends BasePage {
     By startButton = By.cssSelector("#start button");

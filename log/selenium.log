@@ -1,19 +1,20 @@
-2021-03-27 22:26:57 INFO  test.java.tests.theInternet.TestLogin : 21 - [globalSetup] Mac OS X
-2021-03-27 22:27:02 INFO  test.java.tests.theInternet.TestLogin : 28 - [globalSetup] ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)
-2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)] -> id: login]] Present.
-2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 44 - [type] 'tomsmith' into 'By.id: username' locator
-2021-03-27 22:27:06 INFO  test.java.pageobjects.BasePage : 44 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-03-27 22:27:07 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
-2021-03-27 22:27:07 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (15defcb2b4d2053e118907817edce2bd)] -> css selector: .flash.success]] Present.
-2021-03-27 22:27:07 INFO  test.java.tests.theInternet.TestLogin : 41 - [tearDown] Cleaning up driver instance.
-2021-03-27 22:27:07 INFO  test.java.tests.theInternet.TestLogin : 21 - [globalSetup] Mac OS X
-2021-03-27 22:27:08 INFO  test.java.tests.theInternet.TestLogin : 28 - [globalSetup] ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)
-2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 28 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)] -> id: login]] Present.
-2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: username' locator
-2021-03-27 22:27:12 INFO  test.java.pageobjects.BasePage : 44 - [type] 'invalid' into 'By.id: password' locator
-2021-03-27 22:27:13 INFO  test.java.pageobjects.BasePage : 38 - [click] on 'By.cssSelector: button' locator
-2021-03-27 22:27:13 INFO  test.java.pageobjects.BasePage : 50 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (45af1af1c255ebca0b5b797f7d5e9bc3)] -> css selector: .flash.error]] Present.
-2021-03-27 22:27:13 INFO  test.java.tests.theInternet.TestLogin : 49 - [onTestFailure] Screenshot captured for test case: inValidLogin
-2021-03-27 22:27:13 INFO  test.java.tests.theInternet.TestLogin : 41 - [tearDown] Cleaning up driver instance.
+2021-03-28 09:51:57 INFO  Base : 24 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 09:51:57 INFO  Base : 26 - [globalSetup] Browser: Chrome
+2021-03-28 09:52:02 INFO  Base : 36 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (66d2f7c125f3b2c43672da2d70d2f13c)
+2021-03-28 09:52:06 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 09:52:06 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (66d2f7c125f3b2c43672da2d70d2f13c)] -> id: login]] Present.
+2021-03-28 09:52:06 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-03-28 09:52:06 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-03-28 09:52:07 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-03-28 09:52:07 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (66d2f7c125f3b2c43672da2d70d2f13c)] -> css selector: .flash.success]] Present.
+2021-03-28 09:52:07 INFO  Base : 46 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (66d2f7c125f3b2c43672da2d70d2f13c)
+2021-03-28 09:52:07 INFO  Base : 24 - [globalSetup] Running Test on 'Mac OS X' OS.
+2021-03-28 09:52:07 INFO  Base : 26 - [globalSetup] Browser: Chrome
+2021-03-28 09:52:08 INFO  Base : 36 - [globalSetup] Driver instance: ChromeDriver: chrome on MAC (2b2ee2271110e3af387df9c5eefd28dd)
+2021-03-28 09:52:12 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-03-28 09:52:12 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (2b2ee2271110e3af387df9c5eefd28dd)] -> id: login]] Present.
+2021-03-28 09:52:13 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
+2021-03-28 09:52:13 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
+2021-03-28 09:52:14 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-03-28 09:52:14 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (2b2ee2271110e3af387df9c5eefd28dd)] -> css selector: .flash.error]] Present.
+2021-03-28 09:52:14 INFO  Base : 46 - [tearDown] Cleaning up driver instance: ChromeDriver: chrome on MAC (2b2ee2271110e3af387df9c5eefd28dd)
