@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 30,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 29,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29/",
   "reportName" : "Allure Report with history",
@@ -104,14 +109,6 @@
 }, {
   "buildOrder" : 15,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
-  }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
   "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 1,
