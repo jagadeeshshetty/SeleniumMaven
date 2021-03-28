@@ -107,6 +107,32 @@ INFO: Detected dialect: W3C
 [INFO] ------------------------------------------------------------------------
 ```
 
+## Release
+
+### v2.1.0-SNAPSHOT
+
+- Added Test case Retry support.
+- Added TestNG hooks.
+- Added Allure detailed steps.
+
+### v2.0.0-SNAPSHOT
+
+- Added Allure reporting support.
+- Added TestNG support.
+- Added CI/CD support with respect to test report deployment using Github Actions support.
+  Link: https://jagadeeshshetty.github.io/SeleniumMaven
+
+### v1.0.0
+
+Covered following setup within the framework
+
+- Created maven project with test directory structure.
+- Created TestLogin class with succeeded test case.
+- Added JUnit support.
+- Added WebDriverManager support.
+- Added Log4J library support for logging.
+- Added github actions support.
+
 ## Reference
 
 - Tbd
