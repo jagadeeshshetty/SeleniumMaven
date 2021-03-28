@@ -75,6 +75,7 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
       browser. `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
     - Run on Safari
       browser. `mvn clean test -Dbrowser=safari -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+    - Tbd
 - TBD
 
 ## Terminal
