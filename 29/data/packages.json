@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test.java.tests.theInternet.TestLoginPage",
+    "children" : [ {
+      "name" : "validLogin",
+      "uid" : "340bd8d72968d24a",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922423818,
+        "stop" : 1616922424313,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "inValidLogin",
+      "uid" : "d74925b2aff2823",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922425225,
+        "stop" : 1616922425619,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unstableTest",
+      "uid" : "ea774f3d5a885558",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922426516,
+        "stop" : 1616922426517,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test.java.tests.theInternet.TestLoginPage"
+  } ],
+  "name" : "packages"
+}
