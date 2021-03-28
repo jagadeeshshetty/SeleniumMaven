@@ -763,11 +763,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "a5206eff6b241ba0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/a5206eff6b241ba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949820279,
+        "stop" : 1616949821001,
+        "duration" : 722
+      }
+    }, {
       "uid" : "da744f9f81748689",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/da744f9f81748689",
       "status" : "passed",
@@ -900,11 +909,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "4ee3d195f603cb66",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/4ee3d195f603cb66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949817636,
+        "stop" : 1616949818410,
+        "duration" : 774
+      }
+    }, {
       "uid" : "153eba172b6ba2a9",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/153eba172b6ba2a9",
       "status" : "passed",
@@ -1058,11 +1076,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "eb8363542916c6ec",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/eb8363542916c6ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949822549,
+        "stop" : 1616949822552,
+        "duration" : 3
+      }
+    }, {
       "uid" : "3fa1418fe20e7199",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/3fa1418fe20e7199",
       "status" : "passed",
