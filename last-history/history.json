@@ -763,11 +763,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "fe09c27b343d6f85",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/fe09c27b343d6f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952845879,
+        "stop" : 1616952846206,
+        "duration" : 327
+      }
+    }, {
       "uid" : "3eef19fc65317501",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/3eef19fc65317501",
       "status" : "passed",
@@ -927,11 +936,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "e07a54aeeb4930f1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/e07a54aeeb4930f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952844748,
+        "stop" : 1616952845268,
+        "duration" : 520
+      }
+    }, {
       "uid" : "2280706759915152",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/2280706759915152",
       "status" : "passed",
@@ -1109,14 +1127,24 @@
   },
   "480e1f23368ced480027317384e0ee9a" : {
     "statistic" : {
-      "failed" : 5,
+      "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "621246dfd9b68c50",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/621246dfd9b68c50",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616952847810,
+        "stop" : 1616952847921,
+        "duration" : 111
+      }
+    }, {
       "uid" : "fd9c5bf13b03c981",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/fd9c5bf13b03c981",
       "status" : "failed",

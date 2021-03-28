@@ -1,61 +1,48 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "test.java.tests.TestLoginNG",
+    "name" : "test.java.tests.theInternet.TestLoginPage",
     "children" : [ {
-      "name" : "setUp",
-      "uid" : "ef6a8e39dc36158c",
-      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
-      "status" : "broken",
+      "name" : "validLogin",
+      "uid" : "e07a54aeeb4930f1",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223178640,
-        "stop" : 1616223178641,
-        "duration" : 1
+        "start" : 1616952844748,
+        "stop" : 1616952845268,
+        "duration" : 520
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "pass",
-      "uid" : "dfe4a0997c6d4b16",
-      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
-      "status" : "skipped",
+      "name" : "inValidLogin",
+      "uid" : "fe09c27b343d6f85",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223178771,
-        "stop" : 1616223178775,
-        "duration" : 4
+        "start" : 1616952845879,
+        "stop" : 1616952846206,
+        "duration" : 327
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "skip",
-      "uid" : "b66423d6b75132e6",
-      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
-      "status" : "skipped",
+      "name" : "unstableTest",
+      "uid" : "621246dfd9b68c50",
+      "parentUid" : "5bb3217e3f2c5e781952e08c954df677",
+      "status" : "failed",
       "time" : {
-        "start" : 1616223178781,
-        "stop" : 1616223178784,
-        "duration" : 3
+        "start" : 1616952847810,
+        "stop" : 1616952847921,
+        "duration" : 111
       },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "fail",
-      "uid" : "60f2f52d2981c2e2",
-      "parentUid" : "de984d84fcf9a76e12091ee0b6f2242a",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1616223178790,
-        "stop" : 1616223178791,
-        "duration" : 1
-      },
-      "flaky" : false,
+      "flaky" : true,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "test.java.tests.TestLoginNG"
+    "uid" : "test.java.tests.theInternet.TestLoginPage"
   } ],
   "name" : "packages"
 }
