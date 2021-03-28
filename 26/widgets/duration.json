@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a6377ec3cd643109",
+  "name" : "unstableTest",
+  "time" : {
+    "start" : 1616916383843,
+    "stop" : 1616916383933,
+    "duration" : 90
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "9817da638ade73f",
+  "name" : "validLogin",
+  "time" : {
+    "start" : 1616916379119,
+    "stop" : 1616916379594,
+    "duration" : 475
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a2f4153f8e69822f",
+  "name" : "inValidLogin",
+  "time" : {
+    "start" : 1616916380128,
+    "stop" : 1616916380424,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "test.java.tests.theInternet.TestLoginPage",
+        "children" : [ {
+          "name" : "validLogin",
+          "uid" : "9817da638ade73f",
+          "parentUid" : "a7b917faf85b7bb8946fd3ae2ed01e78",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616916379119,
+            "stop" : 1616916379594,
+            "duration" : 475
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "inValidLogin",
+          "uid" : "a2f4153f8e69822f",
+          "parentUid" : "a7b917faf85b7bb8946fd3ae2ed01e78",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616916380128,
+            "stop" : 1616916380424,
+            "duration" : 296
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "unstableTest",
+          "uid" : "a6377ec3cd643109",
+          "parentUid" : "a7b917faf85b7bb8946fd3ae2ed01e78",
+          "status" : "failed",
+          "time" : {
+            "start" : 1616916383843,
+            "stop" : 1616916383933,
+            "duration" : 90
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a7b917faf85b7bb8946fd3ae2ed01e78"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}
