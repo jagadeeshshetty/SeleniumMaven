@@ -38,7 +38,7 @@ public class TestLoginPage extends Base {
     }
 
     @Test(priority = 2, enabled = true, retryAnalyzer = Retry.class)
-    @Severity(SeverityLevel.TRIVIAL)
+    @Severity(SeverityLevel.MINOR)
     @Description("Verify the error message with invalid username and password.")
     public void inValidLogin() {
         step("1. Login with invalid username and password.");
