@@ -15,6 +15,7 @@
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/TestLoginPageGA.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/Test.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/Listener.java
+/Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/GlobalConfig.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/junit/TestException.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/testng/ChildClass.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/pageobjects/theInternet/LoginPage.java

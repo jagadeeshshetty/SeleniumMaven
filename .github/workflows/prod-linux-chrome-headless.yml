@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
+        run: mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml
         continue-on-error: true
 
       - name: Get Allure history
