@@ -12,11 +12,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class BasePage {
-    private static final Logger logger = LoggerHelper.getLogger(BasePage.class);
+    private static Logger logger;
     private WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver, Logger logger) {
         this.driver = driver;
+        this.logger = LoggerHelper.getLogger(BasePage.class);
     }
 
     public void visit(String url) {

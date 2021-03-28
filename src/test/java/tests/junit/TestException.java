@@ -1,4 +1,4 @@
-package tests;
+package test.java.tests.junit;
 
 import helper.LoggerHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;

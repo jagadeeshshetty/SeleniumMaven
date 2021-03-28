@@ -9,15 +9,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import test.java.pageobjects.Login;
+import test.java.pageobjects.theInternet.LoginPage;
 
 import static org.junit.Assert.assertTrue;
 
-public class TestLoginGA {
+public class TestLoginPageGA {
 
     private WebDriver driver;
-    private static final Logger logger = LoggerHelper.getLogger(TestLoginGA.class);
-    private Login login;
+    private static final Logger logger = LoggerHelper.getLogger(TestLoginPageGA.class);
+    private LoginPage loginPage;
 
     @BeforeTest
     public void setUp() {
@@ -41,26 +41,26 @@ public class TestLoginGA {
         } catch (Exception e) {
             logger.error("Chrome driver init failed.", e);
         }
-        login = new Login(driver);
+        loginPage = new LoginPage(driver, logger);
     }
 
     @Test
     public void succeeded() {
-        login.with("tomsmith", "SuperSecretPassword!");
-        assertTrue("success message not present", login.successMessagePresent());
+        loginPage.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", loginPage.successMessagePresent());
     }
 
     @Test
     public void succeeded2() {
-        login.with("tomsmith", "SuperSecretPassword!");
-        assertTrue("success message not present", login.successMessagePresent());
+        loginPage.with("tomsmith", "SuperSecretPassword!");
+        assertTrue("success message not present", loginPage.successMessagePresent());
     }
 
     @Test
     public void failed() {
-        login.with("tomsmith", "bad password");
+        loginPage.with("tomsmith", "bad password");
         assertTrue("failure message wasn't present after providing bogus credentials",
-                login.failureMessagePresent());
+                loginPage.failureMessagePresent());
     }
 
     @AfterTest

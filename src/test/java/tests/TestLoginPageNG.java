@@ -10,26 +10,26 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import test.java.helper.Base;
+import test.java.helper.BaseRemove;
 import test.java.helper.Listener;
-import test.java.pageobjects.Login;
+import test.java.pageobjects.theInternet.LoginPage;
 
 
 @Listeners({Listener.class})
-public class TestLoginNG extends Base {
+public class TestLoginPageNG extends BaseRemove {
 
     public WebDriver driver;
-    private static final Logger logger = LoggerHelper.getLogger(TestLoginNG.class);
-    private Login login;
-    private Base base;
+    private static final Logger logger = LoggerHelper.getLogger(TestLoginPageNG.class);
+    private LoginPage loginPage;
+    private BaseRemove baseRemove;
 
     @BeforeClass
     public void setUp() {
-        base = new Base();
-        base.initDriver();
+        baseRemove = new BaseRemove();
+        baseRemove.initDriver();
         logger.info("Setting up Chrome driver.");
-        System.out.println(Base.getDriver());
-        login = new Login(Base.getDriver());
+        System.out.println(BaseRemove.getDriver());
+        loginPage = new LoginPage(BaseRemove.getDriver(), logger);
     }
 
     @Test(priority = 1, description = "testng description.")
@@ -40,8 +40,8 @@ public class TestLoginNG extends Base {
     @Step("Step: Enter valid username and password and click on Login button.")
     @Severity(SeverityLevel.BLOCKER)
     public void pass() {
-        login.with("tomsmith", "SuperSecretPassword!");
-        Assert.assertTrue(login.successMessagePresent(), "success message not present");
+        loginPage.with("tomsmith", "SuperSecretPassword!");
+        Assert.assertTrue(loginPage.successMessagePresent(), "success message not present");
     }
 
     @Test(priority = 2)
@@ -55,13 +55,13 @@ public class TestLoginNG extends Base {
     @Severity(SeverityLevel.TRIVIAL)
     @Description("I'll validate with invalid page title to the fail test behavior.")
     public void fail() {
-        Assert.assertEquals(Base.getDriver().getTitle(), "invalid title");
+        Assert.assertEquals(BaseRemove.getDriver().getTitle(), "invalid title");
     }
 
     @AfterClass
     public void tearDown() throws Exception {
         logger.info("Cleaning up driver instance.");
-        Base.getDriver().quit();
+        BaseRemove.getDriver().quit();
     }
 
 }

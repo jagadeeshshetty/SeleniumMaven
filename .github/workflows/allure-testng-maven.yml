@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn clean test -Dsurefire.suiteXmlFiles=testngGA.xml
+        run: mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
         continue-on-error: true
 
       - name: Get Allure history
