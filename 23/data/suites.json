@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "test.java.tests.theInternet.TestLoginPage",
+        "children" : [ {
+          "name" : "validLogin",
+          "uid" : "f3f9615fdaef5a95",
+          "parentUid" : "a7b917faf85b7bb8946fd3ae2ed01e78",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616905566271,
+            "stop" : 1616905566712,
+            "duration" : 441
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "inValidLogin",
+          "uid" : "26fafee03bc1dcad",
+          "parentUid" : "a7b917faf85b7bb8946fd3ae2ed01e78",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616905567387,
+            "stop" : 1616905567765,
+            "duration" : 378
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a7b917faf85b7bb8946fd3ae2ed01e78"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ],
+  "name" : "suites"
+}
