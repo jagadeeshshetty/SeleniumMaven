@@ -48,6 +48,22 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
 
 - `$ git push origin --tags`
 
+## AUT
+
+- the-internet.herokuapp
+    - testing
+        - docker pull gprestes/the-internet
+        - docker run -d -p 7080:5000 gprestes/the-internet
+        - http://localhost:7080/
+        - [More info](https://hub.docker.com/r/gprestes/the-internet/?ref=login)
+        - `mvn clean test -DbaseUrl=http://localhost:7080 -Dsurefire.suiteXmlFiles=testng.xml`
+    - staging
+        - tbd
+    - prod
+        - http://the-internet.herokuapp.com/
+        - `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+- tbd
+
 ## Terminal
 
 ```commandline

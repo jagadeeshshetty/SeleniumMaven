@@ -7,6 +7,7 @@ import org.testng.Assert;
 import test.java.pageobjects.BasePage;
 
 import static io.qameta.allure.Allure.step;
+import static test.java.helper.theInternet.Config.baseUrl;
 
 public class LoginPage extends BasePage {
     By usernameLocator = By.id("username");
@@ -15,7 +16,7 @@ public class LoginPage extends BasePage {
     By successMessageLocator = By.cssSelector(".flash.success");
     By failureMessageLocator = By.cssSelector(".flash.error");
     By loginFormLocator = By.id("login");
-    String URL = "http://the-internet.herokuapp.com/login";
+    String URL = baseUrl + "/login";
 
     public LoginPage(WebDriver driver, Logger logger) {
         super(driver, logger);

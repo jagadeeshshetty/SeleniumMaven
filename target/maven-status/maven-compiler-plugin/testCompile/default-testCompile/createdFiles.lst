@@ -13,6 +13,7 @@ test/java/helper/Retry.class
 test/java/tests/junit/TestDynamicLoading.class
 test/java/tests/junit/TestLoginPage.class
 test/java/tests/junit/TestException.class
+test/java/helper/theInternet/Config.class
 test/java/pageobjects/theInternet/DynamicLoading.class
 test/java/pageobjects/BasePage.class
 test/java/pageobjects/theInternet/LoginPage.class

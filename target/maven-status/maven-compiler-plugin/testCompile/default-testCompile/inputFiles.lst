@@ -10,6 +10,7 @@
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/allure/AllureFixtureTest.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/allure/AllureParameterizedTest.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/theInternet/TestLoginPage.java
+/Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/theInternet/Config.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/helper/LoggerHelper.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/TestLoginPageGA.java
 /Users/jc/IdeaProjects/SeleniumMaven/src/test/java/tests/Test.java
