@@ -1,63 +1,152 @@
 {
-  "5781e6c3f445aa302fdf4ba804fa2afd" : {
+  "fc213c5220286f1939740e05ce0f013f" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 2
+      "total" : 7
     },
     "items" : [ {
-      "uid" : "ef6a8e39dc36158c",
-      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/ef6a8e39dc36158c",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e3e26f82b9 <unknown>\n",
+      "uid" : "eea4f11bbd25289c",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/22//#testresult/eea4f11bbd25289c",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223178640,
-        "stop" : 1616223178641,
-        "duration" : 1
+        "start" : 1616864872723,
+        "stop" : 1616864873147,
+        "duration" : 424
       }
     }, {
-      "uid" : "d8ef5119e66e214d",
-      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/d8ef5119e66e214d",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az246-318', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bdcf2ff2b9 <unknown>\n",
+      "uid" : "cc95bf79a8e3c88e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21//#testresult/cc95bf79a8e3c88e",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223009237,
-        "stop" : 1616223009239,
-        "duration" : 2
+        "start" : 1616864682196,
+        "stop" : 1616864682602,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "8b8d7bdb058bb5ca",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20//#testresult/8b8d7bdb058bb5ca",
+      "status" : "failed",
+      "statusDetails" : "failure message wasn't present after providing bogus credentials expected [false] but found [true]",
+      "time" : {
+        "start" : 1616864428042,
+        "stop" : 1616864428511,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "e8b57bcba8b7169b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19//#testresult/e8b57bcba8b7169b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859707759,
+        "stop" : 1616859708204,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "303a0761b08dfa77",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18//#testresult/303a0761b08dfa77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859349349,
+        "stop" : 1616859349769,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "c9c846917e4ea50e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18//#testresult/c9c846917e4ea50e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859092997,
+        "stop" : 1616859093365,
+        "duration" : 368
+      }
+    }, {
+      "uid" : "f1bb84daef288fc4",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17//#testresult/f1bb84daef288fc4",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az249-483', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1041-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55cda62cc2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616858856991,
+        "stop" : 1616858856994,
+        "duration" : 3
       }
     } ]
   },
-  "84386c99f31c75290bd0b7a80ac0e58b" : {
+  "6f8d41395506531bc8580d856f8dcc32" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
+      "skipped" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 2
+      "total" : 7
     },
     "items" : [ {
-      "uid" : "60f2f52d2981c2e2",
-      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/60f2f52d2981c2e2",
-      "status" : "skipped",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e3e26f82b9 <unknown>\n",
+      "uid" : "50687d7e1979c0b2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/22//#testresult/50687d7e1979c0b2",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223178790,
-        "stop" : 1616223178791,
-        "duration" : 1
+        "start" : 1616864871174,
+        "stop" : 1616864871691,
+        "duration" : 517
       }
     }, {
-      "uid" : "acbd43a1491d34c9",
-      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/acbd43a1491d34c9",
-      "status" : "skipped",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az246-318', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bdcf2ff2b9 <unknown>\n",
+      "uid" : "5ff54560609d6bd8",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21//#testresult/5ff54560609d6bd8",
+      "status" : "passed",
       "time" : {
-        "start" : 1616223009358,
-        "stop" : 1616223009358,
-        "duration" : 0
+        "start" : 1616864680721,
+        "stop" : 1616864681279,
+        "duration" : 558
+      }
+    }, {
+      "uid" : "45cb53b545629b7b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20//#testresult/45cb53b545629b7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616864426635,
+        "stop" : 1616864427153,
+        "duration" : 518
+      }
+    }, {
+      "uid" : "1637df6ebab7b616",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19//#testresult/1637df6ebab7b616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859706179,
+        "stop" : 1616859706704,
+        "duration" : 525
+      }
+    }, {
+      "uid" : "19ea1a93b1ea8a3e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18//#testresult/19ea1a93b1ea8a3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859347447,
+        "stop" : 1616859348025,
+        "duration" : 578
+      }
+    }, {
+      "uid" : "b42da815a561474",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18//#testresult/b42da815a561474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616859091781,
+        "stop" : 1616859092263,
+        "duration" : 482
+      }
+    }, {
+      "uid" : "802a3d9d20271248",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17//#testresult/802a3d9d20271248",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az249-483', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1041-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55cda62cc2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616858856976,
+        "stop" : 1616858856979,
+        "duration" : 3
       }
     } ]
   },
@@ -66,11 +155,119 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 1
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ea2cb81d5bf8944",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/ea2cb81d5bf8944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616329176127,
+        "stop" : 1616329176619,
+        "duration" : 492
+      }
+    }, {
+      "uid" : "251983773be0def2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/251983773be0def2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328975694,
+        "stop" : 1616328976099,
+        "duration" : 405
+      }
+    }, {
+      "uid" : "6927bdce8f74eab4",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/6927bdce8f74eab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328566995,
+        "stop" : 1616328567443,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "5634d3afba779510",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/5634d3afba779510",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323917170,
+        "stop" : 1616323917688,
+        "duration" : 518
+      }
+    }, {
+      "uid" : "f765e095851ecdc1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/f765e095851ecdc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323461354,
+        "stop" : 1616323461750,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "6a4a93d9283a769e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/6a4a93d9283a769e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616322915133,
+        "stop" : 1616322915503,
+        "duration" : 370
+      }
+    }, {
+      "uid" : "f98845c4a4c71d6a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/f98845c4a4c71d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616316241157,
+        "stop" : 1616316241481,
+        "duration" : 324
+      }
+    }, {
+      "uid" : "add98c8cdc35a88",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/add98c8cdc35a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310859949,
+        "stop" : 1616310860412,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "20f9e2129a04ba56",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/20f9e2129a04ba56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310474453,
+        "stop" : 1616310474834,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "50c12890fdfd17ec",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/50c12890fdfd17ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616309290573,
+        "stop" : 1616309290948,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "b346d0267803257b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/7//#testresult/b346d0267803257b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308814109,
+        "stop" : 1616308814552,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "2659e570db5446d7",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/6//#testresult/2659e570db5446d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308504674,
+        "stop" : 1616308505037,
+        "duration" : 363
+      }
+    }, {
       "uid" : "8be59e013891fb4",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/8be59e013891fb4",
       "status" : "passed",
@@ -114,12 +311,122 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8bee2b159906c313",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/8bee2b159906c313",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616329178369,
+        "stop" : 1616329178370,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "389daef00a62848a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/389daef00a62848a",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616328977125,
+        "stop" : 1616328977126,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f6262ea3fc30bf59",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/f6262ea3fc30bf59",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616328568542,
+        "stop" : 1616328568543,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f27b7a5e6b3cfcba",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/f27b7a5e6b3cfcba",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616323919576,
+        "stop" : 1616323919578,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "dc927dee51befffa",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/dc927dee51befffa",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616323462843,
+        "stop" : 1616323462844,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4284953dd2ac634a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/4284953dd2ac634a",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616322916786,
+        "stop" : 1616322916787,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6ce5393987770f3d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/6ce5393987770f3d",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616316242490,
+        "stop" : 1616316242493,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "4461454c7dd0cf4b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/4461454c7dd0cf4b",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616310862207,
+        "stop" : 1616310862208,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fa904d5dddf5e61",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/fa904d5dddf5e61",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616310475879,
+        "stop" : 1616310475880,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e1f6ab37ad59200c",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9//#testresult/e1f6ab37ad59200c",
+      "status" : "skipped",
+      "statusDetails" : "Skipping Test",
+      "time" : {
+        "start" : 1616310221129,
+        "stop" : 1616310221133,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "1e1607c2a72f0c2b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/1e1607c2a72f0c2b",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d012b7c2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616309292394,
+        "stop" : 1616309292396,
+        "duration" : 2
+      }
+    }, {
       "uid" : "b66423d6b75132e6",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/b66423d6b75132e6",
       "status" : "skipped",
@@ -141,16 +448,991 @@
       }
     } ]
   },
+  "aafcef1cb16068091b8e37db6d5a9bdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "items" : [ {
+      "uid" : "c563b0c5b76ef6c4",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/c563b0c5b76ef6c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616329175444,
+        "stop" : 1616329176024,
+        "duration" : 580
+      }
+    }, {
+      "uid" : "36c6969a347f1f29",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/36c6969a347f1f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328975128,
+        "stop" : 1616328975602,
+        "duration" : 474
+      }
+    }, {
+      "uid" : "fd52fe44e5de567b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/fd52fe44e5de567b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328566375,
+        "stop" : 1616328566855,
+        "duration" : 480
+      }
+    }, {
+      "uid" : "732e7376e0c363fb",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/732e7376e0c363fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323916416,
+        "stop" : 1616323917069,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "85ab3947faa7319a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/85ab3947faa7319a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323460817,
+        "stop" : 1616323461219,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "f4177f23c442ac2a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/f4177f23c442ac2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616322914564,
+        "stop" : 1616322915010,
+        "duration" : 446
+      }
+    }, {
+      "uid" : "b8a1bb0a729709b1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/b8a1bb0a729709b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616316240591,
+        "stop" : 1616316241038,
+        "duration" : 447
+      }
+    }, {
+      "uid" : "db5607a3916ce50",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/db5607a3916ce50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310859276,
+        "stop" : 1616310859814,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "4d859bcd59f34468",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/4d859bcd59f34468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310473970,
+        "stop" : 1616310474327,
+        "duration" : 357
+      }
+    }, {
+      "uid" : "db5dbdeeb7f587ce",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/db5dbdeeb7f587ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616309289925,
+        "stop" : 1616309290442,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "b2ced82ded9efe9a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/7//#testresult/b2ced82ded9efe9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308813437,
+        "stop" : 1616308814021,
+        "duration" : 584
+      }
+    }, {
+      "uid" : "4bfec7f1c0309fc9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/6//#testresult/4bfec7f1c0309fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616308504033,
+        "stop" : 1616308504553,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "f5e4281d6064d580",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/f5e4281d6064d580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616307975068,
+        "stop" : 1616307975567,
+        "duration" : 499
+      }
+    } ]
+  },
+  "5781e6c3f445aa302fdf4ba804fa2afd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "f135de45a009a44b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/f135de45a009a44b",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d012b7c2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616309292375,
+        "stop" : 1616309292376,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ef6a8e39dc36158c",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/ef6a8e39dc36158c",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e3e26f82b9 <unknown>\n",
+      "time" : {
+        "start" : 1616223178640,
+        "stop" : 1616223178641,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d8ef5119e66e214d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/d8ef5119e66e214d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az246-318', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bdcf2ff2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616223009237,
+        "stop" : 1616223009239,
+        "duration" : 2
+      }
+    } ]
+  },
+  "84386c99f31c75290bd0b7a80ac0e58b" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "items" : [ {
+      "uid" : "74e9b8805ae46790",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/74e9b8805ae46790",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616329178372,
+        "stop" : 1616329178444,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "ba2f604a30c640e4",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/ba2f604a30c640e4",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616328977128,
+        "stop" : 1616328977214,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "e52c163cbf14e582",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/e52c163cbf14e582",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616328568546,
+        "stop" : 1616328568626,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "8d5c1d9b1eeda5a2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/8d5c1d9b1eeda5a2",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616323919580,
+        "stop" : 1616323919672,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "ab4a8f3144046efb",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/ab4a8f3144046efb",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616323462849,
+        "stop" : 1616323462938,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "81efd95f912ece9a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/81efd95f912ece9a",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616322916789,
+        "stop" : 1616322916871,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "1a262df877949246",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/1a262df877949246",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616316242501,
+        "stop" : 1616316242593,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "8cf7bdac8478a1b1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/8cf7bdac8478a1b1",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616310862210,
+        "stop" : 1616310862288,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "74cdb6307682fe1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/74cdb6307682fe1",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616310475882,
+        "stop" : 1616310475963,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "d4432e8efb826df9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9//#testresult/d4432e8efb826df9",
+      "status" : "failed",
+      "statusDetails" : "expected [invalid title] but found [The Internet]",
+      "time" : {
+        "start" : 1616310221140,
+        "stop" : 1616310221249,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "43aea3f07924c4e2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/43aea3f07924c4e2",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d012b7c2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616309292398,
+        "stop" : 1616309292399,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "60f2f52d2981c2e2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/60f2f52d2981c2e2",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e3e26f82b9 <unknown>\n",
+      "time" : {
+        "start" : 1616223178790,
+        "stop" : 1616223178791,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "acbd43a1491d34c9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/acbd43a1491d34c9",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az246-318', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bdcf2ff2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616223009358,
+        "stop" : 1616223009358,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3596f76faaabbfeff7d471cf33138e08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "22f9ff2f520fca7c",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/22f9ff2f520fca7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617642292128,
+        "stop" : 1617642292530,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "fe09c27b343d6f85",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/fe09c27b343d6f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952845879,
+        "stop" : 1616952846206,
+        "duration" : 327
+      }
+    }, {
+      "uid" : "3eef19fc65317501",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/3eef19fc65317501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952394613,
+        "stop" : 1616952395134,
+        "duration" : 521
+      }
+    }, {
+      "uid" : "941a8303c618adcb",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/941a8303c618adcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950394789,
+        "stop" : 1616950395361,
+        "duration" : 572
+      }
+    }, {
+      "uid" : "a5206eff6b241ba0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/a5206eff6b241ba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949820279,
+        "stop" : 1616949821001,
+        "duration" : 722
+      }
+    }, {
+      "uid" : "da744f9f81748689",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/da744f9f81748689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616939332143,
+        "stop" : 1616939332529,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "f9f544703ff0f92d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/32//#testresult/f9f544703ff0f92d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616926135267,
+        "stop" : 1616926135603,
+        "duration" : 336
+      }
+    }, {
+      "uid" : "315c30883eee7aa1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/31//#testresult/315c30883eee7aa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616925800327,
+        "stop" : 1616925800809,
+        "duration" : 482
+      }
+    }, {
+      "uid" : "7b118f9eedc4b6ec",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/7b118f9eedc4b6ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924238415,
+        "stop" : 1616924238756,
+        "duration" : 341
+      }
+    }, {
+      "uid" : "5ffe6ab1a9ec025d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/5ffe6ab1a9ec025d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924042422,
+        "stop" : 1616924042821,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "b768130ff4fa001",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/b768130ff4fa001",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616923341546,
+        "stop" : 1616923341905,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "a4b1ac840c7cb84f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/a4b1ac840c7cb84f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922720695,
+        "stop" : 1616922720993,
+        "duration" : 298
+      }
+    }, {
+      "uid" : "d74925b2aff2823",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/d74925b2aff2823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922425225,
+        "stop" : 1616922425619,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "1425195243a92b40",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/28//#testresult/1425195243a92b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616919370412,
+        "stop" : 1616919370929,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "e9eb72151f7504df",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27//#testresult/e9eb72151f7504df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616918971964,
+        "stop" : 1616918972339,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "a2f4153f8e69822f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26//#testresult/a2f4153f8e69822f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616916380128,
+        "stop" : 1616916380424,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "7913a15c2f4e025",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25//#testresult/7913a15c2f4e025",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616915975106,
+        "stop" : 1616915975577,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "65cdaa96b81941a1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24//#testresult/65cdaa96b81941a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616915797575,
+        "stop" : 1616915797928,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "26fafee03bc1dcad",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23//#testresult/26fafee03bc1dcad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616905567387,
+        "stop" : 1616905567765,
+        "duration" : 378
+      }
+    } ]
+  },
+  "b9ba76cc0594609ef8ad5192367b3097" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "8777e8c566ea96a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/8777e8c566ea96a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617642290803,
+        "stop" : 1617642291418,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "e07a54aeeb4930f1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/e07a54aeeb4930f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952844748,
+        "stop" : 1616952845268,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "2280706759915152",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/2280706759915152",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616952392597,
+        "stop" : 1616952393262,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "1e9ffe92505cefe0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/1e9ffe92505cefe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950392275,
+        "stop" : 1616950392952,
+        "duration" : 677
+      }
+    }, {
+      "uid" : "4ee3d195f603cb66",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/4ee3d195f603cb66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949817636,
+        "stop" : 1616949818410,
+        "duration" : 774
+      }
+    }, {
+      "uid" : "153eba172b6ba2a9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/153eba172b6ba2a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616939330579,
+        "stop" : 1616939331108,
+        "duration" : 529
+      }
+    }, {
+      "uid" : "2ccab30c9092e5c2",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/32//#testresult/2ccab30c9092e5c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616926134052,
+        "stop" : 1616926134551,
+        "duration" : 499
+      }
+    }, {
+      "uid" : "90690c1278eca008",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/31//#testresult/90690c1278eca008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616925798700,
+        "stop" : 1616925799299,
+        "duration" : 599
+      }
+    }, {
+      "uid" : "f3fb78435304923b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/f3fb78435304923b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924237098,
+        "stop" : 1616924237745,
+        "duration" : 647
+      }
+    }, {
+      "uid" : "ee1a993abbaab30f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/ee1a993abbaab30f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924040971,
+        "stop" : 1616924041499,
+        "duration" : 528
+      }
+    }, {
+      "uid" : "d96723a4f183f316",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/d96723a4f183f316",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616923340300,
+        "stop" : 1616923340840,
+        "duration" : 540
+      }
+    }, {
+      "uid" : "92a94a88b36dfb8f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/92a94a88b36dfb8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922719649,
+        "stop" : 1616922720066,
+        "duration" : 417
+      }
+    }, {
+      "uid" : "340bd8d72968d24a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/340bd8d72968d24a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922423818,
+        "stop" : 1616922424313,
+        "duration" : 495
+      }
+    }, {
+      "uid" : "5b54bf3d65da871c",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/28//#testresult/5b54bf3d65da871c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616919368449,
+        "stop" : 1616919369075,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "da71fde78842e847",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27//#testresult/da71fde78842e847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616918968543,
+        "stop" : 1616918970977,
+        "duration" : 2434
+      }
+    }, {
+      "uid" : "9817da638ade73f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26//#testresult/9817da638ade73f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616916379119,
+        "stop" : 1616916379594,
+        "duration" : 475
+      }
+    }, {
+      "uid" : "a66563c12a76d47e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25//#testresult/a66563c12a76d47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616915973187,
+        "stop" : 1616915973843,
+        "duration" : 656
+      }
+    }, {
+      "uid" : "f6deacbb8a2b1b9d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24//#testresult/f6deacbb8a2b1b9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616915796487,
+        "stop" : 1616915796943,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "f3f9615fdaef5a95",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23//#testresult/f3f9615fdaef5a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616905566271,
+        "stop" : 1616905566712,
+        "duration" : 441
+      }
+    } ]
+  },
+  "876f0a0488ded5089c840acb26e97545" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "973ff0d12f680e69",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17//#testresult/973ff0d12f680e69",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az249-483', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1041-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55cda62cc2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616858856946,
+        "stop" : 1616858856952,
+        "duration" : 6
+      }
+    } ]
+  },
+  "480e1f23368ced480027317384e0ee9a" : {
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "98a31db6fa9140d9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/98a31db6fa9140d9",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1617642296836,
+        "stop" : 1617642296950,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "621246dfd9b68c50",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/621246dfd9b68c50",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616952847810,
+        "stop" : 1616952847921,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "fd9c5bf13b03c981",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3//#testresult/fd9c5bf13b03c981",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616952399237,
+        "stop" : 1616952399380,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "659e62eb2473640e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2//#testresult/659e62eb2473640e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616950399260,
+        "stop" : 1616950399260,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb8363542916c6ec",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/1//#testresult/eb8363542916c6ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616949822549,
+        "stop" : 1616949822552,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "3fa1418fe20e7199",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/33//#testresult/3fa1418fe20e7199",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616939334436,
+        "stop" : 1616939334436,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f95f2d0c3ddde9b8",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/32//#testresult/f95f2d0c3ddde9b8",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616926137427,
+        "stop" : 1616926137534,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "14bd1cdcc9899819",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/31//#testresult/14bd1cdcc9899819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616925802755,
+        "stop" : 1616925802755,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34c39f05b4e5f739",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/34c39f05b4e5f739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924240004,
+        "stop" : 1616924240004,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fbc44815661e9659",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/30//#testresult/fbc44815661e9659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616924043784,
+        "stop" : 1616924043784,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a878e0c20072a07e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/a878e0c20072a07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616923343148,
+        "stop" : 1616923343149,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "92b77ef0b0a9bb87",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/92b77ef0b0a9bb87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922722123,
+        "stop" : 1616922722123,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea774f3d5a885558",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29//#testresult/ea774f3d5a885558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616922426516,
+        "stop" : 1616922426517,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eb09648c145fe66e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/28//#testresult/eb09648c145fe66e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616919374770,
+        "stop" : 1616919374770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6580d441c13fdf52",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27//#testresult/6580d441c13fdf52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616918972961,
+        "stop" : 1616918972966,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a6377ec3cd643109",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26//#testresult/a6377ec3cd643109",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616916383843,
+        "stop" : 1616916383933,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "86a1f6ce7056a4bd",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25//#testresult/86a1f6ce7056a4bd",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616915981922,
+        "stop" : 1616915982024,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "4e0e8091c4de8e9b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24//#testresult/4e0e8091c4de8e9b",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616915799702,
+        "stop" : 1616915799805,
+        "duration" : 103
+      }
+    } ]
+  },
   "7fd757b5e13216ca8fc69784e1a0e94e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
+      "skipped" : 3,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 2
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "669fbdcded367dd7",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/669fbdcded367dd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616329177844,
+        "stop" : 1616329178359,
+        "duration" : 515
+      }
+    }, {
+      "uid" : "452657c305c94f02",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/452657c305c94f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328976712,
+        "stop" : 1616328977121,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "728fa4ebc79a881d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/728fa4ebc79a881d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616328568134,
+        "stop" : 1616328568536,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "ec4e1cc56c8b3e27",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/ec4e1cc56c8b3e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323919044,
+        "stop" : 1616323919570,
+        "duration" : 526
+      }
+    }, {
+      "uid" : "fca5128b8c4bdf11",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/fca5128b8c4bdf11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616323462403,
+        "stop" : 1616323462835,
+        "duration" : 432
+      }
+    }, {
+      "uid" : "452fe3addadfda41",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/452fe3addadfda41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616322916377,
+        "stop" : 1616322916780,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "c40d1d2cf03013c4",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/c40d1d2cf03013c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616316242108,
+        "stop" : 1616316242471,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "5dae4fa0b93a63a0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/5dae4fa0b93a63a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310861685,
+        "stop" : 1616310862202,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "20e73fc5043aee4f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/20e73fc5043aee4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310475502,
+        "stop" : 1616310475874,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "7ade6591d6f10765",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9//#testresult/7ade6591d6f10765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616310220551,
+        "stop" : 1616310221034,
+        "duration" : 483
+      }
+    }, {
+      "uid" : "3b238476aaa9b1a3",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/3b238476aaa9b1a3",
+      "status" : "skipped",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d012b7c2b9 <unknown>\n",
+      "time" : {
+        "start" : 1616309292390,
+        "stop" : 1616309292391,
+        "duration" : 1
+      }
+    }, {
       "uid" : "dfe4a0997c6d4b16",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4//#testresult/dfe4a0997c6d4b16",
       "status" : "skipped",
@@ -172,23 +1454,134 @@
       }
     } ]
   },
-  "aafcef1cb16068091b8e37db6d5a9bdb" : {
+  "f7c0efaa1e4d2eda63ede43131392b83" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 12,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 12
     },
     "items" : [ {
-      "uid" : "f5e4281d6064d580",
-      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5//#testresult/f5e4281d6064d580",
-      "status" : "passed",
+      "uid" : "8bcdc4ede28fdb95",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/8bcdc4ede28fdb95",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az93-296', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.pZWglU}, goog:chromeOptions: {debuggerAddress: localhost:35995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 940c41aa29b72a6c70a1888127f7caba\n*** Element info: {Using=id, value=username}",
       "time" : {
-        "start" : 1616307975068,
-        "stop" : 1616307975567,
-        "duration" : 499
+        "start" : 1616329176623,
+        "stop" : 1616329176663,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "1598cee566edef6a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/1598cee566edef6a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az224-151', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.iwCuPT}, goog:chromeOptions: {debuggerAddress: localhost:37661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 731cab20857823891bf931344cf6801e\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616328976103,
+        "stop" : 1616328976158,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "247ebbc10572864a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/247ebbc10572864a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az178-420', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.O8GjxL}, goog:chromeOptions: {debuggerAddress: localhost:43051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 85a5fb5a17020dda53936c2b1936e54c\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616328567451,
+        "stop" : 1616328567526,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "11117786a5e67def",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/11117786a5e67def",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az144-442', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.8IZcP1}, goog:chromeOptions: {debuggerAddress: localhost:36409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ca7e80244b3e7d2f258678ff2cafe9d2\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616323917695,
+        "stop" : 1616323917748,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "cff52c1a81c8c016",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/cff52c1a81c8c016",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az133-947', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.V6xo2y}, goog:chromeOptions: {debuggerAddress: localhost:34429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c9384c9acb5418cb179b3c8866a2a49\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616323461755,
+        "stop" : 1616323461835,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "c569a50265745aa6",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/c569a50265745aa6",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az252-665', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.IvZbDI}, goog:chromeOptions: {debuggerAddress: localhost:37451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f98e60a9b7049cde0de47d25252a6a4a\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616322915507,
+        "stop" : 1616322915554,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "35d2f0eada98ae87",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/35d2f0eada98ae87",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az178-420', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.zfyiO5}, goog:chromeOptions: {debuggerAddress: localhost:38687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0a5a97d0777d08e01583555faaa80900\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616316241485,
+        "stop" : 1616316241532,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "21b89e4e137f6697",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/21b89e4e137f6697",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az150-219', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.Tfv14s}, goog:chromeOptions: {debuggerAddress: localhost:32999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 66f0ab53a8832dd2b30fbcd6321f0a8e\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616310860418,
+        "stop" : 1616310860472,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "2d9dfa097110d6f1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/2d9dfa097110d6f1",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az246-318', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.HnqmSk}, goog:chromeOptions: {debuggerAddress: localhost:39455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 340877336e8c3d0a83a7a00de62bc0ec\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616310474837,
+        "stop" : 1616310474890,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "480d29a12dc58fa9",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8//#testresult/480d29a12dc58fa9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az163-629', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.A9dsph}, goog:chromeOptions: {debuggerAddress: localhost:44015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3917d6e2524ab794c820b4cf3eb6f338\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616309290951,
+        "stop" : 1616309291012,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "ac56e04d19619a4d",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/7//#testresult/ac56e04d19619a4d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az249-185', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.vzQTiZ}, goog:chromeOptions: {debuggerAddress: localhost:37469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 580c62dbeaa07ccc54c291f6a7ea4598\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616308814555,
+        "stop" : 1616308814573,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "9ac976eddd43110e",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/6//#testresult/9ac976eddd43110e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az127-46', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.bvwCyD}, goog:chromeOptions: {debuggerAddress: localhost:35001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5e8d69e358df78ad2ca2b45b3f0380ed\n*** Element info: {Using=id, value=username}",
+      "time" : {
+        "start" : 1616308505043,
+        "stop" : 1616308505083,
+        "duration" : 40
       }
     } ]
   }

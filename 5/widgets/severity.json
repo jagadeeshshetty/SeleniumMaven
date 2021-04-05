@@ -1,21 +1,31 @@
 [ {
-  "uid" : "8be59e013891fb4",
-  "name" : "succeeded",
+  "uid" : "8777e8c566ea96a",
+  "name" : "validLogin",
   "time" : {
-    "start" : 1616307975661,
-    "stop" : 1616307976054,
-    "duration" : 393
+    "start" : 1617642290803,
+    "stop" : 1617642291418,
+    "duration" : 615
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "blocker"
 }, {
-  "uid" : "f5e4281d6064d580",
-  "name" : "failed",
+  "uid" : "98a31db6fa9140d9",
+  "name" : "unstableTest",
   "time" : {
-    "start" : 1616307975068,
-    "stop" : 1616307975567,
-    "duration" : 499
+    "start" : 1617642296836,
+    "stop" : 1617642296950,
+    "duration" : 114
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "22f9ff2f520fca7c",
+  "name" : "inValidLogin",
+  "time" : {
+    "start" : 1617642292128,
+    "stop" : 1617642292530,
+    "duration" : 402
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "minor"
 } ]

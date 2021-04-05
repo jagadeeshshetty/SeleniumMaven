@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Mar 21 06:26:15 GMT 2021","Sun Mar 21 06:26:15 GMT 2021","499","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","failed","failed",""
-"passed","Sun Mar 21 06:26:15 GMT 2021","Sun Mar 21 06:26:16 GMT 2021","393","Suite","Test","test.java.tests.TestLoginGA","test.java.tests.TestLoginGA","succeeded","succeeded",""
+"failed","Mon Apr 05 17:04:56 GMT 2021","Mon Apr 05 17:04:56 GMT 2021","114","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","unstableTest","unstableTest","Verify the error message with invalid username and password."
+"passed","Mon Apr 05 17:04:52 GMT 2021","Mon Apr 05 17:04:52 GMT 2021","402","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","inValidLogin","inValidLogin","Verify the error message with invalid username and password."
+"passed","Mon Apr 05 17:04:50 GMT 2021","Mon Apr 05 17:04:51 GMT 2021","615","Suite","Test","test.java.tests.theInternet.TestLoginPage","test.java.tests.theInternet.TestLoginPage","validLogin","validLogin","Verify the successful login with valid username and password."
