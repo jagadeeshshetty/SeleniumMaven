@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Independent test Suite">
+    <test name="Independent test">
+        <classes>
+            <class name="test.java.tests.testng.IndependentTest"/>
+        </classes>
+    </test>
+</suite>
