@@ -24,7 +24,7 @@ public class TestLoginPage extends Base {
 
     @BeforeMethod
     public void testSetUp() {
-        loginPage = new LoginPage(driver, logger);
+//        loginPage = new LoginPage(driver, logger);
     }
 
     @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
