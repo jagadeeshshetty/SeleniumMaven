@@ -1,174 +1,64 @@
-2021-04-07 22:37:39 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:39 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:39 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:39 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:39 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:39 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:39 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:39 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:39 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:39 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:39 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:39 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:51 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:51 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:51 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:51 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:51 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:52 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:52 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:52 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:53 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:53 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:54 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:54 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:54 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:37:56 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:56 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneUnstableTest
-2021-04-07 22:37:56 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:57 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:37:57 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (42221f7b223c0639f4ceaff468f7eb1e)] -> id: login]] Present.
-2021-04-07 22:37:57 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:37:57 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (5b6d089460bb7c6e543d1b5c2a050902)] -> id: login]] Present.
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (e9a66f6395d3ad1f17e813840a3a6e7b)] -> id: login]] Present.
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:37:58 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:37:58 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:59 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:37:59 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:37:59 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (e9a66f6395d3ad1f17e813840a3a6e7b)] -> css selector: .flash.success]] Present.
-2021-04-07 22:37:59 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (e9a66f6395d3ad1f17e813840a3a6e7b)] -> css selector: .flash.success]] Present.
-2021-04-07 22:37:59 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:59 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:37:59 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:37:59 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:37:59 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:00 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:00 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:00 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:02 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:02 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:08 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:08 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (961e423b1d2354a6f87b620419a581e4)] -> id: login]] Present.
-2021-04-07 22:38:08 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:08 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (1ed5cc4f7708634f34384f78d56c44aa)] -> id: login]] Present.
-2021-04-07 22:38:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:09 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:10 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:10 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (1ed5cc4f7708634f34384f78d56c44aa)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:10 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (1ed5cc4f7708634f34384f78d56c44aa)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:10 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:10 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:10 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:10 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:10 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:12 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:17 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:17 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (8479f60ab3373fbbcb3f9d45a305c23b)] -> id: login]] Present.
-2021-04-07 22:38:18 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:18 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:18 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:18 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (8479f60ab3373fbbcb3f9d45a305c23b)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:18 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneExpectedFailure
-2021-04-07 22:38:19 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:19 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:19 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:19 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:19 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:19 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:19 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:19 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:19 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:19 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:19 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:19 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:19 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:23 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:23 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:23 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:23 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:23 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:24 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:24 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:24 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:26 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:26 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:27 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:27 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:27 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:27 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:27 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (7c352f343798223f2c1c003444e323df)] -> id: login]] Present.
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f1981563a500fc3e894c6a296eb594ad)] -> id: login]] Present.
-2021-04-07 22:38:28 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:28 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoUnstableTest
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:28 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (aa2f98aaaa0dc728eeca85afd9265242)] -> id: login]] Present.
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:29 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:29 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:29 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:29 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:29 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:30 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (aa2f98aaaa0dc728eeca85afd9265242)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (aa2f98aaaa0dc728eeca85afd9265242)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:30 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:30 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:30 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:30 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:30 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:31 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:32 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:35 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:35 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d4a4a39353e5c9ebd9778d8cea0f6716)] -> id: login]] Present.
-2021-04-07 22:38:35 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:35 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:36 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:36 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f617e6ec4467976eba40da5bf135c7e2)] -> id: login]] Present.
-2021-04-07 22:38:36 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:36 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:36 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:37 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:37 ERROR test.java.pageobjects.BasePage : 47 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f617e6ec4467976eba40da5bf135c7e2)] -> css selector: .flash.success]] Not Present.
-2021-04-07 22:38:37 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (f617e6ec4467976eba40da5bf135c7e2)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:37 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:37 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:37 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:37 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:37 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:37 INFO  Base : 35 - [setup] Running Test on 'Windows 10' OS.
-2021-04-07 22:38:37 INFO  Base : 37 - [setup] Browser: CHROMEHEADLESS
-2021-04-07 22:38:37 INFO  Base : 46 - [setup] Browser: Chrome Headless
-2021-04-07 22:38:39 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:39 INFO  Base : 82 - [setup] Driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:43 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:43 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (347f9c96c7139d6f01cd9c2725d61f45)] -> id: login]] Present.
-2021-04-07 22:38:43 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:43 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:44 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-07 22:38:44 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ff81d0ad75a5369ace14fe9260fc3a4a)] -> id: login]] Present.
-2021-04-07 22:38:44 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:44 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-07 22:38:44 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoExpectedFailure
-2021-04-07 22:38:44 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-07 22:38:44 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
-2021-04-07 22:38:45 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-07 22:38:45 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ff81d0ad75a5369ace14fe9260fc3a4a)] -> css selector: .flash.success]] Present.
-2021-04-07 22:38:45 INFO  Base : 97 - [teardown] Cleaning up driver instance: java.lang.ThreadLocal@580d14b5
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (1c2f18f4d53d9d2c321aaf67923cbea9)] -> id: login]] Present.
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (41e80e95c42b1c975f46eb263d81f8db)] -> id: login]] Present.
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:50:47 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ec388c6a0a769f0ca94ab1db2399f8a8)] -> id: login]] Present.
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:50:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:50:49 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:50:49 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:50:50 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:50:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ec388c6a0a769f0ca94ab1db2399f8a8)] -> css selector: .flash.success]] Present.
+2021-04-08 14:50:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ec388c6a0a769f0ca94ab1db2399f8a8)] -> css selector: .flash.success]] Present.
+2021-04-08 14:50:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (ec388c6a0a769f0ca94ab1db2399f8a8)] -> css selector: .flash.success]] Present.
+2021-04-08 14:50:51 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneUnstableTest
+2021-04-08 14:51:01 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:01 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (64f19227eb4840939af1c4f9507c7087)] -> id: login]] Present.
+2021-04-08 14:51:01 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:01 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:02 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (64f19227eb4840939af1c4f9507c7087)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:12 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:12 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (3cd4f242e77b74a517d642503deae140)] -> id: login]] Present.
+2021-04-08 14:51:12 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:12 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:13 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:13 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (3cd4f242e77b74a517d642503deae140)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:13 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneExpectedFailure
+2021-04-08 14:51:29 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (40f611c7cc56ccca4cc1532146f71435)] -> id: login]] Present.
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (b5e73d0a3d46478784799d785a8c5d11)] -> id: login]] Present.
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (37403ce4e4bc2ed3821b484c04fa1953)] -> id: login]] Present.
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:30 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:31 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:31 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:31 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:31 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (37403ce4e4bc2ed3821b484c04fa1953)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (37403ce4e4bc2ed3821b484c04fa1953)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:32 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (37403ce4e4bc2ed3821b484c04fa1953)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:36 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoUnstableTest
+2021-04-08 14:51:44 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:44 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (4da306a10a76cb5094a8bfd1573ef374)] -> id: login]] Present.
+2021-04-08 14:51:44 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:45 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:46 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:46 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (4da306a10a76cb5094a8bfd1573ef374)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:56 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-08 14:51:56 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (04e96a84295929b84398292c8062f8c0)] -> id: login]] Present.
+2021-04-08 14:51:56 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-08 14:51:56 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-08 14:51:58 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-08 14:51:58 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (04e96a84295929b84398292c8062f8c0)] -> css selector: .flash.success]] Present.
+2021-04-08 14:51:58 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoExpectedFailure
