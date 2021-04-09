@@ -141,6 +141,10 @@ INFO: Detected dialect: W3C
 
 ## Release
 
+### v2.3.0-SNAPSHOT
+
+- Added parallel run support.
+
 ### v2.2.0-SNAPSHOT
 
 - Add runtime browser selection support and retry of failed test cases.
