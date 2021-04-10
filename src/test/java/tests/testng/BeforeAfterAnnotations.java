@@ -17,8 +17,13 @@ import org.testng.annotations.*;
  */
 public class BeforeAfterAnnotations {
     @Test
-    public void testCase() {
-        System.out.println("Test method");
+    public void testCaseOne() {
+        System.out.println("Test method one");
+    }
+
+    @Test
+    public void testCaseTwo() {
+        System.out.println("Test method two");
     }
 
     @BeforeSuite

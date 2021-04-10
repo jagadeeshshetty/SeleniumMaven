@@ -15,78 +15,88 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.lang.invoke.MethodHandles;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
 import static io.qameta.allure.Allure.step;
 import static test.java.helper.GlobalConfig.browser;
 
 public class Base {
-    protected WebDriver driver;
+
     public static final Logger logger = Logger.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
+    protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    ChromeOptions chromeOptions;
+
+    public WebDriver getDriver() {
+        return driver.get();
+    }
 
     @BeforeMethod
-    public void globalSetup(ITestContext context) {
+    public void setup(ITestContext context) {
+        step("Start time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
         step("Running Test on '" + System.getProperty("os.name") + "' OS.");
-        logger.info("Running Test on '" + System.getProperty("os.name") + "' OS.");
-        ChromeOptions chromeOptions;
         step("Browser: " + browser.toUpperCase());
-        logger.info("Browser: " + browser.toUpperCase());
-
         switch (browser) {
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
+                driver.set(new FirefoxDriver());
                 break;
             case "chromeHeadless":
-                step("Browser: Chrome Headless");
-                logger.info("Browser: Chrome Headless");
                 WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
                 chromeOptions.addArguments("--headless");
-                driver = new ChromeDriver(chromeOptions);
+                driver.set(new ChromeDriver(chromeOptions));
                 break;
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
-                driver = new ChromeDriver(chromeOptions);
+                driver.set(new ChromeDriver(chromeOptions));
                 break;
             case "edge":
                 WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
+                driver.set(new EdgeDriver());
                 break;
             case "ie":
                 WebDriverManager.iedriver().setup();
-                driver = new InternetExplorerDriver();
+                driver.set(new InternetExplorerDriver());
                 break;
             case "opera":
                 WebDriverManager.operadriver().setup();
-                driver = new OperaDriver();
+                driver.set(new OperaDriver());
                 break;
             case "safari":
-                driver = new SafariDriver();
+                driver.set(new SafariDriver());
                 break;
             default:
                 step("No proper browser specified.");
                 logger.info("No proper browser specified.");
         }
         if (driver != null) {
-            step("Driver instance: " + driver.toString());
-            logger.info("Driver instance: " + driver.toString());
+            step("Driver instance: " + getDriver().toString());
+
+            getDriver().manage().timeouts().pageLoadTimeout(GlobalConfig.pageLoadTimeoutInSec, TimeUnit.SECONDS);
+
+            context.setAttribute("WebDriver", getDriver());
+            context.setAttribute("logger", logger);
         }
-        driver.manage().timeouts().pageLoadTimeout(48, TimeUnit.SECONDS);
-        context.setAttribute("WebDriver", driver);
-        context.setAttribute("logger", logger);
     }
 
     @AfterMethod
-    public void tearDown() throws Exception {
-        step("Cleaning up driver instance: " + driver.toString());
-        logger.info("Cleaning up driver instance: " + driver.toString());
-        driver.quit();
+    public void teardown() {
+        step("Cleaning up driver instance: " + getDriver().toString());
+        getDriver().quit();
+        step("Complete time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
     }
 
+    public String getDateTime(String format) {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern(format);
+        LocalDateTime now = LocalDateTime.now();
+        return dtf.format(now);
+    }
 }

@@ -22,14 +22,14 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 1.8
+          java-version: 11
 
       - name: Install dependencies
         run: mvn dependency:go-offline compile compiler:testCompile
 
       - name: Run Test
         if: always()
-        run: mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml
+        run: mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng-parallel.xml
         continue-on-error: true
 
       - name: Get Allure history

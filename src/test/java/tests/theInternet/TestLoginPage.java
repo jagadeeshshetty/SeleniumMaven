@@ -24,13 +24,15 @@ public class TestLoginPage extends Base {
 
     @BeforeMethod
     public void testSetUp() {
-        loginPage = new LoginPage(driver, logger);
+//        loginPage = new LoginPage(driver, logger);
     }
 
     @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
     public void validLogin() {
+        long id = Thread.currentThread().getId();
+        System.out.println("validLogin() Thread id is: " + id);
         step("1. Login with valid username and password.");
         loginPage.with("tomsmith", "SuperSecretPassword!");
         step("2. Verify success message present");
@@ -41,6 +43,8 @@ public class TestLoginPage extends Base {
     @Severity(SeverityLevel.MINOR)
     @Description("Verify the error message with invalid username and password.")
     public void inValidLogin() {
+        long id = Thread.currentThread().getId();
+        System.out.println("inValidLogin() Thread id is: " + id);
         step("1. Login with invalid username and password.");
         loginPage.with("invalid", "invalid");
         step("2. Verify failure message present");
@@ -51,6 +55,8 @@ public class TestLoginPage extends Base {
     @Severity(SeverityLevel.TRIVIAL)
     @Description("Verify the error message with invalid username and password.")
     public void unstableTest() {
+        long id = Thread.currentThread().getId();
+        System.out.println("unstableTest() Thread id is: " + id);
         Random random = new Random();
         int rem = random.nextInt(10) % 2;
         step(String.valueOf(rem));
