@@ -10,6 +10,42 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
 
 `Java` `Selenium WebDriver 4.X` `Maven` `Log4J` `Allure` `WebDriverManager`
 
+## Release
+
+### v2.3.0-SNAPSHOT
+
+- Added parallel run support.
+
+### v2.2.0-SNAPSHOT
+
+- Add runtime browser selection support and retry of failed test cases.
+- Added Chrome, Chrome headless, Firefox, Edge, IE, Opera and Safari browser support.
+- Added global and project specific Config support.
+
+### v2.1.0-SNAPSHOT
+
+- Added Test case Retry support.
+- Added TestNG hooks.
+- Added Allure detailed steps.
+
+### v2.0.0-SNAPSHOT
+
+- Added Allure reporting support.
+- Added TestNG support.
+- Added CI/CD support with respect to test report deployment using Github Actions support.
+  Link: https://jagadeeshshetty.github.io/SeleniumMaven
+
+### v1.0.0
+
+Covered following setup within the framework
+
+- Created maven project with test directory structure.
+- Created TestLogin class with succeeded test case.
+- Added JUnit support.
+- Added WebDriverManager support.
+- Added Log4J library support for logging.
+- Added github actions support.
+
 ## Reporting
 
 - On macOS: `brew install allure`
@@ -78,6 +114,8 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
     - Tbd
 - Run with explicit retry count. By default, it'll be 2 times.
     - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng.xml`
+- Run with parallel.
+    - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng-parallel.xml`
 - TBD
 
 ## Terminal
@@ -138,42 +176,6 @@ INFO: Detected dialect: W3C
 [INFO] Finished at: 2020-07-30T00:00:08+05:30
 [INFO] ------------------------------------------------------------------------
 ```
-
-## Release
-
-### v2.3.0-SNAPSHOT
-
-- Added parallel run support.
-
-### v2.2.0-SNAPSHOT
-
-- Add runtime browser selection support and retry of failed test cases.
-- Added Chrome, Chrome headless, Firefox, Edge, IE, Opera and Safari browser support.
-- Added global and project specific Config support.
-
-### v2.1.0-SNAPSHOT
-
-- Added Test case Retry support.
-- Added TestNG hooks.
-- Added Allure detailed steps.
-
-### v2.0.0-SNAPSHOT
-
-- Added Allure reporting support.
-- Added TestNG support.
-- Added CI/CD support with respect to test report deployment using Github Actions support.
-  Link: https://jagadeeshshetty.github.io/SeleniumMaven
-
-### v1.0.0
-
-Covered following setup within the framework
-
-- Created maven project with test directory structure.
-- Created TestLogin class with succeeded test case.
-- Added JUnit support.
-- Added WebDriverManager support.
-- Added Log4J library support for logging.
-- Added github actions support.
 
 ## Reference
 

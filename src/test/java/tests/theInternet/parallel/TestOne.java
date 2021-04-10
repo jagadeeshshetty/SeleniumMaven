@@ -1,4 +1,4 @@
-package test.java.tests.theInternet;
+package test.java.tests.theInternet.parallel;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -16,16 +16,16 @@ import java.util.Random;
 import static io.qameta.allure.Allure.step;
 
 @Listeners({Listener.class})
-public class TestTwo extends Base {
+public class TestOne extends Base {
 
     private LoginPage loginPage;
 
     @Test(priority = 2, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
-    public void testTwoValidLoginOne() {
+    public void testOneValidLoginOne() {
         long id = Thread.currentThread().getId();
-        System.out.println("validLoginOne() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
+        System.out.println("testOneValidLoginOne() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
         loginPage = new LoginPage(getDriver(), logger);
 
         step("1. Login with valid username and password.");
@@ -38,9 +38,9 @@ public class TestTwo extends Base {
     @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
-    public void testTwoValidLoginTwo() {
+    public void testOneValidLoginTwo() {
         long id = Thread.currentThread().getId();
-        System.out.println("validLoginTwo() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
+        System.out.println("testOneValidLoginTwo() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
         loginPage = new LoginPage(getDriver(), logger);
 
         step("1. Login with valid username and password.");
@@ -53,9 +53,9 @@ public class TestTwo extends Base {
     @Test(priority = 3, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.TRIVIAL)
     @Description("Verify the error message with invalid username and password.")
-    public void testTwoUnstableTest() {
+    public void testOneUnstableTest() {
         long id = Thread.currentThread().getId();
-        System.out.println("unstableTest() Thread id is: " + id);
+        System.out.println("testOneUnstableTest() Thread id is: " + id);
         Random random = new Random();
         int rem = random.nextInt(10) % 2;
         step(String.valueOf(rem));
@@ -66,9 +66,9 @@ public class TestTwo extends Base {
     @Test(priority = 4, enabled = true, retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
-    public void testTwoExpectedFailure() {
+    public void testOneExpectedFailure() {
         long id = Thread.currentThread().getId();
-        System.out.println("validLoginOne() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
+        System.out.println("testOneExpectedFailure() Thread id is: " + id + ". Driver instance: " + getDriver().toString());
         loginPage = new LoginPage(getDriver(), logger);
 
         step("1. Login with valid username and password.");
