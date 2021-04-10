@@ -1,0 +1,329 @@
+{
+  "uid" : "9202091979d4e69b",
+  "name" : "testOneValidLoginTwo",
+  "fullName" : "test.java.tests.theInternet.TestOne.testOneValidLoginTwo",
+  "historyId" : "7c57485b3047c82cd7219a738d71ed3a",
+  "time" : {
+    "start" : 1618024214084,
+    "stop" : 1618024215174,
+    "duration" : 1090
+  },
+  "description" : "Verify the successful login with valid username and password.",
+  "descriptionHtml" : "<p>Verify the successful login with valid username and password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1618024213687,
+      "stop" : 1618024214082,
+      "duration" : 395
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 2021/04/10 03:10:13",
+      "time" : {
+        "start" : 1618024213687,
+        "stop" : 1618024213687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1618024213687,
+        "stop" : 1618024213687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1618024213687,
+        "stop" : 1618024213687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (fac4f37aefded3f2ab87c2a627a039d9)",
+      "time" : {
+        "start" : 1618024214080,
+        "stop" : 1618024214080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify the successful login with valid username and password.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Access http://the-internet.herokuapp.com/login URL.",
+      "time" : {
+        "start" : 1618024214085,
+        "stop" : 1618024214085,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify login form present or not.",
+      "time" : {
+        "start" : 1618024214669,
+        "stop" : 1618024214669,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "1. Login with valid username and password.",
+      "time" : {
+        "start" : 1618024214728,
+        "stop" : 1618024214728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter tomsmith username",
+      "time" : {
+        "start" : 1618024214728,
+        "stop" : 1618024214728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter SuperSecretPassword! password",
+      "time" : {
+        "start" : 1618024214793,
+        "stop" : 1618024214793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Submit button",
+      "time" : {
+        "start" : 1618024214873,
+        "stop" : 1618024214873,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2. Verify success message present",
+      "time" : {
+        "start" : 1618024215101,
+        "stop" : 1618024215101,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify success message present or not.",
+      "time" : {
+        "start" : 1618024215101,
+        "stop" : 1618024215101,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1618024215175,
+      "stop" : 1618024215263,
+      "duration" : 88
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (fac4f37aefded3f2ab87c2a627a039d9)",
+      "time" : {
+        "start" : 1618024215175,
+        "stop" : 1618024215175,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 2021/04/10 03:10:15",
+      "time" : {
+        "start" : 1618024215263,
+        "stop" : 1618024215263,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOneValidLoginTwo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "host",
+    "value" : "fv-az90-576"
+  }, {
+    "name" : "thread",
+    "value" : "3154@fv-az90-576.TestNG-test=Test Parallel Execution-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "e625608579c00634",
+      "status" : "skipped",
+      "statusDetails" : "invalid session id\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az90-576', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1043-azure', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.50GZbC}, goog:chromeOptions: {debuggerAddress: localhost:46243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d194babd8c65cf3aa15e1d6778b2c471",
+      "time" : {
+        "start" : 1618024210831,
+        "stop" : 1618024213613,
+        "duration" : 2782
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9202091979d4e69b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,253 @@
+{
+  "uid" : "148101c1ed715ff8",
+  "name" : "testOneUnstableTest",
+  "fullName" : "test.java.tests.theInternet.TestOne.testOneUnstableTest",
+  "historyId" : "a944ec6481bb1869a31509fbe5e19b49",
+  "time" : {
+    "start" : 1618024211730,
+    "stop" : 1618024211839,
+    "duration" : 109
+  },
+  "description" : "Verify the error message with invalid username and password.",
+  "descriptionHtml" : "<p>Verify the error message with invalid username and password.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "expected [true] but found [false]",
+  "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertTrue(Assert.java:45)\n\tat org.testng.Assert.assertTrue(Assert.java:55)\n\tat test.java.tests.theInternet.TestOne.testOneUnstableTest(TestOne.java:62)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1618024211410,
+      "stop" : 1618024211728,
+      "duration" : 318
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 2021/04/10 03:10:11",
+      "time" : {
+        "start" : 1618024211411,
+        "stop" : 1618024211411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1618024211411,
+        "stop" : 1618024211411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1618024211411,
+        "stop" : 1618024211411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (cb11580727e835e661ffde951fb7a2a7)",
+      "time" : {
+        "start" : 1618024211725,
+        "stop" : 1618024211725,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify the error message with invalid username and password.",
+    "status" : "failed",
+    "statusMessage" : "expected [true] but found [false]",
+    "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertTrue(Assert.java:45)\n\tat org.testng.Assert.assertTrue(Assert.java:55)\n\tat test.java.tests.theInternet.TestOne.testOneUnstableTest(TestOne.java:62)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+    "steps" : [ {
+      "name" : "1",
+      "time" : {
+        "start" : 1618024211730,
+        "stop" : 1618024211730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "57999705e2422758",
+      "name" : "saveFailureScreenshot",
+      "source" : "57999705e2422758.png",
+      "type" : "image/png",
+      "size" : 3249
+    }, {
+      "uid" : "7950247cc307b566",
+      "name" : "testOneUnstableTest failed and screenshot taken!",
+      "source" : "7950247cc307b566.txt",
+      "type" : "text/plain",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1618024211844,
+      "stop" : 1618024211913,
+      "duration" : 69
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (cb11580727e835e661ffde951fb7a2a7)",
+      "time" : {
+        "start" : 1618024211845,
+        "stop" : 1618024211845,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 2021/04/10 03:10:11",
+      "time" : {
+        "start" : 1618024211913,
+        "stop" : 1618024211913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOneUnstableTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.TestOne"
+  }, {
+    "name" : "host",
+    "value" : "fv-az90-576"
+  }, {
+    "name" : "thread",
+    "value" : "3154@fv-az90-576.TestNG-test=Test Parallel Execution-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ {
+      "uid" : "b42509b580744da3",
+      "status" : "skipped",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1618024211332,
+        "stop" : 1618024211333,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8315a94c9078dbb6",
+      "status" : "skipped",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1618024210860,
+        "stop" : 1618024210885,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "148101c1ed715ff8.json",
+  "parameterValues" : [ ]
+}
