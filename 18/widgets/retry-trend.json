@@ -3,159 +3,92 @@
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
+    "run" : 12,
+    "retry" : 9
   }
 }, {
   "buildOrder" : 17,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 3,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 12
   }
 }, {
   "buildOrder" : 16,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 10
   }
 }, {
   "buildOrder" : 15,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 12
   }
 }, {
   "buildOrder" : 14,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 11
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 16,
+    "retry" : 10
   }
 }, {
   "buildOrder" : 13,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 10
   }
 }, {
   "buildOrder" : 12,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 12,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 13
   }
 }, {
   "buildOrder" : 11,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 16
   }
 }, {
   "buildOrder" : 10,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 6,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 10,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 6,
-    "retry" : 0
+    "run" : 16,
+    "retry" : 17
   }
 }, {
   "buildOrder" : 9,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 3,
-    "retry" : 0
+    "run" : 8,
+    "retry" : 9
   }
 }, {
-  "buildOrder" : 8,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8/",
-  "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 7,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 7,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/7/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 3,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/6/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 3,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/5/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/4/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 4,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 4,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/2/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 1,
+    "run" : 0,
     "retry" : 0
   }
 } ]
