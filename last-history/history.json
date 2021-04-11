@@ -45,11 +45,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "109d458c78e9fa9b",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/109d458c78e9fa9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139395916,
+        "stop" : 1618139397970,
+        "duration" : 2054
+      }
+    }, {
       "uid" : "ca3a331f17e16e51",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/ca3a331f17e16e51",
       "status" : "passed",
@@ -116,14 +125,24 @@
   },
   "ab6883056220de6a4dfa4936aa12b217" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ce9be005fe170c7a",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/ce9be005fe170c7a",
+      "status" : "failed",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1618139379263,
+        "stop" : 1618139381654,
+        "duration" : 2391
+      }
+    }, {
       "uid" : "6e18692ff61b3846",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/6e18692ff61b3846",
       "status" : "failed",
@@ -199,11 +218,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7210e43c975b90f0",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/7210e43c975b90f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139388996,
+        "stop" : 1618139388999,
+        "duration" : 3
+      }
+    }, {
       "uid" : "bb1ecb5ec0076286",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/bb1ecb5ec0076286",
       "status" : "failed",
@@ -297,11 +325,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "4f33f94670607925",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/4f33f94670607925",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139382398,
+        "stop" : 1618139382402,
+        "duration" : 4
+      }
+    }, {
       "uid" : "90c8c2ace745731e",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/90c8c2ace745731e",
       "status" : "passed",
@@ -375,11 +412,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "fa1febd08c3c9497",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/fa1febd08c3c9497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139374835,
+        "stop" : 1618139374836,
+        "duration" : 1
+      }
+    }, {
       "uid" : "18c766be8c5a1837",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/18c766be8c5a1837",
       "status" : "passed",
@@ -451,11 +497,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ccd12568254fffe8",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/ccd12568254fffe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139395648,
+        "stop" : 1618139397928,
+        "duration" : 2280
+      }
+    }, {
       "uid" : "a89f78a65758198b",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/a89f78a65758198b",
       "status" : "passed",
@@ -522,14 +577,24 @@
   },
   "ce09e92ae2bcb1db5e1b8af8fb14a997" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "51cd94a4ad19904f",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/51cd94a4ad19904f",
+      "status" : "failed",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1618139399958,
+        "stop" : 1618139401544,
+        "duration" : 1586
+      }
+    }, {
       "uid" : "7f08be5958cf49ba",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/7f08be5958cf49ba",
       "status" : "failed",
@@ -606,11 +671,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8f488d9470a20a93",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/8f488d9470a20a93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139396388,
+        "stop" : 1618139396389,
+        "duration" : 1
+      }
+    }, {
       "uid" : "964c842bf376af52",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/964c842bf376af52",
       "status" : "passed",
@@ -702,11 +776,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "cc9ed169631d42d1",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/cc9ed169631d42d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139389148,
+        "stop" : 1618139391222,
+        "duration" : 2074
+      }
+    }, {
       "uid" : "6ecf8c570c13ee93",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/6ecf8c570c13ee93",
       "status" : "passed",
@@ -796,11 +879,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "e50d16c700fc9721",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/e50d16c700fc9721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139374196,
+        "stop" : 1618139376917,
+        "duration" : 2721
+      }
+    }, {
       "uid" : "6dda0d0a343ce582",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/6dda0d0a343ce582",
       "status" : "passed",
@@ -870,11 +962,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b3acd31fcd9d9890",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/b3acd31fcd9d9890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139382483,
+        "stop" : 1618139384579,
+        "duration" : 2096
+      }
+    }, {
       "uid" : "1ee3e571b2f1fc05",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/1ee3e571b2f1fc05",
       "status" : "passed",
@@ -962,14 +1063,24 @@
   },
   "cad436207142227918581ae7912911d3" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "836dd92f32038e52",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/836dd92f32038e52",
+      "status" : "failed",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1618139393552,
+        "stop" : 1618139395113,
+        "duration" : 1561
+      }
+    }, {
       "uid" : "35a5d220ca206e5",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/35a5d220ca206e5",
       "status" : "failed",
@@ -1046,11 +1157,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "5fafd3427c383252",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/5fafd3427c383252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139382487,
+        "stop" : 1618139384555,
+        "duration" : 2068
+      }
+    }, {
       "uid" : "2cae8e02c9c72e42",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/2cae8e02c9c72e42",
       "status" : "passed",
@@ -1117,14 +1237,24 @@
   },
   "4efe4554ba541344b9f422311a9a859c" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b151d8fbeb0b2834",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/b151d8fbeb0b2834",
+      "status" : "failed",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1618139386740,
+        "stop" : 1618139388315,
+        "duration" : 1575
+      }
+    }, {
       "uid" : "43635f75f4602dfa",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/43635f75f4602dfa",
       "status" : "failed",
@@ -1201,11 +1331,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "56637badb718203",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/56637badb718203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139389001,
+        "stop" : 1618139391200,
+        "duration" : 2199
+      }
+    }, {
       "uid" : "dc8be734387483bf",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/dc8be734387483bf",
       "status" : "passed",
@@ -1295,11 +1434,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c6f9b8b86b09d992",
+      "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/c6f9b8b86b09d992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618139374201,
+        "stop" : 1618139376875,
+        "duration" : 2674
+      }
+    }, {
       "uid" : "9e7ff9f2d173770a",
       "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/9e7ff9f2d173770a",
       "status" : "passed",
