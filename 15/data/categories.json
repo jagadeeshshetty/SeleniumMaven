@@ -1,45 +1,80 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: headless chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az224-151', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1040-azure', java.version: '1.8.0_282'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.iwCuPT}, goog:chromeOptions: {debuggerAddress: localhost:37661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 731cab20857823891bf931344cf6801e\n*** Element info: {Using=id, value=username}",
-      "children" : [ {
-        "name" : "succeeded2",
-        "uid" : "1598cee566edef6a",
-        "parentUid" : "f03612da7960742d57b38330afbf7d92",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616328976103,
-          "stop" : 1616328976158,
-          "duration" : 55
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f03612da7960742d57b38330afbf7d92"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected [invalid title] but found [The Internet]",
+      "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
-        "name" : "fail",
-        "uid" : "ba2f604a30c640e4",
-        "parentUid" : "9862f2701292696eab84e54b24ab4b43",
+        "name" : "testOneExpectedFailure",
+        "uid" : "6e18692ff61b3846",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1616328977128,
-          "stop" : 1616328977214,
-          "duration" : 86
+          "start" : 1618138817640,
+          "stop" : 1618138819259,
+          "duration" : 1619
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "43635f75f4602dfa",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618138824289,
+          "stop" : 1618138825886,
+          "duration" : 1597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "35a5d220ca206e5",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618138831024,
+          "stop" : 1618138832834,
+          "duration" : 1810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "7f08be5958cf49ba",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618138838242,
+          "stop" : 1618138840266,
+          "duration" : 2024
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9862f2701292696eab84e54b24ab4b43"
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "testThreeUnstableTest",
+        "uid" : "bb1ecb5ec0076286",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618138827710,
+          "stop" : 1618138827779,
+          "duration" : 69
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
