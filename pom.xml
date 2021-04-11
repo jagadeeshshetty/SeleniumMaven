@@ -9,7 +9,7 @@
     <version>2.3.0-SNAPSHOT</version>
 
     <name>SeleniumMaven</name>
-    <url>https://github.com/jagadeeshshetty/SeleniumMaven</url>
+    <!--    <url>https://github.com/jagadeeshshetty/SeleniumMaven</url>-->
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
