@@ -85,12 +85,12 @@ public class Base {
 
             context.setAttribute("WebDriver", getDriver());
             context.setAttribute("logger", logger);
-            ReportHelper.setEnvironment(getDriverCapabilities("browserName"), getDriverCapabilities("browserVersion"));
         }
     }
 
     @AfterMethod
     public void teardown() {
+        ReportHelper.setEnvironment(getDriverCapabilities("browserName"), getDriverCapabilities("browserVersion"));
         step("Cleaning up driver instance: " + getDriver().toString());
         getDriver().quit();
         step("Complete time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));

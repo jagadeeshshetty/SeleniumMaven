@@ -1,130 +1,124 @@
-2021-04-11 14:17:49 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneUnstableTest
-2021-04-11 14:17:49 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:17:49 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (6974d77542b8cd491b1d9a1e6c94ee83)] -> id: login]] Present.
-2021-04-11 14:17:49 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (c8116c979b7ff30ce16d337bb859ecea)] -> id: login]] Present.
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (dbd7fe75b9454dff1ab8362e4ced79b4)] -> id: login]] Present.
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:17:50 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (dbd7fe75b9454dff1ab8362e4ced79b4)] -> css selector: .flash.success]] Present.
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (dbd7fe75b9454dff1ab8362e4ced79b4)] -> css selector: .flash.success]] Present.
-2021-04-11 14:17:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (dbd7fe75b9454dff1ab8362e4ced79b4)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:03 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (2a4819184003d418c93270a762ab0071)] -> id: login]] Present.
-2021-04-11 14:18:03 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:03 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:04 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:04 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (2a4819184003d418c93270a762ab0071)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:14 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:14 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (17ae4151828068e81b3046bf250d4dba)] -> id: login]] Present.
-2021-04-11 14:18:14 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:14 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:16 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:16 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (17ae4151828068e81b3046bf250d4dba)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:16 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneExpectedFailure
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (5eece358bc3c972eb434baf8e9fb7d16)] -> id: login]] Present.
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (822eee1c91fa5e23e896fcba31fe93d8)] -> id: login]] Present.
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:26 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (85ad8ad1a206108ef06960e0b004e69c)] -> id: login]] Present.
-2021-04-11 14:18:27 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:27 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:27 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:28 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:28 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:28 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (85ad8ad1a206108ef06960e0b004e69c)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:28 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (85ad8ad1a206108ef06960e0b004e69c)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:28 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (85ad8ad1a206108ef06960e0b004e69c)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:38 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:39 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (eaccdcb3884cb38213187ac44bc50218)] -> id: login]] Present.
-2021-04-11 14:18:40 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:41 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:42 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:42 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (eaccdcb3884cb38213187ac44bc50218)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:54 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:18:54 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (38f6d094a8d2cf3df3e4d71fb809b3be)] -> id: login]] Present.
-2021-04-11 14:18:54 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:18:55 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:18:56 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:18:56 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (38f6d094a8d2cf3df3e4d71fb809b3be)] -> css selector: .flash.success]] Present.
-2021-04-11 14:18:56 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoExpectedFailure
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d32fdf3cf64ff214eec4fb492f616eee)] -> id: login]] Present.
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (73451ae38808208f009fb130f02fe0d8)] -> id: login]] Present.
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d125fe3419527c8c6f6f4ceac0b4dad8)] -> id: login]] Present.
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:09 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:10 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:10 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d125fe3419527c8c6f6f4ceac0b4dad8)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d125fe3419527c8c6f6f4ceac0b4dad8)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:11 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (d125fe3419527c8c6f6f4ceac0b4dad8)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:22 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:22 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (488436c8aace4a23736181c8b86d4086)] -> id: login]] Present.
-2021-04-11 14:19:22 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:22 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:23 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:23 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (488436c8aace4a23736181c8b86d4086)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:32 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:32 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (241b9db4468224822952afbf9c178ff4)] -> id: login]] Present.
-2021-04-11 14:19:32 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:32 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:34 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:34 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (241b9db4468224822952afbf9c178ff4)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:34 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testThreeExpectedFailure
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (441523826a5a7b6dc45f9ce246aee59e)] -> id: login]] Present.
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (150fa4b42959db11611f3c5a7f99fb6c)] -> id: login]] Present.
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:19:45 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (868d771f3e0331240dab8714b25808c2)] -> id: login]] Present.
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:46 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (868d771f3e0331240dab8714b25808c2)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (868d771f3e0331240dab8714b25808c2)] -> css selector: .flash.success]] Present.
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:19:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (868d771f3e0331240dab8714b25808c2)] -> css selector: .flash.success]] Present.
-2021-04-11 14:20:00 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:20:00 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (2090b0724dd932c3aae3addb94f13970)] -> id: login]] Present.
-2021-04-11 14:20:00 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:20:00 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:20:01 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:20:01 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (28fa67fd09fd52fbaf4755f49834b2fe)] -> id: login]] Present.
-2021-04-11 14:20:02 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:20:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:20:03 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:20:04 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:20:04 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (28fa67fd09fd52fbaf4755f49834b2fe)] -> css selector: .flash.success]] Present.
-2021-04-11 14:20:15 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
-2021-04-11 14:20:15 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (eec8cc83fcc4ffe46323b4116a92b7eb)] -> id: login]] Present.
-2021-04-11 14:20:16 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
-2021-04-11 14:20:16 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
-2021-04-11 14:20:17 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
-2021-04-11 14:20:17 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on WINDOWS (eec8cc83fcc4ffe46323b4116a92b7eb)] -> css selector: .flash.success]] Present.
-2021-04-11 14:20:17 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testFourExpectedFailure
+2021-04-11 16:25:00 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:00 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (7f79b3028782cabb19e926a6e5b022ee)] -> id: login]] Present.
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (0d375e003848c2830597adc3e584e9e9)] -> id: login]] Present.
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:01 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8c4d1e2ba2810e7b8d9708ad85f2eba5)] -> id: login]] Present.
+2021-04-11 16:25:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8c4d1e2ba2810e7b8d9708ad85f2eba5)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8c4d1e2ba2810e7b8d9708ad85f2eba5)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8c4d1e2ba2810e7b8d9708ad85f2eba5)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:16 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:16 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8252a3b8fe4ebd3ac66e07b86a271284)] -> id: login]] Present.
+2021-04-11 16:25:16 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:16 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:18 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:18 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (8252a3b8fe4ebd3ac66e07b86a271284)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:24 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:24 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (b189905e3f5b0793a3b40713055a7899)] -> id: login]] Present.
+2021-04-11 16:25:24 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:25 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:26 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:26 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (b189905e3f5b0793a3b40713055a7899)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:26 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testOneExpectedFailure
+2021-04-11 16:25:33 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:33 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (e98d6122d5c84c50fc37cbb9c44c23d4)] -> id: login]] Present.
+2021-04-11 16:25:33 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:33 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:34 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:34 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (e98d6122d5c84c50fc37cbb9c44c23d4)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:35 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:35 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (c96c3973471665c2f104693c655090e5)] -> id: login]] Present.
+2021-04-11 16:25:35 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:35 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:36 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:36 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (c96c3973471665c2f104693c655090e5)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (4ab34bb7188885dc702abb5ce6409053)] -> id: login]] Present.
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:25:54 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (19e3c1f4750b8b05c0d4db55f699f6cd)] -> id: login]] Present.
+2021-04-11 16:25:55 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:25:55 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:25:55 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:56 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:25:56 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (19e3c1f4750b8b05c0d4db55f699f6cd)] -> css selector: .flash.success]] Present.
+2021-04-11 16:25:56 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (19e3c1f4750b8b05c0d4db55f699f6cd)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:02 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:02 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (de60370d8d28cb130d70b448affc3bec)] -> id: login]] Present.
+2021-04-11 16:26:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:02 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:03 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:03 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (de60370d8d28cb130d70b448affc3bec)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:03 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testTwoExpectedFailure
+2021-04-11 16:26:11 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:11 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (b696ed128a7dc6f7d8eb1877ac3257fc)] -> id: login]] Present.
+2021-04-11 16:26:11 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:11 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:12 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:12 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (118b65a1b4ab53f7da3ad7b1417be9a2)] -> id: login]] Present.
+2021-04-11 16:26:12 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:12 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:12 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:13 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:14 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (118b65a1b4ab53f7da3ad7b1417be9a2)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:14 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (118b65a1b4ab53f7da3ad7b1417be9a2)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:29 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:29 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (fac17e175b66bb7a0b0ee7f7f70932ae)] -> id: login]] Present.
+2021-04-11 16:26:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:29 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:30 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:30 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (aed30f58d0b00990d2ba86c708bdafcd)] -> id: login]] Present.
+2021-04-11 16:26:30 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:30 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:30 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:31 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:31 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (aed30f58d0b00990d2ba86c708bdafcd)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:31 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (aed30f58d0b00990d2ba86c708bdafcd)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:37 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:38 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (77139bd76d04f58d9bedbcde1f77535b)] -> id: login]] Present.
+2021-04-11 16:26:38 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:38 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:39 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:39 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (77139bd76d04f58d9bedbcde1f77535b)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:39 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testThreeExpectedFailure
+2021-04-11 16:26:48 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (d7f519d78a4079fd115a3d5644240311)] -> id: login]] Present.
+2021-04-11 16:26:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:48 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (9070b3951586a9b212a090a6671fa98b)] -> id: login]] Present.
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (56b0d77ed3f25a1bc517c88c6a58ef03)] -> id: login]] Present.
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:26:49 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:50 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:51 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:26:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (56b0d77ed3f25a1bc517c88c6a58ef03)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (56b0d77ed3f25a1bc517c88c6a58ef03)] -> css selector: .flash.success]] Present.
+2021-04-11 16:26:51 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (56b0d77ed3f25a1bc517c88c6a58ef03)] -> css selector: .flash.success]] Present.
+2021-04-11 16:27:07 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:27:07 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (37a20e06cefa2e29ae50824a6b90d909)] -> id: login]] Present.
+2021-04-11 16:27:07 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:27:07 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:27:08 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:27:08 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (37a20e06cefa2e29ae50824a6b90d909)] -> css selector: .flash.success]] Present.
+2021-04-11 16:27:18 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2021-04-11 16:27:18 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (39bfa96eafb32725fc3e446b50178e66)] -> id: login]] Present.
+2021-04-11 16:27:18 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2021-04-11 16:27:18 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2021-04-11 16:27:19 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2021-04-11 16:27:19 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on MAC (39bfa96eafb32725fc3e446b50178e66)] -> css selector: .flash.success]] Present.
+2021-04-11 16:27:19 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: testFourExpectedFailure
