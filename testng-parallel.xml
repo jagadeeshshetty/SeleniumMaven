@@ -6,7 +6,7 @@
             <class name="test.java.tests.theInternet.parallel.TestOne"/>
             <class name="test.java.tests.theInternet.parallel.TestTwo"/>
             <class name="test.java.tests.theInternet.parallel.TestThree"/>
-            <class name="test.java.tests.theInternet.parallel.TestFour"/>
+            <!--            <class name="test.java.tests.theInternet.parallel.TestFour"/>-->
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
