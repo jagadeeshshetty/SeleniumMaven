@@ -1,26 +1,65 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'fv-az249-483', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1041-azure', java.version: '1.8.0_282'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55cda62cc2b9 <unknown>\n",
+      "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
-        "name" : "globalSetup",
-        "uid" : "973ff0d12f680e69",
-        "parentUid" : "0e92f3a493b100c03a6d7f187aed6df1",
-        "status" : "broken",
+        "name" : "testOneExpectedFailure",
+        "uid" : "7e0c42a2470e0597",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
         "time" : {
-          "start" : 1616858856946,
-          "stop" : 1616858856952,
-          "duration" : 6
+          "start" : 1618139730675,
+          "stop" : 1618139731426,
+          "duration" : 751
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "b8375ce0000ae67c",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618139734677,
+          "stop" : 1618139735638,
+          "duration" : 961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "4fe58f9240fc0cc",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618139739910,
+          "stop" : 1618139740870,
+          "duration" : 960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "6ee629d36fd3ce07",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618139744196,
+          "stop" : 1618139744885,
+          "duration" : 689
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0e92f3a493b100c03a6d7f187aed6df1"
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
