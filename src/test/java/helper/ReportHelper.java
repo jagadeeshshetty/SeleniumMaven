@@ -1,4 +1,4 @@
-package test.java.tests;
+package test.java.helper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,12 +6,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Test {
+public class ReportHelper {
 
-    public static void main(String[] args) {
+    public static void setEnvironment(String browserName, String browserVersion) {
         //Instantiating the properties file
         Properties props = new Properties();
-        props.putIfAbsent("Browser", "Chrome");
+        props.put("Platform", System.getProperty("os.name"));
+        props.put("Browser Name and Version", browserName + ' ' + browserVersion);
+        props.put("Browser Name and Version", capitalizeFirstCharacter(browserName) + ' ' + browserVersion);
+        props.put("Tester Name", System.getProperty("user.name"));
+        props.put("JAVA", System.getProperty("java.vm.name") + ' ' + System.getProperty("java.runtime.version"));
+        props.put("Project Directory", System.getProperty("user.dir"));
 
         String dirPath = System.getProperty("user.dir") +
                 System.getProperty("file.separator") +
@@ -41,17 +46,11 @@ public class Test {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-//        System.out.println(System.getProperties());
-        // java.specification.version=11,
-        // java.vm.vendor=AdoptOpenJDK, java.vendor.url=https://adoptopenjdk.net/,
-        // os.name=Windows 10,
-        // java.vm.name=OpenJDK 64-Bit Server VM, java.runtime.name=OpenJDK Runtime Environment, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=11.0.10+9, java.version.date=2021-01-19, java.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot,
-        // file.separator=\,
-        // user.name=Jagadeesh C (L), os.version=10.0,  file.encoding=UTF-8,
-        // user.dir=C:\Users\jagadeesh\Documents\SeleniumMaven, os.arch=amd64,
-        // java.class.version=55.0}
-
     }
 
+    public static String capitalizeFirstCharacter(String value) {
+        String firstLetter = value.substring(0, 1);
+        String remainingLetters = value.substring(1, value.length());
+        return firstLetter.toUpperCase() + remainingLetters;
+    }
 }
