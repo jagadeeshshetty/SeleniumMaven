@@ -3,6 +3,13 @@
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "Product defects" : 3
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "Product defects" : 4
   }
 }, {

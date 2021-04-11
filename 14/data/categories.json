@@ -6,52 +6,39 @@
       "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
         "name" : "testOneExpectedFailure",
-        "uid" : "ff66ae552f47cb5",
+        "uid" : "54767e1a82faa936",
         "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1618131900467,
-          "stop" : 1618131901201,
-          "duration" : 734
+          "start" : 1618137432401,
+          "stop" : 1618137433581,
+          "duration" : 1180
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testTwoExpectedFailure",
-        "uid" : "101cc4cf3c67f1c7",
+        "uid" : "964ee6c75134170a",
         "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1618131906070,
-          "stop" : 1618131906817,
-          "duration" : 747
+          "start" : 1618137437405,
+          "stop" : 1618137438495,
+          "duration" : 1090
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testThreeExpectedFailure",
-        "uid" : "eb31fc5999b33d99",
+        "uid" : "69ffc4eba1878bc4",
         "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1618131910644,
-          "stop" : 1618131911367,
-          "duration" : 723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testFourExpectedFailure",
-        "uid" : "34f5e777f9432f15",
-        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1618131914896,
-          "stop" : 1618131915646,
-          "duration" : 750
+          "start" : 1618137442131,
+          "stop" : 1618137443343,
+          "duration" : 1212
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,32 +1,34 @@
 {
-  "uid" : "76e6c49ebd2374ec",
-  "name" : "testTwoValidLoginTwo",
-  "fullName" : "test.java.tests.theInternet.parallel.TestTwo.testTwoValidLoginTwo",
-  "historyId" : "b79c0e03ca4f80c6784df4d7ec429c4a",
+  "uid" : "a73960bc3b6ffca8",
+  "name" : "testTwoExpectedFailure",
+  "fullName" : "test.java.tests.theInternet.parallel.TestTwo.testTwoExpectedFailure",
+  "historyId" : "4efe4554ba541344b9f422311a9a859c",
   "time" : {
-    "start" : 1618131904232,
-    "stop" : 1618131905689,
-    "duration" : 1457
+    "start" : 1618137434343,
+    "stop" : 1618137435665,
+    "duration" : 1322
   },
   "description" : "Verify the successful login with valid username and password.",
   "descriptionHtml" : "<p>Verify the successful login with valid username and password.</p>\n",
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "success message not present expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: success message not present expected [false] but found [true]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertFalse(Assert.java:67)\n\tat test.java.tests.theInternet.parallel.TestTwo.testTwoExpectedFailure(TestTwo.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1618131903929,
-      "stop" : 1618131904230,
-      "duration" : 301
+      "start" : 1618137433665,
+      "stop" : 1618137434300,
+      "duration" : 635
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Start time: 2021/04/11 09:05:03",
+      "name" : "Start time: 2021/04/11 10:37:13",
       "time" : {
-        "start" : 1618131903929,
-        "stop" : 1618131903929,
+        "start" : 1618137433665,
+        "stop" : 1618137433665,
         "duration" : 0
       },
       "status" : "passed",
@@ -38,10 +40,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Driver instance: ChromeDriver: chrome on LINUX (945e6ba92acef7d001555db40913e96b)",
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (a13f40b16f18ee864fef3522a88194ea)",
       "time" : {
-        "start" : 1618131904228,
-        "stop" : 1618131904228,
+        "start" : 1618137434290,
+        "stop" : 1618137434290,
         "duration" : 0
       },
       "status" : "passed",
@@ -62,12 +64,14 @@
   } ],
   "testStage" : {
     "description" : "Verify the successful login with valid username and password.",
-    "status" : "passed",
+    "status" : "skipped",
+    "statusMessage" : "success message not present expected [false] but found [true]",
+    "statusTrace" : "java.lang.AssertionError: success message not present expected [false] but found [true]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertFalse(Assert.java:67)\n\tat test.java.tests.theInternet.parallel.TestTwo.testTwoExpectedFailure(TestTwo.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
     "steps" : [ {
       "name" : "Access http://the-internet.herokuapp.com/login URL.",
       "time" : {
-        "start" : 1618131904232,
-        "stop" : 1618131904232,
+        "start" : 1618137434345,
+        "stop" : 1618137434345,
         "duration" : 0
       },
       "status" : "passed",
@@ -81,8 +85,8 @@
     }, {
       "name" : "Verify login form present or not.",
       "time" : {
-        "start" : 1618131905059,
-        "stop" : 1618131905059,
+        "start" : 1618137434999,
+        "stop" : 1618137434999,
         "duration" : 0
       },
       "status" : "passed",
@@ -96,8 +100,8 @@
     }, {
       "name" : "1. Login with valid username and password.",
       "time" : {
-        "start" : 1618131905104,
-        "stop" : 1618131905104,
+        "start" : 1618137435067,
+        "stop" : 1618137435067,
         "duration" : 0
       },
       "status" : "passed",
@@ -111,8 +115,8 @@
     }, {
       "name" : "Enter tomsmith username",
       "time" : {
-        "start" : 1618131905104,
-        "stop" : 1618131905104,
+        "start" : 1618137435067,
+        "stop" : 1618137435067,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,8 +130,8 @@
     }, {
       "name" : "Enter SuperSecretPassword! password",
       "time" : {
-        "start" : 1618131905175,
-        "stop" : 1618131905175,
+        "start" : 1618137435166,
+        "stop" : 1618137435166,
         "duration" : 0
       },
       "status" : "passed",
@@ -141,9 +145,9 @@
     }, {
       "name" : "Click on Submit button",
       "time" : {
-        "start" : 1618131905259,
-        "stop" : 1618131905259,
-        "duration" : 0
+        "start" : 1618137435298,
+        "stop" : 1618137435299,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,8 +160,8 @@
     }, {
       "name" : "2. Verify success message present",
       "time" : {
-        "start" : 1618131905448,
-        "stop" : 1618131905448,
+        "start" : 1618137435531,
+        "stop" : 1618137435531,
         "duration" : 0
       },
       "status" : "passed",
@@ -171,8 +175,8 @@
     }, {
       "name" : "Verify success message present or not.",
       "time" : {
-        "start" : 1618131905448,
-        "stop" : 1618131905448,
+        "start" : 1618137435531,
+        "stop" : 1618137435531,
         "duration" : 0
       },
       "status" : "passed",
@@ -188,23 +192,23 @@
     "parameters" : [ ],
     "stepsCount" : 8,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "shouldDisplayMessage" : true,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1618131905691,
-      "stop" : 1618131905760,
-      "duration" : 69
+      "start" : 1618137435666,
+      "stop" : 1618137435739,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (945e6ba92acef7d001555db40913e96b)",
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (a13f40b16f18ee864fef3522a88194ea)",
       "time" : {
-        "start" : 1618131905691,
-        "stop" : 1618131905691,
+        "start" : 1618137435666,
+        "stop" : 1618137435666,
         "duration" : 0
       },
       "status" : "passed",
@@ -216,10 +220,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Complete time: 2021/04/11 09:05:05",
+      "name" : "Complete time: 2021/04/11 10:37:15",
       "time" : {
-        "start" : 1618131905760,
-        "stop" : 1618131905760,
+        "start" : 1618137435739,
+        "stop" : 1618137435739,
         "duration" : 0
       },
       "status" : "passed",
@@ -246,7 +250,7 @@
     "value" : "test.java.tests.theInternet.parallel.TestTwo"
   }, {
     "name" : "testMethod",
-    "value" : "testTwoValidLoginTwo"
+    "value" : "testTwoExpectedFailure"
   }, {
     "name" : "parentSuite",
     "value" : "Suite - Parallel Execution"
@@ -258,10 +262,10 @@
     "value" : "test.java.tests.theInternet.parallel.TestTwo"
   }, {
     "name" : "host",
-    "value" : "fv-az121-557"
+    "value" : "fv-az249-882"
   }, {
     "name" : "thread",
-    "value" : "2951@fv-az121-557.TestNG-test=Test Parallel Execution-5(79)"
+    "value" : "2896@fv-az249-882.TestNG-test=Test Parallel Execution-8(88)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -277,70 +281,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "blocker",
-    "retries" : [ {
-      "uid" : "2027bb5a3f603c1e",
-      "status" : "skipped",
-      "statusDetails" : "invalid session id\nBuild info: version: '4.0.0-beta-2', revision: '4ec0cfc112'\nSystem info: host: 'fv-az121-557', ip: '10.1.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1043-azure', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3ca0574072f2a5827a503053601d2a9e, findElement {using=css selector, value=.flash.success}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.LqPh1V}, goog:chromeOptions: {debuggerAddress: localhost:41409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3ca0574072f2a5827a503053601d2a9e",
-      "time" : {
-        "start" : 1618131902203,
-        "stop" : 1618131903853,
-        "duration" : 1650
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 5,
-        "unknown" : 0,
-        "total" : 5
-      },
-      "items" : [ {
-        "uid" : "6d0bdb0f6fcc49cd",
-        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/6d0bdb0f6fcc49cd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1618070488752,
-          "stop" : 1618070490900,
-          "duration" : 2148
-        }
-      }, {
-        "uid" : "df3c0ceb0c98c98d",
-        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/df3c0ceb0c98c98d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1618062500113,
-          "stop" : 1618062502112,
-          "duration" : 1999
-        }
-      }, {
-        "uid" : "3197b2171a8f68a0",
-        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/3197b2171a8f68a0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1618055881937,
-          "stop" : 1618055883982,
-          "duration" : 2045
-        }
-      }, {
-        "uid" : "18f0f962c5135d45",
-        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/18f0f962c5135d45",
-        "status" : "passed",
-        "time" : {
-          "start" : 1618055670746,
-          "stop" : 1618055672155,
-          "duration" : 1409
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "76e6c49ebd2374ec.json",
+  "source" : "a73960bc3b6ffca8.json",
   "parameterValues" : [ ]
 }

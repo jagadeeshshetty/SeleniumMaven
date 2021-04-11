@@ -1,12 +1,12 @@
 {
-  "uid" : "5ac488c2d64b2bf",
+  "uid" : "9d87c42d72d8350b",
   "name" : "testFourValidLoginOne",
   "fullName" : "test.java.tests.theInternet.parallel.TestFour.testFourValidLoginOne",
   "historyId" : "fb020d25f649e1b7fd73d72affc00fe4",
   "time" : {
-    "start" : 1618131912154,
-    "stop" : 1618131913601,
-    "duration" : 1447
+    "start" : 1618137444017,
+    "stop" : 1618137445534,
+    "duration" : 1517
   },
   "description" : "Verify the successful login with valid username and password.",
   "descriptionHtml" : "<p>Verify the successful login with valid username and password.</p>\n",
@@ -16,18 +16,18 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1618131911444,
-      "stop" : 1618131912152,
-      "duration" : 708
+      "start" : 1618137443411,
+      "stop" : 1618137444014,
+      "duration" : 603
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Start time: 2021/04/11 09:05:11",
+      "name" : "Start time: 2021/04/11 10:37:23",
       "time" : {
-        "start" : 1618131911444,
-        "stop" : 1618131911445,
-        "duration" : 1
+        "start" : 1618137443412,
+        "stop" : 1618137443412,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,10 +38,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Driver instance: ChromeDriver: chrome on LINUX (c74b4d31838d2855edd7c66d28a0998c)",
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (b0cb957b802c4c10252157d25c1efaef)",
       "time" : {
-        "start" : 1618131912146,
-        "stop" : 1618131912146,
+        "start" : 1618137444010,
+        "stop" : 1618137444010,
         "duration" : 0
       },
       "status" : "passed",
@@ -66,8 +66,8 @@
     "steps" : [ {
       "name" : "Access http://the-internet.herokuapp.com/login URL.",
       "time" : {
-        "start" : 1618131912155,
-        "stop" : 1618131912155,
+        "start" : 1618137444024,
+        "stop" : 1618137444024,
         "duration" : 0
       },
       "status" : "passed",
@@ -81,8 +81,8 @@
     }, {
       "name" : "Verify login form present or not.",
       "time" : {
-        "start" : 1618131912893,
-        "stop" : 1618131912893,
+        "start" : 1618137444729,
+        "stop" : 1618137444729,
         "duration" : 0
       },
       "status" : "passed",
@@ -96,8 +96,8 @@
     }, {
       "name" : "1. Login with valid username and password.",
       "time" : {
-        "start" : 1618131912974,
-        "stop" : 1618131912974,
+        "start" : 1618137444777,
+        "stop" : 1618137444777,
         "duration" : 0
       },
       "status" : "passed",
@@ -111,8 +111,8 @@
     }, {
       "name" : "Enter tomsmith username",
       "time" : {
-        "start" : 1618131912974,
-        "stop" : 1618131912974,
+        "start" : 1618137444777,
+        "stop" : 1618137444777,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,8 +126,8 @@
     }, {
       "name" : "Enter SuperSecretPassword! password",
       "time" : {
-        "start" : 1618131913054,
-        "stop" : 1618131913054,
+        "start" : 1618137444866,
+        "stop" : 1618137444866,
         "duration" : 0
       },
       "status" : "passed",
@@ -141,8 +141,8 @@
     }, {
       "name" : "Click on Submit button",
       "time" : {
-        "start" : 1618131913149,
-        "stop" : 1618131913149,
+        "start" : 1618137444994,
+        "stop" : 1618137444994,
         "duration" : 0
       },
       "status" : "passed",
@@ -156,8 +156,8 @@
     }, {
       "name" : "2. Verify success message present",
       "time" : {
-        "start" : 1618131913497,
-        "stop" : 1618131913497,
+        "start" : 1618137445327,
+        "stop" : 1618137445327,
         "duration" : 0
       },
       "status" : "passed",
@@ -171,8 +171,8 @@
     }, {
       "name" : "Verify success message present or not.",
       "time" : {
-        "start" : 1618131913497,
-        "stop" : 1618131913497,
+        "start" : 1618137445327,
+        "stop" : 1618137445327,
         "duration" : 0
       },
       "status" : "passed",
@@ -194,17 +194,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1618131913602,
-      "stop" : 1618131913672,
-      "duration" : 70
+      "start" : 1618137445535,
+      "stop" : 1618137445609,
+      "duration" : 74
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (c74b4d31838d2855edd7c66d28a0998c)",
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (b0cb957b802c4c10252157d25c1efaef)",
       "time" : {
-        "start" : 1618131913602,
-        "stop" : 1618131913602,
+        "start" : 1618137445535,
+        "stop" : 1618137445535,
         "duration" : 0
       },
       "status" : "passed",
@@ -216,10 +216,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Complete time: 2021/04/11 09:05:13",
+      "name" : "Complete time: 2021/04/11 10:37:25",
       "time" : {
-        "start" : 1618131913672,
-        "stop" : 1618131913672,
+        "start" : 1618137445609,
+        "stop" : 1618137445609,
         "duration" : 0
       },
       "status" : "passed",
@@ -258,10 +258,10 @@
     "value" : "test.java.tests.theInternet.parallel.TestFour"
   }, {
     "name" : "host",
-    "value" : "fv-az121-557"
+    "value" : "fv-az249-882"
   }, {
     "name" : "thread",
-    "value" : "2951@fv-az121-557.TestNG-test=Test Parallel Execution-14(181)"
+    "value" : "2896@fv-az249-882.TestNG-test=Test Parallel Execution-14(187)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -288,11 +288,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "5ac488c2d64b2bf",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/5ac488c2d64b2bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618131912154,
+          "stop" : 1618131913601,
+          "duration" : 1447
+        }
+      }, {
         "uid" : "4f9b8eb86626af97",
         "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/4f9b8eb86626af97",
         "status" : "passed",
@@ -332,6 +341,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "5ac488c2d64b2bf.json",
+  "source" : "9d87c42d72d8350b.json",
   "parameterValues" : [ ]
 }
