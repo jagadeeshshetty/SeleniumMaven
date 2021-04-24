@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "29f4dcc45a0e26cd7c7462063cee854b",
-    "name" : "Suite",
+    "uid" : "03466efb77eebe592737dc7bb994ae08",
+    "name" : "Suite - Parallel Execution",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 2
+      "total" : 16
     }
   } ]
 }
