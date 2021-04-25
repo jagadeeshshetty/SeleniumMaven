@@ -3,139 +3,113 @@
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1494
+    "duration" : 16303
   }
 }, {
   "buildOrder" : 22,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/22/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1973
+    "duration" : 19137
   }
 }, {
   "buildOrder" : 21,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1881
+    "duration" : 18428
   }
 }, {
   "buildOrder" : 20,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 1876
+    "duration" : 14902
   }
 }, {
   "buildOrder" : 19,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2025
+    "duration" : 16266
   }
 }, {
   "buildOrder" : 18,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2322
-  }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1584
+    "duration" : 13453
   }
 }, {
   "buildOrder" : 17,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 48
+    "duration" : 17780
   }
 }, {
   "buildOrder" : 16,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 3000
+    "duration" : 27348
   }
 }, {
   "buildOrder" : 15,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2086
+    "duration" : 27699
   }
 }, {
   "buildOrder" : 14,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2251
+    "duration" : 20196
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 18184
   }
 }, {
   "buildOrder" : 13,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 3256
+    "duration" : 26798
   }
 }, {
   "buildOrder" : 12,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2121
-  }
-}, {
-  "buildOrder" : 12,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 2307
+    "duration" : 19133
   }
 }, {
   "buildOrder" : 11,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 2002
+    "duration" : 21264
   }
 }, {
   "buildOrder" : 10,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 3012
-  }
-}, {
-  "buildOrder" : 10,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1993
+    "duration" : 22290
   }
 }, {
   "buildOrder" : 9,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 698
+    "duration" : 10784
   }
 }, {
-  "buildOrder" : 8,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/8/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 2474
-  }
-}, {
-  "buildOrder" : 7,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/7/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1136
-  }
+  "data" : { }
 } ]
