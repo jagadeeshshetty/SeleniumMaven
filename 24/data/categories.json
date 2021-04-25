@@ -3,22 +3,61 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected [true] but found [false]",
+      "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
-        "name" : "unstableTest",
-        "uid" : "4e0e8091c4de8e9b",
-        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "name" : "testOneExpectedFailure",
+        "uid" : "ad98dd27cb81c15d",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1616915799702,
-          "stop" : 1616915799805,
-          "duration" : 103
+          "start" : 1619362079010,
+          "stop" : 1619362080512,
+          "duration" : 1502
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "3fdc5a6a0e806a54",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619362085296,
+          "stop" : 1619362086784,
+          "duration" : 1488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "84b8775e3b49a02e",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619362092025,
+          "stop" : 1619362093483,
+          "duration" : 1458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "99e8c7852d5eb627",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619362098013,
+          "stop" : 1619362099480,
+          "duration" : 1467
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "067aa11ae245eca950dc984999fefd6d"
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

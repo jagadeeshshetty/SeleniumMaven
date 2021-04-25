@@ -1,0 +1,1 @@
+testFourExpectedFailure failed and screenshot taken!
