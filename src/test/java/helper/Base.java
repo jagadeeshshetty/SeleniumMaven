@@ -1,8 +1,12 @@
 package test.java.helper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,6 +18,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -35,7 +41,7 @@ public class Base {
 
     @BeforeMethod
     public void setup(ITestContext context) {
-        step("Start time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
+        step("Start time: " + getDateTime("d MMM uuuu HH:mm:ss"));
         step("Running Test on '" + System.getProperty("os.name") + "' OS.");
         step("Browser: " + browser.toUpperCase());
         switch (browser) {
@@ -91,12 +97,20 @@ public class Base {
     public void teardown() {
         step("Cleaning up driver instance: " + getDriver().toString());
         getDriver().quit();
-        step("Complete time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
+        step("Complete time: " + getDateTime("d MMM uuuu HH:mm:ss"));
     }
 
     public String getDateTime(String format) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern(format);
         LocalDateTime now = LocalDateTime.now();
         return dtf.format(now);
+    }
+
+    public void captureElement(WebElement element, String title) throws IOException {
+        Allure.addAttachment(title, new FileInputStream(element.getScreenshotAs(OutputType.FILE)));
+    }
+
+    public void capturePage() throws IOException {
+        Allure.addAttachment(getDriver().getTitle(), new FileInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE)));
     }
 }
