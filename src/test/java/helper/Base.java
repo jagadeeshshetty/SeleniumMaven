@@ -41,7 +41,7 @@ public class Base {
 
     @BeforeMethod
     public void setup(ITestContext context) {
-        step("Start time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
+        step("Start time: " + getDateTime("d MMM uuuu HH:mm:ss"));
         step("Running Test on '" + System.getProperty("os.name") + "' OS.");
         step("Browser: " + browser.toUpperCase());
         switch (browser) {
@@ -97,7 +97,7 @@ public class Base {
     public void teardown() {
         step("Cleaning up driver instance: " + getDriver().toString());
         getDriver().quit();
-        step("Complete time: " + getDateTime("yyyy/MM/dd HH:mm:ss"));
+        step("Complete time: " + getDateTime("d MMM uuuu HH:mm:ss"));
     }
 
     public String getDateTime(String format) {
