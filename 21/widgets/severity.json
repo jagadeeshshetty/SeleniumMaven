@@ -1,21 +1,171 @@
 [ {
-  "uid" : "cc95bf79a8e3c88e",
-  "name" : "inValidLogin",
+  "uid" : "f7d1af92c2a1cd77",
+  "name" : "testOneExpectedFailure",
   "time" : {
-    "start" : 1616864682196,
-    "stop" : 1616864682602,
-    "duration" : 406
+    "start" : 1619337238188,
+    "stop" : 1619337239018,
+    "duration" : 830
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bdf343df4677f8fe",
+  "name" : "testOneUnstableTest",
+  "time" : {
+    "start" : 1619337234858,
+    "stop" : 1619337234895,
+    "duration" : 37
   },
   "status" : "passed",
   "severity" : "trivial"
 }, {
-  "uid" : "5ff54560609d6bd8",
-  "name" : "validLogin",
+  "uid" : "f2017861418e1390",
+  "name" : "testOneValidLoginOne",
   "time" : {
-    "start" : 1616864680721,
-    "stop" : 1616864681279,
-    "duration" : 558
+    "start" : 1619337234865,
+    "stop" : 1619337236841,
+    "duration" : 1976
   },
   "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1c009bdda665dac9",
+  "name" : "testFourValidLoginOne",
+  "time" : {
+    "start" : 1619337250695,
+    "stop" : 1619337251606,
+    "duration" : 911
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "af3d774700695de9",
+  "name" : "testThreeValidLoginOne",
+  "time" : {
+    "start" : 1619337244373,
+    "stop" : 1619337245594,
+    "duration" : 1221
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5a7344ef4e86ccab",
+  "name" : "testFourValidLoginTwo",
+  "time" : {
+    "start" : 1619337248375,
+    "stop" : 1619337249926,
+    "duration" : 1551
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "656ae87427a9d862",
+  "name" : "testElementGetScreenshot",
+  "time" : {
+    "start" : 1619337252913,
+    "stop" : 1619337253286,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "357900a94b5a8c5b",
+  "name" : "testFourUnstableTest",
+  "time" : {
+    "start" : 1619337250234,
+    "stop" : 1619337250342,
+    "duration" : 108
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "df5867bcb472b0d2",
+  "name" : "testTwoValidLoginTwo",
+  "time" : {
+    "start" : 1619337240057,
+    "stop" : 1619337241315,
+    "duration" : 1258
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1f6762cb9637c352",
+  "name" : "testOneValidLoginTwo",
+  "time" : {
+    "start" : 1619337234866,
+    "stop" : 1619337236874,
+    "duration" : 2008
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "31dfc0df455e1695",
+  "name" : "testTwoUnstableTest",
+  "time" : {
+    "start" : 1619337239927,
+    "stop" : 1619337239941,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "8760bdaafeb7dc73",
+  "name" : "testThreeValidLoginTwo",
+  "time" : {
+    "start" : 1619337244046,
+    "stop" : 1619337245579,
+    "duration" : 1533
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f9f127c0fa0ba056",
+  "name" : "testTwoValidLoginOne",
+  "time" : {
+    "start" : 1619337239983,
+    "stop" : 1619337241288,
+    "duration" : 1305
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3b11a95031a2d553",
+  "name" : "testThreeUnstableTest",
+  "time" : {
+    "start" : 1619337244491,
+    "stop" : 1619337244493,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "e5377a0d23d5b9c0",
+  "name" : "testFourExpectedFailure",
+  "time" : {
+    "start" : 1619337251901,
+    "stop" : 1619337252627,
+    "duration" : 726
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "68eaa8550491ad67",
+  "name" : "testTwoExpectedFailure",
+  "time" : {
+    "start" : 1619337242651,
+    "stop" : 1619337243420,
+    "duration" : 769
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2112770c6b36c230",
+  "name" : "testThreeExpectedFailure",
+  "time" : {
+    "start" : 1619337246938,
+    "stop" : 1619337247575,
+    "duration" : 637
+  },
+  "status" : "failed",
   "severity" : "blocker"
 } ]
