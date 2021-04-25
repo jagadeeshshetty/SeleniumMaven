@@ -4,6 +4,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -29,6 +30,12 @@ public class TestElementGetScreenshot extends Base {
         getDriver().get("http://the-internet.herokuapp.com/login");
         WebElement submitButton = getDriver().findElement(By.xpath("//button[@type='submit']"));
         captureElement(submitButton, "submitButton");
+        highLighterMethod(submitButton);
         capturePage();
+    }
+
+    public void highLighterMethod(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("arguments[0].setAttribute('style', 'outline: 4px dashed #48f3c9; outline-offset: 2px;');", element);
     }
 }
