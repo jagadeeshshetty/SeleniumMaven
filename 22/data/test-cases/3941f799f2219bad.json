@@ -1,0 +1,499 @@
+{
+  "uid" : "3941f799f2219bad",
+  "name" : "testThreeExpectedFailure",
+  "fullName" : "test.java.tests.theInternet.parallel.TestThree.testThreeExpectedFailure",
+  "historyId" : "cad436207142227918581ae7912911d3",
+  "time" : {
+    "start" : 1619337661667,
+    "stop" : 1619337662868,
+    "duration" : 1201
+  },
+  "description" : "Verify the successful login with valid username and password.",
+  "descriptionHtml" : "<p>Verify the successful login with valid username and password.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "success message not present expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: success message not present expected [false] but found [true]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertFalse(Assert.java:67)\n\tat test.java.tests.theInternet.parallel.TestThree.testThreeExpectedFailure(TestThree.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1619337661473,
+      "stop" : 1619337661666,
+      "duration" : 193
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 25 Apr 2021 08:01:01",
+      "time" : {
+        "start" : 1619337661473,
+        "stop" : 1619337661473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1619337661473,
+        "stop" : 1619337661473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1619337661473,
+        "stop" : 1619337661473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (840b0e641653101956ef8e28601ddabf)",
+      "time" : {
+        "start" : 1619337661664,
+        "stop" : 1619337661664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify the successful login with valid username and password.",
+    "status" : "failed",
+    "statusMessage" : "success message not present expected [false] but found [true]",
+    "statusTrace" : "java.lang.AssertionError: success message not present expected [false] but found [true]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertFalse(Assert.java:67)\n\tat test.java.tests.theInternet.parallel.TestThree.testThreeExpectedFailure(TestThree.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+    "steps" : [ {
+      "name" : "Access http://the-internet.herokuapp.com/login URL.",
+      "time" : {
+        "start" : 1619337661668,
+        "stop" : 1619337661668,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify login form present or not.",
+      "time" : {
+        "start" : 1619337662372,
+        "stop" : 1619337662372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "1. Login with valid username and password.",
+      "time" : {
+        "start" : 1619337662409,
+        "stop" : 1619337662409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter tomsmith username",
+      "time" : {
+        "start" : 1619337662409,
+        "stop" : 1619337662409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter SuperSecretPassword! password",
+      "time" : {
+        "start" : 1619337662469,
+        "stop" : 1619337662469,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Submit button",
+      "time" : {
+        "start" : 1619337662567,
+        "stop" : 1619337662567,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2. Verify success message present",
+      "time" : {
+        "start" : 1619337662753,
+        "stop" : 1619337662753,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify success message present or not.",
+      "time" : {
+        "start" : 1619337662753,
+        "stop" : 1619337662753,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7ab9ff131322458d",
+      "name" : "saveFailureScreenshot",
+      "source" : "7ab9ff131322458d.png",
+      "type" : "image/png",
+      "size" : 38519
+    }, {
+      "uid" : "f27ad776cda270e9",
+      "name" : "testThreeExpectedFailure failed and screenshot taken!",
+      "source" : "f27ad776cda270e9.txt",
+      "type" : "text/plain",
+      "size" : 53
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1619337662869,
+      "stop" : 1619337662935,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (840b0e641653101956ef8e28601ddabf)",
+      "time" : {
+        "start" : 1619337662869,
+        "stop" : 1619337662869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 25 Apr 2021 08:01:02",
+      "time" : {
+        "start" : 1619337662935,
+        "stop" : 1619337662935,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.parallel.TestThree"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.parallel.TestThree"
+  }, {
+    "name" : "testMethod",
+    "value" : "testThreeExpectedFailure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.parallel.TestThree"
+  }, {
+    "name" : "host",
+    "value" : "fv-az238-508"
+  }, {
+    "name" : "thread",
+    "value" : "3072@fv-az238-508.TestNG-test=Test Parallel Execution-12(149)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "e1a7f496f2c17fe8",
+      "status" : "skipped",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1619337660585,
+        "stop" : 1619337661405,
+        "duration" : 820
+      }
+    }, {
+      "uid" : "53bcf9cf6d6ec059",
+      "status" : "skipped",
+      "statusDetails" : "success message not present expected [false] but found [true]",
+      "time" : {
+        "start" : 1619337659005,
+        "stop" : 1619337660273,
+        "duration" : 1268
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 14,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "2112770c6b36c230",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21//#testresult/2112770c6b36c230",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1619337246938,
+          "stop" : 1619337247575,
+          "duration" : 637
+        }
+      }, {
+        "uid" : "6d71a6033c6149d5",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20//#testresult/6d71a6033c6149d5",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1619326372587,
+          "stop" : 1619326373189,
+          "duration" : 602
+        }
+      }, {
+        "uid" : "91fd0a8a69c21052",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19//#testresult/91fd0a8a69c21052",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1619279911824,
+          "stop" : 1619279912617,
+          "duration" : 793
+        }
+      }, {
+        "uid" : "3d3656ce87775799",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18//#testresult/3d3656ce87775799",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618154936944,
+          "stop" : 1618154937761,
+          "duration" : 817
+        }
+      }, {
+        "uid" : "4fe58f9240fc0cc",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17//#testresult/4fe58f9240fc0cc",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618139739910,
+          "stop" : 1618139740870,
+          "duration" : 960
+        }
+      }, {
+        "uid" : "836dd92f32038e52",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/836dd92f32038e52",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618139393552,
+          "stop" : 1618139395113,
+          "duration" : 1561
+        }
+      }, {
+        "uid" : "35a5d220ca206e5",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/35a5d220ca206e5",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618138831024,
+          "stop" : 1618138832834,
+          "duration" : 1810
+        }
+      }, {
+        "uid" : "69ffc4eba1878bc4",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/69ffc4eba1878bc4",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618137442131,
+          "stop" : 1618137443343,
+          "duration" : 1212
+        }
+      }, {
+        "uid" : "eb31fc5999b33d99",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/eb31fc5999b33d99",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618131910644,
+          "stop" : 1618131911367,
+          "duration" : 723
+        }
+      }, {
+        "uid" : "5ae7a95a2b3a234c",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/5ae7a95a2b3a234c",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618070499533,
+          "stop" : 1618070501331,
+          "duration" : 1798
+        }
+      }, {
+        "uid" : "c017660692b0aa03",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/c017660692b0aa03",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618062507707,
+          "stop" : 1618062508542,
+          "duration" : 835
+        }
+      }, {
+        "uid" : "1fc6957318d4292f",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/1fc6957318d4292f",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618055891321,
+          "stop" : 1618055892751,
+          "duration" : 1430
+        }
+      }, {
+        "uid" : "3f67f069f7073b4b",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/3f67f069f7073b4b",
+        "status" : "failed",
+        "statusDetails" : "success message not present expected [false] but found [true]",
+        "time" : {
+          "start" : 1618055676564,
+          "stop" : 1618055677264,
+          "duration" : 700
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3941f799f2219bad.json",
+  "parameterValues" : [ ]
+}

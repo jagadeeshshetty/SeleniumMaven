@@ -1,20 +1,170 @@
 [ {
-  "uid" : "50687d7e1979c0b2",
-  "name" : "validLogin",
+  "uid" : "fa6e0faf8d0ce55a",
+  "name" : "testFourExpectedFailure",
   "time" : {
-    "start" : 1616864871174,
-    "stop" : 1616864871691,
-    "duration" : 517
+    "start" : 1619337666214,
+    "stop" : 1619337667521,
+    "duration" : 1307
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "989f2630dd3187fe",
+  "name" : "testOneValidLoginTwo",
+  "time" : {
+    "start" : 1619337649171,
+    "stop" : 1619337650867,
+    "duration" : 1696
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "eea4f11bbd25289c",
-  "name" : "inValidLogin",
+  "uid" : "72d05b0f94d19abc",
+  "name" : "testThreeValidLoginTwo",
   "time" : {
-    "start" : 1616864872723,
-    "stop" : 1616864873147,
-    "duration" : 424
+    "start" : 1619337658890,
+    "stop" : 1619337660302,
+    "duration" : 1412
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "50daf3dc5bfc3770",
+  "name" : "testFourUnstableTest",
+  "time" : {
+    "start" : 1619337663630,
+    "stop" : 1619337663632,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "beacadfd20161536",
+  "name" : "testOneExpectedFailure",
+  "time" : {
+    "start" : 1619337652284,
+    "stop" : 1619337653228,
+    "duration" : 944
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c1f14f9981a1c4f1",
+  "name" : "testElementGetScreenshot",
+  "time" : {
+    "start" : 1619337667797,
+    "stop" : 1619337668308,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f12ffa4ccdb37c53",
+  "name" : "testOneValidLoginOne",
+  "time" : {
+    "start" : 1619337649171,
+    "stop" : 1619337650876,
+    "duration" : 1705
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "50b06c711c307864",
+  "name" : "testThreeValidLoginOne",
+  "time" : {
+    "start" : 1619337658588,
+    "stop" : 1619337660266,
+    "duration" : 1678
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d417aa1fd8814422",
+  "name" : "testTwoValidLoginOne",
+  "time" : {
+    "start" : 1619337654169,
+    "stop" : 1619337655762,
+    "duration" : 1593
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "74279238d58e8d9f",
+  "name" : "testFourValidLoginTwo",
+  "time" : {
+    "start" : 1619337663614,
+    "stop" : 1619337664820,
+    "duration" : 1206
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dc30549126136d0e",
+  "name" : "testTwoExpectedFailure",
+  "time" : {
+    "start" : 1619337657164,
+    "stop" : 1619337658054,
+    "duration" : 890
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "872d844f4cc54475",
+  "name" : "testTwoUnstableTest",
+  "time" : {
+    "start" : 1619337655781,
+    "stop" : 1619337655850,
+    "duration" : 69
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "3941f799f2219bad",
+  "name" : "testThreeExpectedFailure",
+  "time" : {
+    "start" : 1619337661667,
+    "stop" : 1619337662868,
+    "duration" : 1201
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a9467a817b4fa3a0",
+  "name" : "testThreeUnstableTest",
+  "time" : {
+    "start" : 1619337659055,
+    "stop" : 1619337659057,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "b64d5eff99114c47",
+  "name" : "testTwoValidLoginTwo",
+  "time" : {
+    "start" : 1619337653936,
+    "stop" : 1619337655719,
+    "duration" : 1783
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2e96db2f0e1cf532",
+  "name" : "testFourValidLoginOne",
+  "time" : {
+    "start" : 1619337663735,
+    "stop" : 1619337664857,
+    "duration" : 1122
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1f3ed8920dd50ae3",
+  "name" : "testOneUnstableTest",
+  "time" : {
+    "start" : 1619337649918,
+    "stop" : 1619337649927,
+    "duration" : 9
   },
   "status" : "passed",
   "severity" : "trivial"
