@@ -36,6 +36,6 @@ public class TestElementGetScreenshot extends Base {
 
     public void highLighterMethod(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("arguments[0].setAttribute('style', 'outline: 4px dashed #48f3c9; outline-offset: 2px;');", element);
+        js.executeScript("arguments[0].setAttribute('style', 'outline: 4px solid yellow; outline-offset: 2px;');", element);
     }
 }
