@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 27,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 17,
+    "retry" : 12
+  }
+}, {
   "buildOrder" : 26,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26/",
   "reportName" : "Allure Report with history",
@@ -149,10 +157,5 @@
   "data" : {
     "run" : 8,
     "retry" : 9
-  }
-}, {
-  "data" : {
-    "run" : 0,
-    "retry" : 0
   }
 } ]
