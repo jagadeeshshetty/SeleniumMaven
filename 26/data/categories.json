@@ -3,22 +3,61 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected [true] but found [false]",
+      "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
-        "name" : "unstableTest",
-        "uid" : "a6377ec3cd643109",
-        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "name" : "testOneExpectedFailure",
+        "uid" : "70ac13e31f643285",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1616916383843,
-          "stop" : 1616916383933,
-          "duration" : 90
+          "start" : 1621251089956,
+          "stop" : 1621251091447,
+          "duration" : 1491
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "3a57197359f9fc74",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621251096123,
+          "stop" : 1621251097562,
+          "duration" : 1439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "9a2004f0c935c359",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621251103053,
+          "stop" : 1621251104641,
+          "duration" : 1588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "70428c1c63852ac",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621251109121,
+          "stop" : 1621251110542,
+          "duration" : 1421
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "067aa11ae245eca950dc984999fefd6d"
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

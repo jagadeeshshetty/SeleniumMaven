@@ -3,136 +3,134 @@
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 25,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 24,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 23,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Product defects" : 4
+  }
 }, {
   "buildOrder" : 22,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/22/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Product defects" : 5
+  }
 }, {
   "buildOrder" : 21,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Product defects" : 5
+  }
 }, {
   "buildOrder" : 20,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 5
   }
 }, {
   "buildOrder" : 19,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19/",
   "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Product defects" : 5
+  }
 }, {
   "buildOrder" : 18,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
   "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/18/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "Product defects" : 3
+  }
 }, {
   "buildOrder" : 17,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 1
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 16,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 15,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 5
   }
 }, {
   "buildOrder" : 14,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 3
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 4
   }
 }, {
   "buildOrder" : 13,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 5
   }
 }, {
   "buildOrder" : 12,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
-  }
-}, {
-  "buildOrder" : 12,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 5
   }
 }, {
   "buildOrder" : 11,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 7
   }
 }, {
   "buildOrder" : 10,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 8
   }
 }, {
-  "buildOrder" : 10,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10/",
+  "buildOrder" : 9,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/9/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 4
   }
+}, {
+  "data" : { }
 } ]
