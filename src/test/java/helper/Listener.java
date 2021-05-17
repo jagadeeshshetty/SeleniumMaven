@@ -1,5 +1,6 @@
 package test.java.helper;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -8,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
+import java.io.FileInputStream;
 
 public class Listener implements ITestListener {
 
@@ -28,11 +31,24 @@ public class Listener implements ITestListener {
     @Override
     public void onTestStart(ITestResult iTestResult) {
         System.out.println("I am in onTestStart() method " + getTestMethodName(iTestResult) + " start");
+        try {
+            System.out.println("---- START '" + getTestMethodName(iTestResult) + "' TEST EXECUTION RECORD ----");
+            CaptureTestExecutionHelper.startRecording(getTestMethodName(iTestResult));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.out.println("I am in onTestSuccess() method " + getTestMethodName(iTestResult));
+        try {
+            System.out.println("---- STOP '" + getTestMethodName(iTestResult) + "' TEST EXECUTION RECORD ----");
+            CaptureTestExecutionHelper.stopRecording();
+            Allure.addAttachment(getTestMethodName(iTestResult) + " Screencast: ", new FileInputStream("./recordings/testOneValidLoginOne-2021_05_17_19_12_07.avi"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     WebDriver driver = null;
@@ -41,6 +57,12 @@ public class Listener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         System.out.println("I am in onTestFailure() method " + getTestMethodName(iTestResult));
+        try {
+            System.out.println("---- STOP '" + getTestMethodName(iTestResult) + "' TEST EXECUTION RECORD ----");
+            CaptureTestExecutionHelper.stopRecording();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         Object testClass = iTestResult.getInstance();
         ITestContext context = iTestResult.getTestContext();
         driver = (WebDriver) context.getAttribute("WebDriver");
