@@ -1,0 +1,493 @@
+{
+  "uid" : "79e7f77071f659",
+  "name" : "testFourValidLoginOne",
+  "fullName" : "test.java.tests.theInternet.parallel.TestFour.testFourValidLoginOne",
+  "historyId" : "fb020d25f649e1b7fd73d72affc00fe4",
+  "time" : {
+    "start" : 1621268890209,
+    "stop" : 1621268891683,
+    "duration" : 1474
+  },
+  "description" : "Verify the successful login with valid username and password.",
+  "descriptionHtml" : "<p>Verify the successful login with valid username and password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1621268889307,
+      "stop" : 1621268890198,
+      "duration" : 891
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 17 May 2021 16:28:09",
+      "time" : {
+        "start" : 1621268889307,
+        "stop" : 1621268889307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1621268889307,
+        "stop" : 1621268889307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1621268889307,
+        "stop" : 1621268889307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (e8cb9647311f8ddbf2f58492c2a38a4d)",
+      "time" : {
+        "start" : 1621268890168,
+        "stop" : 1621268890191,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify the successful login with valid username and password.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Access http://the-internet.herokuapp.com/login URL.",
+      "time" : {
+        "start" : 1621268890210,
+        "stop" : 1621268890210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify login form present or not.",
+      "time" : {
+        "start" : 1621268890784,
+        "stop" : 1621268890784,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "1. Login with valid username and password.",
+      "time" : {
+        "start" : 1621268890870,
+        "stop" : 1621268890870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter tomsmith username",
+      "time" : {
+        "start" : 1621268890870,
+        "stop" : 1621268890870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter SuperSecretPassword! password",
+      "time" : {
+        "start" : 1621268891013,
+        "stop" : 1621268891014,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Submit button",
+      "time" : {
+        "start" : 1621268891206,
+        "stop" : 1621268891206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "2. Verify success message present",
+      "time" : {
+        "start" : 1621268891536,
+        "stop" : 1621268891536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify success message present or not.",
+      "time" : {
+        "start" : 1621268891536,
+        "stop" : 1621268891536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1621268891684,
+      "stop" : 1621268891762,
+      "duration" : 78
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (e8cb9647311f8ddbf2f58492c2a38a4d)",
+      "time" : {
+        "start" : 1621268891684,
+        "stop" : 1621268891684,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Complete time: 17 May 2021 16:28:11",
+      "time" : {
+        "start" : 1621268891762,
+        "stop" : 1621268891762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.parallel.TestFour"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.parallel.TestFour"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFourValidLoginOne"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.parallel.TestFour"
+  }, {
+    "name" : "host",
+    "value" : "fv-az249-862"
+  }, {
+    "name" : "thread",
+    "value" : "2926@fv-az249-862.TestNG-test=Test Parallel Execution-14(194)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "a721c759862f6426",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/27//#testresult/a721c759862f6426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621252022364,
+          "stop" : 1621252023222,
+          "duration" : 858
+        }
+      }, {
+        "uid" : "27f2cd53a3383571",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/26//#testresult/27f2cd53a3383571",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621251105455,
+          "stop" : 1621251107126,
+          "duration" : 1671
+        }
+      }, {
+        "uid" : "8ec098f9d0907ea0",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/25//#testresult/8ec098f9d0907ea0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619446330421,
+          "stop" : 1619446333193,
+          "duration" : 2772
+        }
+      }, {
+        "uid" : "58b157b111397faf",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/24//#testresult/58b157b111397faf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619362094356,
+          "stop" : 1619362096081,
+          "duration" : 1725
+        }
+      }, {
+        "uid" : "e9033045f9026ca2",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/23//#testresult/e9033045f9026ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619350009649,
+          "stop" : 1619350010909,
+          "duration" : 1260
+        }
+      }, {
+        "uid" : "2e96db2f0e1cf532",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/22//#testresult/2e96db2f0e1cf532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619337663735,
+          "stop" : 1619337664857,
+          "duration" : 1122
+        }
+      }, {
+        "uid" : "1c009bdda665dac9",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/21//#testresult/1c009bdda665dac9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619337250695,
+          "stop" : 1619337251606,
+          "duration" : 911
+        }
+      }, {
+        "uid" : "4f27bd3411d3acd8",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/20//#testresult/4f27bd3411d3acd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619326373939,
+          "stop" : 1619326375483,
+          "duration" : 1544
+        }
+      }, {
+        "uid" : "30219e13c500ea5d",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/19//#testresult/30219e13c500ea5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619279913359,
+          "stop" : 1619279914592,
+          "duration" : 1233
+        }
+      }, {
+        "uid" : "e23c0ef63fbd8fc2",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/17//#testresult/e23c0ef63fbd8fc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618139741751,
+          "stop" : 1618139742929,
+          "duration" : 1178
+        }
+      }, {
+        "uid" : "109d458c78e9fa9b",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/16//#testresult/109d458c78e9fa9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618139395916,
+          "stop" : 1618139397970,
+          "duration" : 2054
+        }
+      }, {
+        "uid" : "ca3a331f17e16e51",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/15//#testresult/ca3a331f17e16e51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618138836109,
+          "stop" : 1618138837864,
+          "duration" : 1755
+        }
+      }, {
+        "uid" : "9d87c42d72d8350b",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/9d87c42d72d8350b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618137444017,
+          "stop" : 1618137445534,
+          "duration" : 1517
+        }
+      }, {
+        "uid" : "5ac488c2d64b2bf",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/14//#testresult/5ac488c2d64b2bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618131912154,
+          "stop" : 1618131913601,
+          "duration" : 1447
+        }
+      }, {
+        "uid" : "4f9b8eb86626af97",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/13//#testresult/4f9b8eb86626af97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618070502296,
+          "stop" : 1618070504360,
+          "duration" : 2064
+        }
+      }, {
+        "uid" : "964b3ec516e24b6f",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/12//#testresult/964b3ec516e24b6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618062509182,
+          "stop" : 1618062510685,
+          "duration" : 1503
+        }
+      }, {
+        "uid" : "251d0e7b98fb4b9a",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/11//#testresult/251d0e7b98fb4b9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618055893639,
+          "stop" : 1618055895375,
+          "duration" : 1736
+        }
+      }, {
+        "uid" : "ce88790ec9d71511",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/10//#testresult/ce88790ec9d71511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618055678085,
+          "stop" : 1618055679324,
+          "duration" : 1239
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "79e7f77071f659.json",
+  "parameterValues" : [ ]
+}
