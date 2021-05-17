@@ -1,12 +1,8 @@
 package test.java.helper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -18,8 +14,6 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.lang.invoke.MethodHandles;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -106,11 +100,4 @@ public class Base {
         return dtf.format(now);
     }
 
-    public void captureElement(WebElement element, String title) throws IOException {
-        Allure.addAttachment(title, new FileInputStream(element.getScreenshotAs(OutputType.FILE)));
-    }
-
-    public void capturePage() throws IOException {
-        Allure.addAttachment(getDriver().getTitle(), new FileInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE)));
-    }
 }
