@@ -3,6 +3,7 @@ package test.java.tests.selenium;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import test.java.helper.Base;
@@ -20,13 +21,11 @@ public class TestExceptions extends Base {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify the successful login with valid username and password.")
     public void testValidLogin() {
-//        loginPage = new LoginPage(getDriver(), logger);
-
         step("1. Login with valid username and password.");
-//        loginPage.with("tomsmith", "SuperSecretPassword!");
+        getDriver().get("http://the-internet.herokuapp.com/");
+        getDriver().findElement(By.xpath("//*[.='A/B Testing']")).click();
 
         step("2. Verify success message present");
-//        Assert.assertTrue(loginPage.successMessagePresent(), "success message not present");
     }
 
 }
