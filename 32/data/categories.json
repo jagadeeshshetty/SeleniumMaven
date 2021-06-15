@@ -3,22 +3,61 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected [true] but found [false]",
+      "name" : "success message not present expected [false] but found [true]",
       "children" : [ {
-        "name" : "unstableTest",
-        "uid" : "f95f2d0c3ddde9b8",
-        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "name" : "testOneExpectedFailure",
+        "uid" : "b0ab6a5b8f3c58ae",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
         "status" : "failed",
         "time" : {
-          "start" : 1616926137427,
-          "stop" : 1616926137534,
-          "duration" : 107
+          "start" : 1623745416062,
+          "stop" : 1623745416745,
+          "duration" : 683
         },
-        "flaky" : true,
-        "newFailed" : true,
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "c0ea880354ef97b3",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623745420351,
+          "stop" : 1623745421031,
+          "duration" : 680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "7143012a20948d82",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623745424567,
+          "stop" : 1623745425209,
+          "duration" : 642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "cbe2a49d8e2624b7",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623745428733,
+          "stop" : 1623745429413,
+          "duration" : 680
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "067aa11ae245eca950dc984999fefd6d"
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
