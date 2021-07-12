@@ -1,31 +1,171 @@
 [ {
-  "uid" : "3fa1418fe20e7199",
-  "name" : "unstableTest",
+  "uid" : "24205e87e77f36ca",
+  "name" : "testTwoValidLoginOne",
   "time" : {
-    "start" : 1616939334436,
-    "stop" : 1616939334436,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "153eba172b6ba2a9",
-  "name" : "validLogin",
-  "time" : {
-    "start" : 1616939330579,
-    "stop" : 1616939331108,
-    "duration" : 529
+    "start" : 1626062993678,
+    "stop" : 1626062995294,
+    "duration" : 1616
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "da744f9f81748689",
-  "name" : "inValidLogin",
+  "uid" : "30791aa43ce8f520",
+  "name" : "testElementGetScreenshot",
   "time" : {
-    "start" : 1616939332143,
-    "stop" : 1616939332529,
-    "duration" : 386
+    "start" : 1626063005595,
+    "stop" : 1626063006056,
+    "duration" : 461
   },
   "status" : "passed",
-  "severity" : "minor"
+  "severity" : "normal"
+}, {
+  "uid" : "65079917ec2073fa",
+  "name" : "testTwoUnstableTest",
+  "time" : {
+    "start" : 1626062994913,
+    "stop" : 1626062994915,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "7f430d540a0230b0",
+  "name" : "testFourValidLoginTwo",
+  "time" : {
+    "start" : 1626063001881,
+    "stop" : 1626063002861,
+    "duration" : 980
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "655c0c212418ad71",
+  "name" : "testFourUnstableTest",
+  "time" : {
+    "start" : 1626063001830,
+    "stop" : 1626063001832,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "4a8a663bda718f93",
+  "name" : "testOneValidLoginOne",
+  "time" : {
+    "start" : 1626062991058,
+    "stop" : 1626062991853,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c725ba4737a2258f",
+  "name" : "testOneValidLoginTwo",
+  "time" : {
+    "start" : 1626062988229,
+    "stop" : 1626062990456,
+    "duration" : 2227
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b6cee63f2ea5225a",
+  "name" : "testFourExpectedFailure",
+  "time" : {
+    "start" : 1626063004585,
+    "stop" : 1626063005270,
+    "duration" : 685
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c90b3c7cf413ddc7",
+  "name" : "testOneExpectedFailure",
+  "time" : {
+    "start" : 1626062992179,
+    "stop" : 1626062992886,
+    "duration" : 707
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c51870fef56ef9a8",
+  "name" : "testOneUnstableTest",
+  "time" : {
+    "start" : 1626062988232,
+    "stop" : 1626062988261,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "235f4e660bcf02a5",
+  "name" : "testThreeExpectedFailure",
+  "time" : {
+    "start" : 1626063000348,
+    "stop" : 1626063000985,
+    "duration" : 637
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "106cfb382825284e",
+  "name" : "testTwoExpectedFailure",
+  "time" : {
+    "start" : 1626062996498,
+    "stop" : 1626062997156,
+    "duration" : 658
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a572a6077e3eb457",
+  "name" : "testThreeValidLoginTwo",
+  "time" : {
+    "start" : 1626062998058,
+    "stop" : 1626062999224,
+    "duration" : 1166
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8982553ee16b720c",
+  "name" : "testTwoValidLoginTwo",
+  "time" : {
+    "start" : 1626062993936,
+    "stop" : 1626062995286,
+    "duration" : 1350
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b1906d1d5c393d20",
+  "name" : "testThreeValidLoginOne",
+  "time" : {
+    "start" : 1626062997978,
+    "stop" : 1626062999246,
+    "duration" : 1268
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "87a7110f31ef2a7d",
+  "name" : "testFourValidLoginOne",
+  "time" : {
+    "start" : 1626063003484,
+    "stop" : 1626063004197,
+    "duration" : 713
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "88123fd3cbdee449",
+  "name" : "testThreeUnstableTest",
+  "time" : {
+    "start" : 1626062998056,
+    "stop" : 1626062998062,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "trivial"
 } ]
