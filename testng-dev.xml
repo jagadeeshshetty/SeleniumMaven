@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-    <test name="Test" thread-count="3">
+<suite name="Testing Groups Annotation">
+    <test name="Scenario 1: Run only Sanity tests.">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+                <exclude name="P1"></exclude>
+            </run>
+        </groups>
         <classes>
-            <class name="test.java.tests.selenium.TestElementGetScreenshot"/>
+            <class name="test.java.tests.testng.TestGroups"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
