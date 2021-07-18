@@ -26,6 +26,7 @@ public class Base {
 
     public static final Logger logger = Logger.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static ReportAllureHelper allureHelper = new ReportAllureHelper();
 
     ChromeOptions chromeOptions;
 

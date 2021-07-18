@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-    <test name="Test" thread-count="3">
+    <test name="Test" thread-count="0">
         <classes>
-            <class name="test.java.tests.selenium.TestElementGetScreenshot"/>
+            <class name="test.java.tests.theInternet.TestTables"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
