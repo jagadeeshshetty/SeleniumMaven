@@ -1,0 +1,284 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Suite - Parallel Execution",
+    "children" : [ {
+      "name" : "Test Parallel Execution",
+      "children" : [ {
+        "name" : "test.java.tests.theInternet.parallel.TestOne",
+        "children" : [ {
+          "name" : "testOneValidLoginOne",
+          "uid" : "527b3ca1fc33e89c",
+          "parentUid" : "506500fc758a376b9b802a15be0bfe1f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308275011,
+            "stop" : 1628308277218,
+            "duration" : 2207
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testOneValidLoginTwo",
+          "uid" : "5eb6620b301249f3",
+          "parentUid" : "506500fc758a376b9b802a15be0bfe1f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308275017,
+            "stop" : 1628308277209,
+            "duration" : 2192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testOneUnstableTest",
+          "uid" : "9507632f38ef0b8",
+          "parentUid" : "506500fc758a376b9b802a15be0bfe1f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628308276481,
+            "stop" : 1628308276713,
+            "duration" : 232
+          },
+          "flaky" : false,
+          "newFailed" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "testOneExpectedFailure",
+          "uid" : "e0d4a4fa8abb06a8",
+          "parentUid" : "506500fc758a376b9b802a15be0bfe1f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628308278483,
+            "stop" : 1628308279237,
+            "duration" : 754
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "506500fc758a376b9b802a15be0bfe1f"
+      }, {
+        "name" : "test.java.tests.theInternet.parallel.TestTwo",
+        "children" : [ {
+          "name" : "testTwoValidLoginOne",
+          "uid" : "b1e3cd6baa64cce8",
+          "parentUid" : "d19e4e2c732c6c719de4a4a5bf003cb7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308279931,
+            "stop" : 1628308281124,
+            "duration" : 1193
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTwoUnstableTest",
+          "uid" : "35e64116901bfb38",
+          "parentUid" : "d19e4e2c732c6c719de4a4a5bf003cb7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308279968,
+            "stop" : 1628308279969,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTwoValidLoginTwo",
+          "uid" : "63868440cec14e8",
+          "parentUid" : "d19e4e2c732c6c719de4a4a5bf003cb7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308279976,
+            "stop" : 1628308281141,
+            "duration" : 1165
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTwoExpectedFailure",
+          "uid" : "6e20122279c334dd",
+          "parentUid" : "d19e4e2c732c6c719de4a4a5bf003cb7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628308282358,
+            "stop" : 1628308283024,
+            "duration" : 666
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d19e4e2c732c6c719de4a4a5bf003cb7"
+      }, {
+        "name" : "test.java.tests.theInternet.parallel.TestThree",
+        "children" : [ {
+          "name" : "testThreeValidLoginOne",
+          "uid" : "215e89d3e4cc431c",
+          "parentUid" : "70b332d790e94c3fe08140fb3ef3c316",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308283707,
+            "stop" : 1628308285212,
+            "duration" : 1505
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testThreeValidLoginTwo",
+          "uid" : "39f8f48c957b94dc",
+          "parentUid" : "70b332d790e94c3fe08140fb3ef3c316",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308283811,
+            "stop" : 1628308285236,
+            "duration" : 1425
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testThreeUnstableTest",
+          "uid" : "571bf6b9b1c1f6e4",
+          "parentUid" : "70b332d790e94c3fe08140fb3ef3c316",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308284629,
+            "stop" : 1628308284629,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testThreeExpectedFailure",
+          "uid" : "a3d35f92503704ab",
+          "parentUid" : "70b332d790e94c3fe08140fb3ef3c316",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628308286345,
+            "stop" : 1628308286996,
+            "duration" : 651
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "70b332d790e94c3fe08140fb3ef3c316"
+      }, {
+        "name" : "test.java.tests.theInternet.parallel.TestFour",
+        "children" : [ {
+          "name" : "testFourValidLoginOne",
+          "uid" : "4fbe4b8fa674b06c",
+          "parentUid" : "bf5398534c8eeb328433f2311b99b6f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308287530,
+            "stop" : 1628308288972,
+            "duration" : 1442
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testFourUnstableTest",
+          "uid" : "93b01ed4ea7fb8e5",
+          "parentUid" : "bf5398534c8eeb328433f2311b99b6f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308287619,
+            "stop" : 1628308287637,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testFourValidLoginTwo",
+          "uid" : "81b231caebf54960",
+          "parentUid" : "bf5398534c8eeb328433f2311b99b6f9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308287758,
+            "stop" : 1628308288982,
+            "duration" : 1224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testFourExpectedFailure",
+          "uid" : "dc705b6097cfc4d1",
+          "parentUid" : "bf5398534c8eeb328433f2311b99b6f9",
+          "status" : "failed",
+          "time" : {
+            "start" : 1628308290171,
+            "stop" : 1628308290859,
+            "duration" : 688
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bf5398534c8eeb328433f2311b99b6f9"
+      }, {
+        "name" : "test.java.tests.selenium.TestElementGetScreenshot",
+        "children" : [ {
+          "name" : "testElementGetScreenshot",
+          "uid" : "56b7727beb87ce1c",
+          "parentUid" : "a58b0d55050acc1f10f866490aaa2135",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308291114,
+            "stop" : 1628308291609,
+            "duration" : 495
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a58b0d55050acc1f10f866490aaa2135"
+      }, {
+        "name" : "test.java.tests.theInternet.TestTables",
+        "children" : [ {
+          "name" : "testDuesColumnAscendingSortWithStepLevelScreenshot",
+          "uid" : "aea416e2e3626888",
+          "parentUid" : "ce0b3848527b67b1e5cd753109d1640f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308291992,
+            "stop" : 1628308293147,
+            "duration" : 1155
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDuesColumnAscendingSort",
+          "uid" : "bc6fe307be9c16ad",
+          "parentUid" : "ce0b3848527b67b1e5cd753109d1640f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628308291995,
+            "stop" : 1628308292527,
+            "duration" : 532
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ce0b3848527b67b1e5cd753109d1640f"
+      } ],
+      "uid" : "8d372e8ffb694c3d67d43cedb06925b8"
+    } ],
+    "uid" : "03466efb77eebe592737dc7bb994ae08"
+  } ],
+  "name" : "suites"
+}
