@@ -1,0 +1,82 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "success message not present expected [false] but found [true]",
+      "children" : [ {
+        "name" : "testOneExpectedFailure",
+        "uid" : "1f163d9f6ab0276e",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630765661406,
+          "stop" : 1630765662347,
+          "duration" : 941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTwoExpectedFailure",
+        "uid" : "f97fe83a07f6ddad",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630765665692,
+          "stop" : 1630765666307,
+          "duration" : 615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testThreeExpectedFailure",
+        "uid" : "1c38dd49f4cc37",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630765670158,
+          "stop" : 1630765671099,
+          "duration" : 941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFourExpectedFailure",
+        "uid" : "ddde174fe87d7098",
+        "parentUid" : "c19b4dd20c481aeec1a3f7a673bbb72d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630765674516,
+          "stop" : 1630765675120,
+          "duration" : 604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c19b4dd20c481aeec1a3f7a673bbb72d"
+    }, {
+      "name" : "success message not present expected [true] but found [false]",
+      "children" : [ {
+        "name" : "testThreeValidLoginTwo",
+        "uid" : "cf9b9cf582b0a253",
+        "parentUid" : "f49368df838d58e542285b4750d1b0ec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630765669932,
+          "stop" : 1630765670990,
+          "duration" : 1058
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f49368df838d58e542285b4750d1b0ec"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
