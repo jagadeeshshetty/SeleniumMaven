@@ -102,6 +102,9 @@ Covered following setup within the framework
 
 ## Runtime Parameters
 
+- Debug
+    - `mvn clean -Dmaven.surefire.debug test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=1`
+    - `mvn clean test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=0 && allure serve target/allure-results`
 - Run on different browsers
     - Default run on Firefox
       browser. `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`

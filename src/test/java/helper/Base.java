@@ -101,4 +101,13 @@ public class Base {
         return dtf.format(now);
     }
 
+    public void sleep(int sec) {
+        logger.info("For " + sec + " sec.");
+        try {
+            Thread.sleep(sec * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
