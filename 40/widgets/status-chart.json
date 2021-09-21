@@ -1,0 +1,171 @@
+[ {
+  "uid" : "e4de03c706d80fd0",
+  "name" : "testOneValidLoginTwo",
+  "time" : {
+    "start" : 1632201906107,
+    "stop" : 1632201907625,
+    "duration" : 1518
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dea00ab9204d5b30",
+  "name" : "testFourValidLoginTwo",
+  "time" : {
+    "start" : 1632201916738,
+    "stop" : 1632201918136,
+    "duration" : 1398
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "176226500296540a",
+  "name" : "testOneExpectedFailure",
+  "time" : {
+    "start" : 1632201908718,
+    "stop" : 1632201909243,
+    "duration" : 525
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d0fe2870cffda3ff",
+  "name" : "testFourUnstableTest",
+  "time" : {
+    "start" : 1632201917916,
+    "stop" : 1632201917997,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c71b7e755405c36",
+  "name" : "testThreeValidLoginOne",
+  "time" : {
+    "start" : 1632201914758,
+    "stop" : 1632201915336,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2bf832be37e14f1f",
+  "name" : "testThreeValidLoginTwo",
+  "time" : {
+    "start" : 1632201913457,
+    "stop" : 1632201914303,
+    "duration" : 846
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1485c229e7470848",
+  "name" : "testOneValidLoginOne",
+  "time" : {
+    "start" : 1632201906094,
+    "stop" : 1632201907605,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f9135b48af1e0482",
+  "name" : "testOneUnstableTest",
+  "time" : {
+    "start" : 1632201907529,
+    "stop" : 1632201907663,
+    "duration" : 134
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "5f957bfbfc2279c8",
+  "name" : "testFourExpectedFailure",
+  "time" : {
+    "start" : 1632201918913,
+    "stop" : 1632201919419,
+    "duration" : 506
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "76255a2ae87d90f8",
+  "name" : "testThreeExpectedFailure",
+  "time" : {
+    "start" : 1632201915551,
+    "stop" : 1632201916050,
+    "duration" : 499
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "105d9ff24bf9f75b",
+  "name" : "testTwoValidLoginOne",
+  "time" : {
+    "start" : 1632201909773,
+    "stop" : 1632201911227,
+    "duration" : 1454
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a11f392d9bb84195",
+  "name" : "testTwoUnstableTest",
+  "time" : {
+    "start" : 1632201911174,
+    "stop" : 1632201911282,
+    "duration" : 108
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "92ca9c0cd2b47a3c",
+  "name" : "testFourValidLoginOne",
+  "time" : {
+    "start" : 1632201916549,
+    "stop" : 1632201918128,
+    "duration" : 1579
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "413016d678a7f1b7",
+  "name" : "testThreeUnstableTest",
+  "time" : {
+    "start" : 1632201913195,
+    "stop" : 1632201913195,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "ff2d5dc3c4b2c895",
+  "name" : "testTwoValidLoginTwo",
+  "time" : {
+    "start" : 1632201909896,
+    "stop" : 1632201911242,
+    "duration" : 1346
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1ec56b8b6221c87c",
+  "name" : "testElementGetScreenshot",
+  "time" : {
+    "start" : 1632201919662,
+    "stop" : 1632201920031,
+    "duration" : 369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64c4526b9a2cd531",
+  "name" : "testTwoExpectedFailure",
+  "time" : {
+    "start" : 1632201912230,
+    "stop" : 1632201912752,
+    "duration" : 522
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+} ]
