@@ -26,6 +26,7 @@ public class Base {
 
     public static final Logger logger = Logger.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static ReportAllureHelper allureHelper = new ReportAllureHelper();
 
     ChromeOptions chromeOptions;
 
@@ -98,6 +99,15 @@ public class Base {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern(format);
         LocalDateTime now = LocalDateTime.now();
         return dtf.format(now);
+    }
+
+    public void sleep(int sec) {
+        logger.info("For " + sec + " sec.");
+        try {
+            Thread.sleep(sec * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }
