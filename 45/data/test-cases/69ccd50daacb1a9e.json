@@ -1,0 +1,281 @@
+{
+  "uid" : "69ccd50daacb1a9e",
+  "name" : "Test_With_Cookie_Before_Visiting_Page",
+  "fullName" : "test.java.tests.theInternet.ABTestOptOut.Test_With_Cookie_Before_Visiting_Page",
+  "historyId" : "90516de3d965a2f332fdd09ef723b14c",
+  "time" : {
+    "start" : 1634459251428,
+    "stop" : 1634459252029,
+    "duration" : 601
+  },
+  "description" : "The test will verify the ABTest scenario by forge an opt-out cookie.",
+  "descriptionHtml" : "<p>The test will verify the ABTest scenario by forge an opt-out cookie.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1634459250871,
+      "stop" : 1634459251424,
+      "duration" : 553
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 17 Oct 2021 08:27:30",
+      "time" : {
+        "start" : 1634459250871,
+        "stop" : 1634459250871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1634459250871,
+        "stop" : 1634459250871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1634459250871,
+        "stop" : 1634459250871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (083eedd825826c19cfe17e3b1c613939)",
+      "time" : {
+        "start" : 1634459251422,
+        "stop" : 1634459251422,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "The test will verify the ABTest scenario by forge an opt-out cookie.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Visit the \"http://the-internet.herokuapp.com\" page.",
+      "time" : {
+        "start" : 1634459251429,
+        "stop" : 1634459251429,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2. Forge an opt-out cookie.",
+      "time" : {
+        "start" : 1634459251715,
+        "stop" : 1634459251715,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3. Visit the \"http://the-internet.herokuapp.com/abtest\" abtest link.",
+      "time" : {
+        "start" : 1634459251745,
+        "stop" : 1634459251745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "4. Get the heading text.",
+      "time" : {
+        "start" : 1634459251867,
+        "stop" : 1634459251867,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "5. Verify the heading text should be 'No A/B Test' value.",
+      "time" : {
+        "start" : 1634459251908,
+        "stop" : 1634459251908,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "556cedac271c5fc4",
+      "name" : "5.1 Heading text",
+      "source" : "556cedac271c5fc4.png",
+      "type" : "image/png",
+      "size" : 42508
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1634459252029,
+      "stop" : 1634459252103,
+      "duration" : 74
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (083eedd825826c19cfe17e3b1c613939)",
+      "time" : {
+        "start" : 1634459252030,
+        "stop" : 1634459252030,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 17 Oct 2021 08:27:32",
+      "time" : {
+        "start" : 1634459252103,
+        "stop" : 1634459252103,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_With_Cookie_Before_Visiting_Page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "host",
+    "value" : "fv-az246-236"
+  }, {
+    "name" : "thread",
+    "value" : "3184@fv-az246-236.TestNG-test=Test Parallel Execution-13(159)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69ccd50daacb1a9e.json",
+  "parameterValues" : [ ]
+}
