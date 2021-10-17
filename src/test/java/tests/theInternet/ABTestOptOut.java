@@ -18,6 +18,7 @@ public class ABTestOptOut extends Base {
     @Severity(SeverityLevel.NORMAL)
     @Description("Test template.")
     public void test() {
+        // mvn clean test -Dbrowser=chrome -DmaxRetryCount=0 -Dsurefire.suiteXmlFiles=testng-dev.xml && allure serve target/allure-results
         getDriver().get("http://the-internet.herokuapp.com/abtest");
         String headingText = getDriver().findElement(By.tagName("h3")).getText();
         Assert.assertTrue(headingText.startsWith("A/B Test"));
