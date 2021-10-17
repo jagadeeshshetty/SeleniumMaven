@@ -8,6 +8,7 @@
             <class name="test.java.tests.theInternet.parallel.TestThree"/>
             <class name="test.java.tests.theInternet.parallel.TestFour"/>
             <class name="test.java.tests.selenium.TestElementGetScreenshot"/>
+            <class name="test.java.tests.theInternet.ABTestOptOut"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
