@@ -11,6 +11,18 @@
     "total" : 22
   }
 }, {
+  "buildOrder" : 47,
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/47/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 5,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 16,
+    "unknown" : 1,
+    "total" : 22
+  }
+}, {
   "buildOrder" : 46,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/46/",
   "reportName" : "Allure Report with history",
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 29,
   "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/29/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 5,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 12,
-    "unknown" : 0,
-    "total" : 17
-  }
-}, {
-  "buildOrder" : 28,
-  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/28/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 5,

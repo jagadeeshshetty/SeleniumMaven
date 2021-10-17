@@ -1,0 +1,319 @@
+{
+  "uid" : "ee9f9314b4b5f081",
+  "name" : "testDuesColumnAscendingSortWithStepLevelScreenshot",
+  "fullName" : "test.java.tests.theInternet.TestTables.testDuesColumnAscendingSortWithStepLevelScreenshot",
+  "historyId" : "89049a7fe5d7fd60424ee995e904371f",
+  "time" : {
+    "start" : 1634460326697,
+    "stop" : 1634460327665,
+    "duration" : 968
+  },
+  "description" : "Verify the 'Due' column sort functionality in an ascending order with step level screenshot.",
+  "descriptionHtml" : "<p>Verify the 'Due' column sort functionality in an ascending order with step level screenshot.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1634460326414,
+      "stop" : 1634460326695,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 17 Oct 2021 08:45:26",
+      "time" : {
+        "start" : 1634460326414,
+        "stop" : 1634460326414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1634460326414,
+        "stop" : 1634460326414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1634460326414,
+        "stop" : 1634460326414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (a6cc0b5c0cc915e5fe85df97390aa4aa)",
+      "time" : {
+        "start" : 1634460326693,
+        "stop" : 1634460326694,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify the 'Due' column sort functionality in an ascending order with step level screenshot.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d65900c1d31f99e",
+      "name" : "1. Access the test URL.",
+      "source" : "2d65900c1d31f99e.png",
+      "type" : "image/png",
+      "size" : 99885
+    }, {
+      "uid" : "601fc2fbadd9ae44",
+      "name" : "2. Click on Due column header.",
+      "source" : "601fc2fbadd9ae44.png",
+      "type" : "image/png",
+      "size" : 99955
+    }, {
+      "uid" : "21909e2ab151dd20",
+      "name" : "3. Verify table rows should be sorted in ascending order as per the 'Due' column values.",
+      "source" : "21909e2ab151dd20.png",
+      "type" : "image/png",
+      "size" : 99783
+    }, {
+      "uid" : "766696e7f5959fea",
+      "name" : "....Verified 1 row '50.0' value is less than or equal to 2 row '50.0' value.",
+      "source" : "766696e7f5959fea.png",
+      "type" : "image/png",
+      "size" : 99782
+    }, {
+      "uid" : "da8d10afd724b012",
+      "name" : "....Verified 2 row '50.0' value is less than or equal to 3 row '51.0' value.",
+      "source" : "da8d10afd724b012.png",
+      "type" : "image/png",
+      "size" : 99778
+    }, {
+      "uid" : "f800dc4f5d71dafb",
+      "name" : "....Verified 3 row '51.0' value is less than or equal to 4 row '100.0' value.",
+      "source" : "f800dc4f5d71dafb.png",
+      "type" : "image/png",
+      "size" : 99774
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1634460327666,
+      "stop" : 1634460327731,
+      "duration" : 65
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (a6cc0b5c0cc915e5fe85df97390aa4aa)",
+      "time" : {
+        "start" : 1634460327666,
+        "stop" : 1634460327666,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 17 Oct 2021 08:45:27",
+      "time" : {
+        "start" : 1634460327731,
+        "stop" : 1634460327731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.TestTables"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.TestTables"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDuesColumnAscendingSortWithStepLevelScreenshot"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.TestTables"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-262"
+  }, {
+    "name" : "thread",
+    "value" : "3143@fv-az121-262.TestNG-test=Test Parallel Execution-4(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "f6fe3f7665235f2a",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/47//#testresult/f6fe3f7665235f2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634459945426,
+          "stop" : 1634459946893,
+          "duration" : 1467
+        }
+      }, {
+        "uid" : "1fd57eeb41bad5fc",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/46//#testresult/1fd57eeb41bad5fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634459766278,
+          "stop" : 1634459767516,
+          "duration" : 1238
+        }
+      }, {
+        "uid" : "9201b36b579c06ed",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/39//#testresult/9201b36b579c06ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630765675495,
+          "stop" : 1630765676733,
+          "duration" : 1238
+        }
+      }, {
+        "uid" : "8fef8df691e900dc",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/38//#testresult/8fef8df691e900dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630690683578,
+          "stop" : 1630690684514,
+          "duration" : 936
+        }
+      }, {
+        "uid" : "aea416e2e3626888",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/37//#testresult/aea416e2e3626888",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628308291992,
+          "stop" : 1628308293147,
+          "duration" : 1155
+        }
+      }, {
+        "uid" : "d1e694839b8c7c33",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/36//#testresult/d1e694839b8c7c33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628088257702,
+          "stop" : 1628088258683,
+          "duration" : 981
+        }
+      }, {
+        "uid" : "86055ef4fb2d581",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/35//#testresult/86055ef4fb2d581",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627903963608,
+          "stop" : 1627903964610,
+          "duration" : 1002
+        }
+      }, {
+        "uid" : "305d9082ec87d3c6",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/34//#testresult/305d9082ec87d3c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626619978337,
+          "stop" : 1626619979261,
+          "duration" : 924
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee9f9314b4b5f081.json",
+  "parameterValues" : [ ]
+}
