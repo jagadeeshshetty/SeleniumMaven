@@ -2,10 +2,7 @@ package test.java.helper;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -27,7 +24,14 @@ public class ReportAllureHelper extends Base {
         return ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
-    public void report(String title, WebElement element) throws IOException {
+    public void report(String title,  WebElement element) throws IOException {
+        focusElement(element);
+        Allure.addAttachment(title, new FileInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE)));
+        resetFocusElement(element);
+    }
+
+    public void report(String title) throws IOException {
+        WebElement element = getDriver().findElement(By.xpath("//body"));
         focusElement(element);
         Allure.addAttachment(title, new FileInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE)));
         resetFocusElement(element);
