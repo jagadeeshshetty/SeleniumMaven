@@ -10,7 +10,7 @@ public class TestGetRequest {
     public static void main(String[] args) {
         try {
             // 1. Create GET method.
-            HttpGet get = new HttpGet("http://192.168.0.126:8080/laptop-bag/webapi/api/all");
+            HttpGet get = new HttpGet("/all");
 
             // 2. Create the HTTP Client.
             CloseableHttpClient client = HttpClientBuilder.create().build();

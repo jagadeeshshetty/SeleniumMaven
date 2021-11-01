@@ -11,13 +11,13 @@ import java.net.URISyntaxException;
 
 import static io.restassured.RestAssured.given;
 
-public class TestGetRequest {
+public class TestGetRequest extends BaseClass {
 
     @Test
     void testPing() throws URISyntaxException {
         Response response = given()
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/ping/hi"));
+                .get(new URI("/ping/hi"));
         System.out.println(response.asString());
     }
 
@@ -26,7 +26,7 @@ public class TestGetRequest {
         Response response = given()
                 .accept(ContentType.JSON)
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/all"));
+                .get(new URI("/all"));
         System.out.println(response.asString());
     }
 
@@ -35,7 +35,7 @@ public class TestGetRequest {
         Response response = given()
                 .accept(ContentType.XML)
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/all"));
+                .get(new URI("/all"));
         System.out.println(response.asString());
     }
 
@@ -43,7 +43,7 @@ public class TestGetRequest {
     void testGetReqWith200OKUsingThenReturn() throws URISyntaxException {
         int returnStatusCode = given()
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/all"))
+                .get(new URI("/all"))
                 .thenReturn()
                 .statusCode();
         Assert.assertEquals(returnStatusCode, HttpStatus.SC_OK);
@@ -53,7 +53,7 @@ public class TestGetRequest {
     void testGetReqWith200OKUsingThen() throws URISyntaxException {
         given()
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/all"))
+                .get(new URI("/all"))
                 .then()
                 .assertThat()
                 .statusCode(HttpStatus.SC_OK);
@@ -64,7 +64,7 @@ public class TestGetRequest {
         given()
                 .accept(ContentType.JSON)
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/find/126"))
+                .get(new URI("/find/126"))
                 .then()
                 .assertThat()
                 .statusCode(HttpStatus.SC_OK);
@@ -75,7 +75,7 @@ public class TestGetRequest {
         given()
                 .accept(ContentType.JSON)
                 .when()
-                .get(new URI("http://192.168.0.126:8080/laptop-bag/webapi/api/find/0"))
+                .get(new URI("/find/0"))
                 .then()
                 .assertThat()
                 .statusCode(HttpStatus.SC_NOT_FOUND);
