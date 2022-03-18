@@ -27,12 +27,12 @@ public class Listener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("I am in onTestStart() method " + getTestMethodName(iTestResult) + " start");
+        System.out.println("\n[😎 START] I am in onTestStart() method " + getTestMethodName(iTestResult));
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("I am in onTestSuccess() method " + getTestMethodName(iTestResult));
+        System.out.println("[🚩 DONE] I am in onTestSuccess() method " + getTestMethodName(iTestResult) + "\n");
     }
 
     WebDriver driver = null;
@@ -69,12 +69,12 @@ public class Listener implements ITestListener {
 
     @Override
     public void onStart(ITestContext iTestContext) {
-        System.out.println("I am in onStart() method " + iTestContext.getName());
+        System.out.println(">>>>>>>> I am in onStart() method " + iTestContext.getName() + "<<<<<<<<");
         iTestContext.setAttribute("WebDriver", BaseRemove.getDriver());
     }
 
     @Override
     public void onFinish(ITestContext iTestContext) {
-        System.out.println("I am in onFinish() method " + iTestContext.getName());
+        System.out.println(">>>>>>>> I am in onFinish() method " + iTestContext.getName() + "<<<<<<<<");
     }
 }

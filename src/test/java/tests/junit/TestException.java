@@ -81,7 +81,7 @@ public class TestException {
                 logger.info("An exceptional case");
             }
         } catch (TimeoutException e) {
-            logger.info("WebDriver couldn’t locate the Alert");
+            logger.info("WebDriver couldn't locate the Alert");
         }
     }
 
