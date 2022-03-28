@@ -24,8 +24,9 @@ public class ReportAllureHelper extends Base {
         return ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
-    public void report(String title,  WebElement element) throws IOException {
+    public void report(String title, WebElement element) throws IOException {
         focusElement(element);
+//        step(title);
         Allure.addAttachment(title, new FileInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE)));
         resetFocusElement(element);
     }

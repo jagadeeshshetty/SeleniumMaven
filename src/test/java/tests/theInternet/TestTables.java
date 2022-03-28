@@ -28,6 +28,7 @@ public class TestTables extends Base {
     public void testDuesColumnAscendingSort() throws IOException {
         step("1. Access the test URL.");
         getDriver().get("http://the-internet.herokuapp.com/tables");
+
         step("2. Click on Due column header.");
         getDriver().findElement(By.cssSelector("#table1 thead tr th:nth-of-type(4)")).click();
 
