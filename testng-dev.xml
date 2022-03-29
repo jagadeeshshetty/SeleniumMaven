@@ -4,7 +4,7 @@
     <test name="Test" thread-count="3">
         <classes>
             <!--            <class name="test.java.tests.theInternet.TestCheckboxes"/>-->
-            <class name="test.java.tests.selenium.interview.TestCases"/>
+            <class name="test.java.tests.selenium.Java8Features"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
