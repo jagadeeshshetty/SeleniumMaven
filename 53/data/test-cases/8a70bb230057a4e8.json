@@ -1,0 +1,373 @@
+{
+  "uid" : "8a70bb230057a4e8",
+  "name" : "Test_With_Cookie_Before_Visiting_Page",
+  "fullName" : "test.java.tests.theInternet.ABTestOptOut.Test_With_Cookie_Before_Visiting_Page",
+  "historyId" : "90516de3d965a2f332fdd09ef723b14c",
+  "time" : {
+    "start" : 1648576761954,
+    "stop" : 1648576762681,
+    "duration" : 727
+  },
+  "description" : "The test will verify the ABTest scenario by forge an opt-out cookie.",
+  "descriptionHtml" : "<p>The test will verify the ABTest scenario by forge an opt-out cookie.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1648576761520,
+      "stop" : 1648576761950,
+      "duration" : 430
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Start time: 29 Mar 2022 17:59:21",
+      "time" : {
+        "start" : 1648576761520,
+        "stop" : 1648576761520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Running Test on 'Linux' OS.",
+      "time" : {
+        "start" : 1648576761520,
+        "stop" : 1648576761520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Browser: CHROMEHEADLESS",
+      "time" : {
+        "start" : 1648576761520,
+        "stop" : 1648576761520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Driver instance: ChromeDriver: chrome on LINUX (6f28c927558b7c864760d2da6a00ee2f)",
+      "time" : {
+        "start" : 1648576761949,
+        "stop" : 1648576761949,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "The test will verify the ABTest scenario by forge an opt-out cookie.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Visit the \"http://the-internet.herokuapp.com\" page.",
+      "time" : {
+        "start" : 1648576761954,
+        "stop" : 1648576761954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "2. Forge an opt-out cookie.",
+      "time" : {
+        "start" : 1648576762410,
+        "stop" : 1648576762410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "3. Visit the \"http://the-internet.herokuapp.com/abtest\" abtest link.",
+      "time" : {
+        "start" : 1648576762417,
+        "stop" : 1648576762417,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "4. Get the heading text.",
+      "time" : {
+        "start" : 1648576762547,
+        "stop" : 1648576762547,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "5. Verify the heading text should be 'No A/B Test' value.",
+      "time" : {
+        "start" : 1648576762570,
+        "stop" : 1648576762570,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ef399b91ecaa7a7b",
+      "name" : "5.1 Heading text",
+      "source" : "ef399b91ecaa7a7b.png",
+      "type" : "image/png",
+      "size" : 42325
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1648576762682,
+      "stop" : 1648576762784,
+      "duration" : 102
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Cleaning up driver instance: ChromeDriver: chrome on LINUX (6f28c927558b7c864760d2da6a00ee2f)",
+      "time" : {
+        "start" : 1648576762682,
+        "stop" : 1648576762682,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Complete time: 29 Mar 2022 17:59:22",
+      "time" : {
+        "start" : 1648576762784,
+        "stop" : 1648576762784,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_With_Cookie_Before_Visiting_Page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite - Parallel Execution"
+  }, {
+    "name" : "suite",
+    "value" : "Test Parallel Execution"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.java.tests.theInternet.ABTestOptOut"
+  }, {
+    "name" : "host",
+    "value" : "fv-az249-416"
+  }, {
+    "name" : "thread",
+    "value" : "2447@fv-az249-416.TestNG-test=Test Parallel Execution-16(189)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "810a65374c6114e9",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/52//#testresult/810a65374c6114e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648561242863,
+          "stop" : 1648561244829,
+          "duration" : 1966
+        }
+      }, {
+        "uid" : "9e07edca4059bc02",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/51//#testresult/9e07edca4059bc02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648448520220,
+          "stop" : 1648448520771,
+          "duration" : 551
+        }
+      }, {
+        "uid" : "2cabdf40c88f9559",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/50//#testresult/2cabdf40c88f9559",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647626448387,
+          "stop" : 1647626449173,
+          "duration" : 786
+        }
+      }, {
+        "uid" : "1bbbaff340612825",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/49//#testresult/1bbbaff340612825",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635766781355,
+          "stop" : 1635766782146,
+          "duration" : 791
+        }
+      }, {
+        "uid" : "a91a2e818fcddb5e",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/48//#testresult/a91a2e818fcddb5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635765702509,
+          "stop" : 1635765703201,
+          "duration" : 692
+        }
+      }, {
+        "uid" : "911f66f8fe73422e",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/47//#testresult/911f66f8fe73422e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634460325742,
+          "stop" : 1634460326334,
+          "duration" : 592
+        }
+      }, {
+        "uid" : "96415215883df605",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/47//#testresult/96415215883df605",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634459944224,
+          "stop" : 1634459945071,
+          "duration" : 847
+        }
+      }, {
+        "uid" : "dcefbf5ee6c21a01",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/46//#testresult/dcefbf5ee6c21a01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634459765366,
+          "stop" : 1634459765940,
+          "duration" : 574
+        }
+      }, {
+        "uid" : "69ccd50daacb1a9e",
+        "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/45//#testresult/69ccd50daacb1a9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634459251428,
+          "stop" : 1634459252029,
+          "duration" : 601
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8a70bb230057a4e8.json",
+  "parameterValues" : [ ]
+}

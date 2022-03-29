@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jagadeeshshetty.github.io/SeleniumMaven",
+  "buildOrder" : 53,
+  "buildName" : "GitHub Actions Run #2060253930",
+  "buildUrl" : "https://github.com/jagadeeshshetty/SeleniumMaven/actions/runs/2060253930",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jagadeeshshetty.github.io/SeleniumMaven/53/"
+} ]
