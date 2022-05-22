@@ -38,6 +38,7 @@ public class Base {
     public void setup(ITestContext context) {
         step("Start time: " + getDateTime("d MMM uuuu HH:mm:ss"));
         step("Running Test on '" + System.getProperty("os.name") + "' OS.");
+        step("JVM Version: " + System.getProperty("java.version"));
         step("Browser: " + browser.toUpperCase());
         switch (browser) {
             case "firefox":
