@@ -1,6 +1,6 @@
 @startuml Demo
 
-package src.test.java <<Node>> {
+package src.test.java <<Rectangle>> {
 
 package helper <<Node>> {
 
