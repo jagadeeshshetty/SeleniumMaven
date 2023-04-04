@@ -1,5 +1,9 @@
 @startuml Demo
 
+package src.test.java <<Node>> {
+
+package helper <<Node>> {
+
 class Base {
   + {static} Logger LOGGER
   + {static} ReportAllureHelper allureHelper
@@ -12,9 +16,9 @@ class Base {
 annotation BeforeMethod {
   void setup(ITestContext context)
 }
-
 annotation AfterMethod {
   void teardown()
+}
 }
 
 package tests <<Node>> {
@@ -22,23 +26,18 @@ package tests <<Node>> {
   class TestLoginPage extends Base {
     - LoginPage loginPage
   }
-}
 annotation Test {
   void validLogin()
   void inValidLogin()
   void unstableTest()
 }
-
 annotation Severity {
   void validLogin()
+}
+}
 }
 
 @enduml
 
 ' Reference:
 ' https://plantuml.com/class-diagram
-
-' @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
-'     @Severity(SeverityLevel.BLOCKER)
-'     @Description("Verify the successful login with valid username and password.")
-'     public void validLogin() {
