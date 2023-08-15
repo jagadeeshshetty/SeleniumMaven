@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
@@ -46,7 +45,7 @@ public class Base {
                 driver.set(new FirefoxDriver());
                 break;
             case "chromeHeadless":
-                WebDriverManager.chromedriver().setup();
+//                WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -54,7 +53,7 @@ public class Base {
                 driver.set(new ChromeDriver(chromeOptions));
                 break;
             case "chrome":
-                WebDriverManager.chromedriver().setup();
+//                WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -68,10 +67,6 @@ public class Base {
                 WebDriverManager.iedriver().setup();
                 driver.set(new InternetExplorerDriver());
                 break;
-            case "opera":
-                WebDriverManager.operadriver().setup();
-                driver.set(new OperaDriver());
-                break;
             case "safari":
                 driver.set(new SafariDriver());
                 break;
@@ -83,6 +78,7 @@ public class Base {
             step("Driver instance: " + getDriver().toString());
 
             getDriver().manage().timeouts().pageLoadTimeout(GlobalConfig.pageLoadTimeoutInSec, TimeUnit.SECONDS);
+            getDriver().manage().timeouts().implicitlyWait(GlobalConfig.implicitlyWaitTimeoutInSec, TimeUnit.SECONDS);
 
             context.setAttribute("WebDriver", getDriver());
             context.setAttribute("logger", logger);
