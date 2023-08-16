@@ -4,7 +4,7 @@ Created with ❤️ from 🇮🇳
 
 Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a9423)
 
-[![Actions Status](https://github.com/jagadeeshshetty/SeleniumMaven/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/jagadeeshshetty/SeleniumMaven/actions)
+[![Actions Status](https://github.com/jagadeeshshetty/SeleniumMaven/actions/workflows/prod-linux-chrome-headless.yml/badge.svg)](https://github.com/jagadeeshshetty/SeleniumMaven/actions/workflows/prod-linux-chrome-headless.yml)
 
 ## Programming language and libraries
 
