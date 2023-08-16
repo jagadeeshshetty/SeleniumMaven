@@ -2,21 +2,23 @@ package test.java.helper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.lang.invoke.MethodHandles;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.concurrent.TimeUnit;
 
 import static io.qameta.allure.Allure.step;
 import static test.java.helper.GlobalConfig.browser;
@@ -25,9 +27,11 @@ public class Base {
 
     public static final Logger logger = Logger.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    public static ReportAllureHelper allureHelper = new ReportAllureHelper();
+    // Debug to avoid "Warning:(30, 57) Referencing subclass ReportAllureHelper from superclass Base initializer might lead to class loading deadlock" warning.
+     public static ReportAllureHelper allureHelper = new ReportAllureHelper();
 
     ChromeOptions chromeOptions;
+    Capabilities capabilities;
 
     public WebDriver getDriver() {
         return driver.get();
@@ -38,14 +42,15 @@ public class Base {
         step("Start time: " + getDateTime("d MMM uuuu HH:mm:ss"));
         step("Running Test on '" + System.getProperty("os.name") + "' OS.");
         step("JVM Version: " + System.getProperty("java.version"));
-        step("Browser: " + browser.toUpperCase());
+
         switch (browser) {
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver.set(new FirefoxDriver());
                 break;
             case "chromeHeadless":
-//                WebDriverManager.chromedriver().setup();
+                // Deprecated to support Chrome 115+ version onwards. Enable for lower versions.
+                // WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -53,7 +58,8 @@ public class Base {
                 driver.set(new ChromeDriver(chromeOptions));
                 break;
             case "chrome":
-//                WebDriverManager.chromedriver().setup();
+                // Deprecated to support Chrome 115+ version onwards. Enable for lower versions.
+                // WebDriverManager.chromedriver().setup();
                 chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
@@ -75,10 +81,12 @@ public class Base {
                 logger.info("No proper browser specified.");
         }
         if (driver != null) {
+            capabilities = ((RemoteWebDriver)getDriver()).getCapabilities();
+            step("Browser: " + capabilities.getBrowserName().toUpperCase() + " " + capabilities.getBrowserVersion());
             step("Driver instance: " + getDriver().toString());
 
-            getDriver().manage().timeouts().pageLoadTimeout(GlobalConfig.pageLoadTimeoutInSec, TimeUnit.SECONDS);
-            getDriver().manage().timeouts().implicitlyWait(GlobalConfig.implicitlyWaitTimeoutInSec, TimeUnit.SECONDS);
+            getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(GlobalConfig.pageLoadTimeoutInSec));
+            getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConfig.implicitlyWaitTimeoutInSec));
 
             context.setAttribute("WebDriver", getDriver());
             context.setAttribute("logger", logger);
@@ -98,13 +106,13 @@ public class Base {
         return dtf.format(now);
     }
 
-    public void sleep(int sec) {
-        logger.info("For " + sec + " sec.");
-        try {
-            Thread.sleep(sec * 1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
+//    public void sleep(int sec) {
+//        logger.info("For " + sec + " sec.");
+//        try {
+//            Thread.sleep(sec * 1000L);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
 }
