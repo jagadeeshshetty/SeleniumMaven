@@ -123,7 +123,8 @@ Covered following setup within the framework
 
 ## Terminal
 
-```commandline
+``` shell
+commandline
 [INFO] Scanning for projects...
 [INFO]
 [INFO] ----------------------< this.me.jc:SeleniumMaven >----------------------
@@ -188,5 +189,7 @@ INFO: Detected dialect: W3C
 
 ## Reference
 
+- Tbd
+- Tbd
 - Tbd
 - Tbd

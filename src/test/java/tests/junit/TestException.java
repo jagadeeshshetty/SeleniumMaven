@@ -14,6 +14,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestException {
@@ -73,7 +75,7 @@ public class TestException {
         // an alert is expected.
         // If the alert is available and still there is an exception, then it is caught.
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.alertIsPresent());
             try {
                 driver.switchTo().alert().accept();

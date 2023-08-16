@@ -59,7 +59,7 @@ public class TestOne extends Base {
         Random random = new Random();
         int rem = random.nextInt(10) % 2;
         step(String.valueOf(rem));
-        Assert.assertTrue(rem == 0);
+        Assert.assertEquals(rem, 0);
     }
 
     @Test(priority = 4, enabled = true, retryAnalyzer = Retry.class)
