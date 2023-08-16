@@ -55,24 +55,24 @@ Covered following setup within the framework
 
 - Annotations
 
-    - Description
-    - Severity
-    - Epic
-    - Feature
-    - Story
-    - Step
+  - Description
+  - Severity
+  - Epic
+  - Feature
+  - Story
+  - Step
 
 - Run
-    - Local
-        - Run all `mvn clean test`
-        - Specific test case `mvn clean test -Dtest=TestLogin#succeeded`
-    - Local using TestNG XML file.
-        - TestNG xml `mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
-        - Generate test execution report `allure serve target/allure-results`
-    - CI/CD
-        - Chill 🍺
-        - Github Actions will take care.
-    - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
+  - Local
+    - Run all `mvn clean test`
+    - Specific test case `mvn clean test -Dtest=TestLogin#succeeded`
+  - Local using TestNG XML file.
+    - TestNG xml `mvn clean test -Dsurefire.suiteXmlFiles=testng.xml`
+    - Generate test execution report `allure serve target/allure-results`
+  - CI/CD
+    - Chill 🍺
+    - Github Actions will take care.
+  - Test Report [latest](https://jagadeeshshetty.github.io/SeleniumMaven)
 
 ## Versioning
 
@@ -87,38 +87,38 @@ Covered following setup within the framework
 ## AUT
 
 - the-internet.herokuapp
-    - testing
-        - docker pull gprestes/the-internet
-        - docker run -d -p 7080:5000 gprestes/the-internet
-        - http://localhost:7080/
-        - [More info](https://hub.docker.com/r/gprestes/the-internet/?ref=login)
-        - `mvn clean test -DbaseUrl=http://localhost:7080 -Dsurefire.suiteXmlFiles=testng.xml`
-    - staging
-        - tbd
-    - prod
-        - http://the-internet.herokuapp.com/
-        - `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+  - testing
+    - docker pull gprestes/the-internet
+    - docker run -d -p 7080:5000 gprestes/the-internet
+    - http://localhost:7080/
+    - [More info](https://hub.docker.com/r/gprestes/the-internet/?ref=login)
+    - `mvn clean test -DbaseUrl=http://localhost:7080 -Dsurefire.suiteXmlFiles=testng.xml`
+  - staging
+    - tbd
+  - prod
+    - http://the-internet.herokuapp.com/
+    - `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
 - tbd
 
 ## Runtime Parameters
 
 - Debug
-    - `mvn clean -Dmaven.surefire.debug test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=1`
-    - `mvn clean test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=0 && allure serve target/allure-results`
+  - `mvn clean -Dmaven.surefire.debug test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=1`
+  - `mvn clean test -Dbrowser=chrome -Dsurefire.suiteXmlFiles=testng-dev.xml -DmaxRetryCount=0 && allure serve target/allure-results`
 - Run on different browsers
-    - Default run on Firefox
-      browser. `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
-    - Run on Chrome
-      browser. `mvn clean test -Dbrowser=chrome -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
-    - Run on Chrome headless
-      browser. `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
-    - Run on Safari
-      browser. `mvn clean test -Dbrowser=safari -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
-    - Tbd
+  - Default run on Firefox
+    browser. `mvn clean test -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+  - Run on Chrome
+    browser. `mvn clean test -Dbrowser=chrome -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+  - Run on Chrome headless
+    browser. `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+  - Run on Safari
+    browser. `mvn clean test -Dbrowser=safari -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng.xml`
+  - Tbd
 - Run with explicit retry count. By default, it'll be 2 times.
-    - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng.xml`
+  - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng.xml`
 - Run with parallel.
-    - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng-parallel.xml`
+  - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng-parallel.xml`
 - TBD
 
 ## Terminal
@@ -179,6 +179,12 @@ INFO: Detected dialect: W3C
 [INFO] Finished at: 2020-07-30T00:00:08+05:30
 [INFO] ------------------------------------------------------------------------
 ```
+
+## Class Diagram
+
+<div align="center">
+  <img title="class-diagram" alt="" src="./out/docs/class-diagram/demo/Demo.svg" width=100%>
+</div>
 
 ## Reference
 

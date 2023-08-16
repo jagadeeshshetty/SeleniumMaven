@@ -1,0 +1,10 @@
+@startuml Demo
+actor client
+client -> gateway : Request
+gateway -> gateway: Validate the request
+gateway -> awslambda : Send the request
+gateway --> client : Response
+@enduml
+
+' Reference:
+' https://www.youtube.com/watch?v=NIhxW-bIkDA

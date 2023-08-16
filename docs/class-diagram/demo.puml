@@ -1,0 +1,43 @@
+@startuml Demo
+
+package src.test.java <<Folder>> {
+
+package helper <<Node>> {
+
+class Base {
+  + {static} Logger LOGGER
+  + {static} ReportAllureHelper allureHelper
+  # {static} ThreadLocal<WebDriver> driver
+  + ChromeOptions chromeOptions
+
+  + void setup(ITestContext context)
+  + void sleep(int sec)
+}
+annotation BeforeMethod {
+  void setup(ITestContext context)
+}
+annotation AfterMethod {
+  void teardown()
+}
+}
+
+package tests <<Node>> {
+  package theInternet <<Node>> {
+  class TestLoginPage extends Base {
+    - LoginPage loginPage
+  }
+annotation Test {
+  void validLogin()
+  void inValidLogin()
+  void unstableTest()
+}
+annotation Severity {
+  void validLogin()
+}
+}
+}
+
+@enduml
+
+' Reference:
+' https://plantuml.com/class-diagram
