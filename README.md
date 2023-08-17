@@ -117,8 +117,10 @@ Covered following setup within the framework
   - Tbd
 - Run with explicit retry count. By default, it'll be 2 times.
   - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng.xml`
-- Run with parallel.
   - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -DmaxRetryCount=4 -Dsurefire.suiteXmlFiles=testng-parallel.xml`
+- Run with parallel.
+  - `mvn clean test -Dbrowser=chromeHeadless -DbaseUrl=http://the-internet.herokuapp.com -Dsurefire.suiteXmlFiles=testng-parallel.xml`
+  - `allure serve target/allure-results`
 - TBD
 
 ## Terminal
