@@ -12,8 +12,9 @@
     <url>https://github.com/jagadeeshshetty/SeleniumMaven</url>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17
+        </maven.compiler.target>
         <selenium.version>4.11.0</selenium.version>
         <slf4j.version>1.7.32</slf4j.version>
         <aspectj.version>1.9.4</aspectj.version>
@@ -82,7 +83,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.13</version>
+            <version>4.5.14</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
