@@ -26,10 +26,9 @@ import static test.java.helper.GlobalConfig.browser;
 public class Base {
 
     public static final Logger logger = Logger.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
-    protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     // Debug to avoid "Warning:(30, 57) Referencing subclass ReportAllureHelper from superclass Base initializer might lead to class loading deadlock" warning.
-     public static ReportAllureHelper allureHelper = new ReportAllureHelper();
-
+    public static ReportAllureHelper allureHelper = new ReportAllureHelper();
+    protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     ChromeOptions chromeOptions;
     Capabilities capabilities;
 
@@ -44,6 +43,14 @@ public class Base {
         step("JVM Version: " + System.getProperty("java.version"));
 
         switch (browser) {
+            case "chrome":
+                // Deprecated to support Chrome 115+ version onwards. Enable for lower versions.
+                // WebDriverManager.chromedriver().setup();
+                chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--no-sandbox");
+                chromeOptions.addArguments("--disable-dev-shm-usage");
+                driver.set(new ChromeDriver(chromeOptions));
+                break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver.set(new FirefoxDriver());
@@ -55,14 +62,6 @@ public class Base {
                 chromeOptions.addArguments("--no-sandbox");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
                 chromeOptions.addArguments("--headless");
-                driver.set(new ChromeDriver(chromeOptions));
-                break;
-            case "chrome":
-                // Deprecated to support Chrome 115+ version onwards. Enable for lower versions.
-                // WebDriverManager.chromedriver().setup();
-                chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--no-sandbox");
-                chromeOptions.addArguments("--disable-dev-shm-usage");
                 driver.set(new ChromeDriver(chromeOptions));
                 break;
             case "edge":
@@ -81,7 +80,7 @@ public class Base {
                 logger.info("No proper browser specified.");
         }
         if (driver != null) {
-            capabilities = ((RemoteWebDriver)getDriver()).getCapabilities();
+            capabilities = ((RemoteWebDriver) getDriver()).getCapabilities();
             step("Browser: " + capabilities.getBrowserName().toUpperCase() + " " + capabilities.getBrowserVersion());
             step("Driver instance: " + getDriver().toString());
 
@@ -106,13 +105,18 @@ public class Base {
         return dtf.format(now);
     }
 
-//    public void sleep(int sec) {
-//        logger.info("For " + sec + " sec.");
-//        try {
-//            Thread.sleep(sec * 1000L);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
+    public void sleep(int sec) {
+        logger.info("For " + sec + " sec.");
+        try {
+            Thread.sleep(sec * 1000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void stepError(String message) {
+        step(message);
+        logger.error(message);
+    }
 
 }
