@@ -3,8 +3,9 @@
 <suite name="Suite">
     <test name="Test" thread-count="3">
         <classes>
-            <class name="test.java.tests.theInternet.TestCheckboxes"/>
+            <!--            <class name="test.java.tests.theInternet.TestCheckboxes"/>-->
             <!--            <class name="test.java.tests.selenium.Java8Features"/>-->
+            <class name="test.java.tests.selenium.exceptions.TestExceptions"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
