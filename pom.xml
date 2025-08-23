@@ -55,7 +55,7 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.3.2</version>
+            <version>6.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -87,7 +87,7 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>4.4.0</version>
+            <version>5.5.6</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
