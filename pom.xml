@@ -14,7 +14,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <selenium.version>4.11.0</selenium.version>
+        <selenium.version>4.14.0</selenium.version>
         <slf4j.version>1.7.32</slf4j.version>
         <aspectj.version>1.9.4</aspectj.version>
     </properties>
@@ -55,7 +55,7 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.3.2</version>
+            <version>6.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
