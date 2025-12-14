@@ -1,10 +1,12 @@
-name: allure-testng-maven
-
+name: Chrome Linux
 on:
+  schedule:
+    - cron: '30 19 * * *' # Every day at 1AM IST (19:30 UTC)
+  workflow_dispatch:
   push:
-    branches-ignore:
-      - '!master'
-
+    branches:
+      - master
+      # - feature/update-after-a-long-time
 jobs:
   autotests:
     name: Run tests and generate Allure Report
@@ -12,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/cache@v1
+      - uses: actions/cache@v4
         with:
           path: |
             ~/.m2/repository
@@ -57,3 +59,25 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+
+      - name: Send Allure Report Email
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.GMAIL_USERNAME }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: 'SeleniumMaven Test Results - ${{ github.run_id }}'
+          to: jagadeesh.cheluvaraj@gmail.com
+          from: SeleniumMaven CI <${{ secrets.GMAIL_USERNAME }}>
+          body: |
+            Hello,
+
+            The latest Allure test report for SeleniumMaven is available.
+
+            Chrome Linux Test Report:
+            https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+            Regards,
+            SeleniumMaven CI

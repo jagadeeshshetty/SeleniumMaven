@@ -12,6 +12,19 @@ Author 👨‍💻 [Jagadeesh C](https://www.linkedin.com/in/jagadeesh-c-2a3a942
 
 ## Release
 
+### v2.4.0-SNAPSHOT
+
+- Upgraded Selenium to version 4.39.0 (from 4.11.0)
+- Upgraded WebDriverManager to version 6.3.3 (from 5.3.2)
+- Upgraded Allure TestNG integration to version 2.32.0 (from 2.23.0)
+- Updated GitHub Actions workflow:
+  - Uses latest cache action version
+  - Adds scheduled daily test runs
+  - Adds email notification for Allure report results
+- Improved resource handling in Eclipse classpath configuration
+- Refactored `BaseRemove` to use `Duration` for timeouts (Java 8+ style)
+- Fixed `TestLoginPage` setup to properly initialize the page object with the driver
+
 ### v2.3.0-SNAPSHOT
 
 - Added parallel run support.

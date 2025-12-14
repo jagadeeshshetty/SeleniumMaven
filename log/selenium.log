@@ -1,0 +1,19 @@
+2025-12-14 13:18:20 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2025-12-14 13:18:20 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (01e894dfd332a1de964f38393ddc1e82)] -> id: login]] Present.
+2025-12-14 13:18:20 INFO  test.java.pageobjects.BasePage : 39 - [type] 'tomsmith' into 'By.id: username' locator
+2025-12-14 13:18:20 INFO  test.java.pageobjects.BasePage : 39 - [type] 'SuperSecretPassword!' into 'By.id: password' locator
+2025-12-14 13:18:21 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2025-12-14 13:18:21 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (01e894dfd332a1de964f38393ddc1e82)] -> css selector: .flash.success]] Present.
+2025-12-14 13:18:28 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2025-12-14 13:18:28 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (7d0070ff06260bb122a51a626b169bcf)] -> id: login]] Present.
+2025-12-14 13:18:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: username' locator
+2025-12-14 13:18:28 INFO  test.java.pageobjects.BasePage : 39 - [type] 'invalid' into 'By.id: password' locator
+2025-12-14 13:18:29 INFO  test.java.pageobjects.BasePage : 34 - [click] on 'By.cssSelector: button' locator
+2025-12-14 13:18:29 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (7d0070ff06260bb122a51a626b169bcf)] -> css selector: .flash.error]] Present.
+2025-12-14 13:18:34 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2025-12-14 13:18:34 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (c6be39374f05c215454e8603a0713887)] -> id: login]] Present.
+2025-12-14 13:18:42 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2025-12-14 13:18:42 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (cdeaf3eaeb98005a0f365274c8eb74ed)] -> id: login]] Present.
+2025-12-14 13:18:48 INFO  test.java.pageobjects.BasePage : 25 - [visit] 'http://the-internet.herokuapp.com/login' URL
+2025-12-14 13:18:48 INFO  test.java.pageobjects.BasePage : 44 - [isDisplayed] Element [[[ChromeDriver: chrome on mac (a76bf812d301b6e9ae238d5999d776d4)] -> id: login]] Present.
+2025-12-14 13:18:48 INFO  Base : 49 - [onTestFailure] Screenshot captured for test case: unstableTest
