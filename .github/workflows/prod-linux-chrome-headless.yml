@@ -1,5 +1,5 @@
-name: Chrome Linux CI
 
+name: Chrome Linux
 on:
   schedule:
     - cron: '30 19 * * *' # Every day at 1AM IST (19:30 UTC)
@@ -52,6 +52,7 @@ jobs:
           #gh_pages: gh-pages
           #allure_report: allure-report
           allure_history: allure-history
+
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
@@ -59,30 +60,6 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-      - name: Generate Allure Report Snapshot (index.png)
-        if: always()
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install Puppeteer
-        if: always()
-        run: npm install puppeteer
-
-      - name: Create PNG snapshot of Allure report
-        if: always()
-        run: |
-          node <<'EOF'
-          const puppeteer = require('puppeteer');
-          (async () => {
-            const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
-            const page = await browser.newPage();
-            await page.goto('file://' + process.cwd() + '/allure-history/index.html', {waitUntil: 'networkidle2'});
-            await page.setViewport({width: 1280, height: 800});
-            await page.screenshot({path: 'allure-history/index.png', fullPage: true});
-            await browser.close();
-          })();
-          EOF
 
       - name: Send Allure Report Email
         if: always()
@@ -92,7 +69,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.GMAIL_USERNAME }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          subject: '[Allure Report] SeleniumMaven Test Results - ${{ github.run_id }}'
+          subject: "[Allure Report] SeleniumMaven Test Results - ${{ github.run_id }}"
           to: jagadeesh.cheluvaraj@gmail.com
           from: SeleniumMaven CI <${{ secrets.GMAIL_USERNAME }}>
           body: |
@@ -100,9 +77,13 @@ jobs:
 
             The latest Allure test report for SeleniumMaven is available.
 
-            ![Allure Report Snapshot](https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/index.png)
+            View Full Report - (https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)
 
-            [View Full Report](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)
+            ${{ github }}
+
+            ${{ github.event.repository }}
+
+            ${{ github.event }}
 
             Regards,
             SeleniumMaven CI
