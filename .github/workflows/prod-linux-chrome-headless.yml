@@ -1,4 +1,3 @@
-
 name: Chrome Linux
 on:
   schedule:
@@ -69,7 +68,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.GMAIL_USERNAME }}
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          subject: "[Allure Report] SeleniumMaven Test Results - ${{ github.run_id }}"
+          subject: 'SeleniumMaven Test Results - ${{ github.run_id }}'
           to: jagadeesh.cheluvaraj@gmail.com
           from: SeleniumMaven CI <${{ secrets.GMAIL_USERNAME }}>
           body: |
@@ -77,14 +76,8 @@ jobs:
 
             The latest Allure test report for SeleniumMaven is available.
 
-            View Full Report - (https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)
-
-            ${{ github }}
-
-            ${{ github.event.repository }}
-
-            ${{ github.event }}
+            Chrome Headless Linux Test Report:
+            https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
             Regards,
             SeleniumMaven CI
-          attachments: allure-history/index.html, allure-history/index.png
