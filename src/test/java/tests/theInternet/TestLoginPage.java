@@ -16,7 +16,7 @@ import java.util.Random;
 
 import static io.qameta.allure.Allure.step;
 
-@Listeners({Listener.class})
+@Listeners({ Listener.class })
 public class TestLoginPage extends Base {
 
     // Page object
@@ -24,7 +24,7 @@ public class TestLoginPage extends Base {
 
     @BeforeMethod
     public void testSetUp() {
-//        loginPage = new LoginPage(driver, logger);
+        loginPage = new LoginPage(getDriver(), logger);
     }
 
     @Test(priority = 1, enabled = true, retryAnalyzer = Retry.class)
@@ -48,7 +48,8 @@ public class TestLoginPage extends Base {
         step("1. Login with invalid username and password.");
         loginPage.with("invalid", "invalid");
         step("2. Verify failure message present");
-        Assert.assertTrue(loginPage.failureMessagePresent(), "failure message wasn't present after providing bogus credentials");
+        Assert.assertTrue(loginPage.failureMessagePresent(),
+                "failure message wasn't present after providing bogus credentials");
     }
 
     @Test(priority = 3, retryAnalyzer = Retry.class)

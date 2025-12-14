@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import test.java.tests.TestLoginPageGA;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class BaseRemove {
@@ -24,7 +25,7 @@ public class BaseRemove {
 //        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         if (driver != null) logger.info(driver.toString());
-        driver.manage().timeouts().pageLoadTimeout(48, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(48));
         tDriver.set(driver);
         return getDriver();
     }
