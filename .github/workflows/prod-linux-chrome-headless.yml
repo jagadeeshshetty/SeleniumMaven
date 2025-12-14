@@ -76,7 +76,7 @@ jobs:
           body: |
             Hello,
 
-            The latest Allure test report for SeleniumMaven is available.
+            The latest Allure test report for SeleniumMaven is available. 🙂
 
             ![Allure Report Snapshot](https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/index.png)
 
